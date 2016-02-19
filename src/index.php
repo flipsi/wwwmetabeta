@@ -2,7 +2,7 @@
 
 $uiStrings = array(
     'title'    => 'Philipp Moers',
-    'subtitle' => 'sflip.placed.de',
+    'subtitle' => $_SERVER['SERVER_NAME'],
     'aboutme'  => 'About Me',
     'blog'     => 'Blog',
     'misc'     => 'Misc',
@@ -40,7 +40,7 @@ $uiStrings = array(
                 <?php echo $uiStrings['title']; ?>
             </h1>
             <h3>
-                <?php echo $uiStrings['subtitle']; ?>
+                <?php echo '&thinsp;' . $uiStrings['subtitle']; ?>
             </h3>
             </a>
         </div>
