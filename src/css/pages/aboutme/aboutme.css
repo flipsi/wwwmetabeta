@@ -33,4 +33,15 @@
 }
 .aboutme .links img {
     height: 50px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.aboutme .links img:hover {
+    bottom: 2px;
+    right: 2px;
 }
