@@ -23,6 +23,7 @@
 .aboutme .links ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 25px;
 }
 .aboutme .links li {
     display: inline;

@@ -2,7 +2,7 @@
 
 $uiStrings = array(
     'title'    => 'Philipp Moers',
-    'subtitle' => 'sflip.somedomain.com',
+    'subtitle' => 'sflip.placed.de',
     'aboutme'  => 'About Me',
     'blog'     => 'Blog',
     'misc'     => 'Misc',

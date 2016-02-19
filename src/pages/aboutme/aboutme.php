@@ -4,7 +4,7 @@
         <div class="hi">
             Hi!
         </div>
-        I am Philipp.
+        My name is Philipp.
         <br>
         I like computer science, music and chocolate.
 
