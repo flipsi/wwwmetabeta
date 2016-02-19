@@ -12,6 +12,7 @@ body {
 }
 a {
     color: #C09A1C;
+    text-decoration: none;
     -webkit-transition-property: all;
     -moz-transition-property: all;
     -o-transition-property: all;
@@ -72,7 +73,7 @@ a:hover {
     }
 }
 .header nav ul {
-    list-style: none;
+    list-style-type: none;
 }
 .header nav li {
     float: left;
@@ -95,6 +96,7 @@ a:hover {
     bottom: 0.25em;
 }
 .footer {
+    clear: left;
     width: 100%;
     margin-top: 3em;
     margin-bottom: 3em;

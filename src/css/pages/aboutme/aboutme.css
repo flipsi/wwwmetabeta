@@ -1,0 +1,36 @@
+.aboutme .hi {
+    font-size: 2em;
+    height: 80px;
+}
+.aboutme .portrait {
+    float: left;
+    margin-right: 100px;
+    margin-top: 80px; /* .hi height */
+    margin-bottom: 100px;
+    border-radius: 10px;
+    display: block;
+    width: 240px;
+    box-shadow: 7px 7px 7px 0 rgba(50, 50, 50, 0.75);
+    position: relative;
+    right: 10px;
+}
+.aboutme .thatsme {
+    overflow: auto;
+}
+.aboutme .links {
+    margin-top: 2em;
+}
+.aboutme .links ul {
+    list-style-type: none;
+    padding: 0;
+}
+.aboutme .links li {
+    display: inline;
+    margin-left: 20px;
+}
+.aboutme .links li:first-child {
+    margin-left: 0;
+}
+.aboutme .links img {
+    height: 50px;
+}
