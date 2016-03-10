@@ -22,8 +22,8 @@ $uiStrings = array(
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="author" content="sflip">
 
-    <!--<script src="//code.jquery.com/jquery-1.12.0.min.js" charset="utf-8"></script>-->
-    <!--<script src="script.js" charset="utf-8"></script>-->
+    <script src="lib/jquery-1.12.0.min.js" charset="utf-8"></script>
+    <script src="js/aboutme.js" charset="utf-8"></script>
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/pages/aboutme/aboutme.css" rel="stylesheet" type="text/css" media="screen">
