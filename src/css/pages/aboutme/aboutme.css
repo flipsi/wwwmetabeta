@@ -43,6 +43,5 @@
     right: 0;
 }
 .aboutme .links img:hover {
-    bottom: 2px;
-    right: 2px;
+    bottom: 4px;
 }

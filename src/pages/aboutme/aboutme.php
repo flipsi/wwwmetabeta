@@ -12,6 +12,11 @@
             You can find me and get in touch on several places:
             <ul>
                 <li>
+                    <a href="https://www.xing.com/profile/Philipp_Moers3" target="_blank">
+                        <img src="img/icon/xing/xing.png" alt="XING"/>
+                    </a>
+                </li>
+                <li>
                     <a href="http://www.facebook.com/soziflip" target="_blank">
                         <img src="img/icon/facebook/facebook.png" alt="Facebook"/>
                     </a>
