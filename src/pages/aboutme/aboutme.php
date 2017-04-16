@@ -5,11 +5,10 @@
             Hi!
         </div>
         My name is Philipp.
-        <br>
-        I like computer science, music and chocolate.
+        I like to connect things. People with technology, technology with knowledge, knowledge with me, and me with chocolate.
+
 
         <div class="links">
-            You can find me and get in touch on several places:
             <ul>
                 <li>
                     <a href="https://www.xing.com/profile/Philipp_Moers3" target="_blank">
