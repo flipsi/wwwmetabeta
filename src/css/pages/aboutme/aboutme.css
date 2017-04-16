@@ -5,7 +5,6 @@
 .aboutme .portrait {
     float: left;
     margin-right: 100px;
-    margin-top: 80px; /* .hi height */
     margin-bottom: 100px;
     border-radius: 10px;
     display: block;

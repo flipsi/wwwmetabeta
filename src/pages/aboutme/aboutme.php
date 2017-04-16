@@ -1,5 +1,5 @@
 <div class="aboutme">
-    <img class="portrait" src="img/bewerbungsfoto-20140620.jpg" alt="portait"/>
+    <img class="portrait" src="img/kophiphiselfie.jpg" alt="portait"/>
     <div class="thatsme">
         <div class="hi">
             Hi!
