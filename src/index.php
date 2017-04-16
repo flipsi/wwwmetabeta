@@ -25,6 +25,8 @@ $uiStrings = array(
     <script src="lib/jquery-1.12.0.min.js" charset="utf-8"></script>
     <script src="js/aboutme.js" charset="utf-8"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/pages/aboutme/aboutme.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/pages/blog/blog.css" rel="stylesheet" type="text/css" media="screen">
