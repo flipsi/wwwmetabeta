@@ -28,8 +28,7 @@ $uiStrings = array(
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="css/pages/aboutme/aboutme.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="css/pages/blog/blog.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1025px)">
 
 </head>
 <body>
