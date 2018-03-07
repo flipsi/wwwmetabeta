@@ -34,7 +34,10 @@ a {
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-a:hover {
+a:hover,
+.header .branding h1:hover,
+.header .branding h2:hover,
+.header nav a:hover {
     color:  #77A;
 }
 .header {
@@ -66,14 +69,8 @@ a:hover {
 .header .branding h1,
 .header .branding h2 {
     margin: 0;
-    /*text-align: center;*/
     font-weight: normal;
-    text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
     transition-duration: 0.3s;
-}
-.header .branding h1:hover,
-.header .branding h2:hover {
-    text-shadow: 5px 3px 8px rgba(150, 150, 150, 1);
 }
 .header .branding h1 {
     font-size: 3em;
@@ -108,7 +105,6 @@ a:hover {
     /*-webkit-transition-duration: 3.5s;*/
 }
 .header nav a:hover {
-    color: #77A;
     bottom: 2px;
 }
 .page {
