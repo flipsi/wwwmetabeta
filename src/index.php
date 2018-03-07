@@ -3,7 +3,7 @@
 $uiStrings = array(
     'title'    => 'Philipp Moers',
     'subtitle' => $_SERVER['SERVER_NAME'],
-    'aboutme'  => 'About Me',
+    'aboutme'  => 'Me',
     'blog'     => 'Blog',
     'misc'     => 'Misc',
 );
