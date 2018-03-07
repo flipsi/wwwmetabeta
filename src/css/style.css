@@ -17,7 +17,7 @@ body {
     color: #333;
 }
 a {
-    color: #C09A1C;
+    color: #999;
     text-decoration: none;
     -webkit-transition-property: all;
     -moz-transition-property: all;
@@ -29,23 +29,23 @@ a {
     transition-duration: 0.3s;
 }
 a:hover {
-    color:  #E3B621;
+    color:  #77A;
 }
 .header {
     display: grid;
     grid-template-columns: 5% 0.6fr 0.4fr 5%;
-    background-color:  #FFE282;
     width: 100%;
     top: 0;
     padding-top: 1em;
     padding-bottom: 1em;
-    -webkit-box-shadow: 0 11px 19px 0 rgba(50, 50, 50, 0.88);
-    box-shadow:         0 11px 19px 0 rgba(50, 50, 50, 0.88);
+    background-color:  #333;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(50, 50, 50, 0.88);
+    box-shadow:         0 2px 1px 0 rgba(50, 50, 50, 0.88);
     overflow: auto;
     display: grid;
 }
 .header a {
-    color: #333;
+    color: #DDD;
     text-decoration: none;
 }
 .header .branding {
@@ -102,8 +102,8 @@ a:hover {
     /*-webkit-transition-duration: 3.5s;*/
 }
 .header nav a:hover {
-    color: #999;
-    bottom: 4px;
+    color: #77A;
+    bottom: 2px;
 }
 .page {
     width: 85%;
@@ -134,7 +134,7 @@ a:hover {
     border-radius: 10px;
     display: block;
     width: 100%;
-    box-shadow: 7px 7px 7px 0 rgba(50, 50, 50, 0.75);
+    box-shadow: 5px 5px 5px 0 rgba(50, 50, 50, 0.75);
 }
 .aboutme .thatsme {
     overflow: auto;
