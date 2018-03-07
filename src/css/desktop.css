@@ -1,5 +1,5 @@
 body {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .header {
     position: relative;
@@ -21,7 +21,7 @@ body {
     width: 100%;
     position: absolute;
     bottom: 0;
-    font-size: 1.0em;
+    font-size: 1.2em;
 }
 .header nav li {
     margin-left: 4em;
@@ -43,4 +43,7 @@ body {
 }
 .aboutme .links img:hover {
     bottom: 4px;
+}
+.footer {
+    font-size: 0.8em;
 }

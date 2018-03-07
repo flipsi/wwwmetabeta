@@ -11,7 +11,7 @@ body {
     width: 100%;
     margin: 0;
     font-family: "Oxygen","Helvetica Neue","Arial","sans-serif";
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.5;
     color: #333;
@@ -76,13 +76,13 @@ a:hover {
     text-shadow: 5px 3px 8px rgba(150, 150, 150, 1);
 }
 .header .branding h1 {
-    font-size: 2.8em;
+    font-size: 3em;
 }
 .header .branding h2 {
     display: none;
 }
 .header nav {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 1em;
 }
 .header nav ul {
@@ -124,13 +124,13 @@ a:hover {
     border-bottom: 1px solid #AAA;
 }
 .element .headline {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
 
 .aboutme .hi {
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 0.5em;
 }
 .aboutme .portrait {
@@ -178,7 +178,7 @@ a:hover {
     position: absolute;
     bottom: 0;
     margin: 1em 0;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .footer .copyright {
     text-align: center;
