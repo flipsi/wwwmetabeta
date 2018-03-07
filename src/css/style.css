@@ -58,7 +58,7 @@ a:hover {
     margin-bottom: 1em;
 }
 .header .branding h1,
-.header .branding h3 {
+.header .branding h2 {
     margin: 0;
     /*text-align: center;*/
     font-weight: normal;
@@ -66,13 +66,13 @@ a:hover {
     transition-duration: 0.3s;
 }
 .header .branding h1:hover,
-.header .branding h3:hover {
+.header .branding h2:hover {
     text-shadow: 5px 3px 8px rgba(150, 150, 150, 1);
 }
 .header .branding h1 {
     font-size: 2.8em;
 }
-.header .branding h3 {
+.header .branding h2 {
     display: none;
 }
 .header nav {

@@ -40,9 +40,9 @@ $uiStrings = array(
             <h1>
                 <?php echo $uiStrings['title']; ?>
             </h1>
-            <h3>
+            <h2>
                 <?php echo '&thinsp;' . $uiStrings['subtitle']; ?>
-            </h3>
+            </h2>
             </a>
         </div>
 

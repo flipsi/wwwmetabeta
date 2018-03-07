@@ -8,11 +8,11 @@ body {
     grid-column: 2 / span 1;
     margin-bottom: 0;
 }
-.header .branding h3,
+.header .branding h2,
 .header nav {
     padding-bottom: 1em;
 }
-.header .branding h3 {
+.header .branding h2 {
     display: block;
     font-size: 1.1em;
 }
