@@ -1,5 +1,8 @@
 <div class="aboutme">
-    <img class="portrait" src="img/bewerbungsfoto-20170602-regular.jpg" alt="portait"/>
+    <div class="portrait">
+        <img class="regular" src="img/bewerbungsfoto-20170602-regular.jpg" alt="portait"/>
+        <img class="fun" src="img/bewerbungsfoto-20170602-fun.jpg" alt="portait"/>
+    </div>
     <div class="thatsme">
         <div class="hi">
             Hi!
