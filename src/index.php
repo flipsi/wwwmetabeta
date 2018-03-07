@@ -22,7 +22,11 @@ $uiStrings = array(
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="author" content="sflip">
 
-    <script src="lib/jquery-1.12.0.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+       window.jQuery || document.write('<script src="lib/jquery-1.12.0.min.js"><\/script>');
+    </script>
+
     <script src="js/aboutme.js" charset="utf-8"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display" rel="stylesheet">
