@@ -16,6 +16,12 @@ body {
     line-height: 1.5;
     color: #333;
 }
+.header,
+.footer,
+.element .headline,
+.aboutme .hi {
+    font-family: "Playfair Display","Times New Roman", "Times","serif";
+}
 a {
     color: #999;
     text-decoration: none;
