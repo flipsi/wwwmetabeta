@@ -1,3 +1,30 @@
+<?php
+    function randomGreeting() {
+        $greetings = [
+            'Hi!',
+            'Hi there!',
+            'Hello!',
+            'Hey!',
+            'Hej!',
+            'Servus.',
+            'Ciao!',
+            'Salut!',
+            'Bonjour!',
+            'Yo!',
+            'Namaste!',
+            'Merhaba!',
+            'おーい!',
+            'สวัสดี!',
+            'Mahlzeit.',
+            'Moin.',
+            'Jode Tach!',
+            'Jode Morje!',
+            'Grüß dich :)'
+        ];
+        return $greetings[array_rand($greetings)];
+    }
+?>
+
 <div class="aboutme">
     <div class="portrait">
         <img class="regular" src="img/bewerbungsfoto-20170602-regular.jpg" alt="portait"/>
@@ -5,7 +32,7 @@
     </div>
     <div class="thatsme">
         <div class="hi">
-            Hi!
+            <?php echo randomGreeting(); ?>
         </div>
         My name is Philipp.
         Some people call me Flipsi.

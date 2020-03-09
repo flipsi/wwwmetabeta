@@ -43,10 +43,13 @@ body {
     right: 10px;
 }
 .aboutme .links {
+    margin-top: 2em;
+}
+.aboutme .links {
     width: 80%;
 }
 .aboutme .links img {
-    height: 65px;
+    height: 60px;
 }
 .aboutme .links img:hover {
     bottom: 4px;
