@@ -8,7 +8,9 @@
             Hi!
         </div>
         My name is Philipp.
-        I like to connect things. People with technology, technology with knowledge, knowledge with me, and me with chocolate.
+        Some people call me Flipsi.
+        I like to craft software, play music and eat bananas.
+        Meet me anywhere:
 
 
         <div class="links">

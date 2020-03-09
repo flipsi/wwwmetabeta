@@ -2,7 +2,7 @@
 
 $uiStrings = array(
     'title'    => 'Philipp Moers',
-    'subtitle' => $_SERVER['SERVER_NAME'],
+    'subtitle' => 'Software Engineer, Musician, Banana Nerd',
     'aboutme'  => 'Me',
     'blog'     => 'Blog',
     'misc'     => 'Misc',
@@ -62,11 +62,6 @@ $uiStrings = array(
                         <?php echo $uiStrings['blog']; ?>
                     </a>
                 </li>
-                <li>
-                    <a href="?page=misc">
-                        <?php echo $uiStrings['misc']; ?>
-                    </a>
-                </li>
             </ul>
         </nav>
 
@@ -85,10 +80,6 @@ $uiStrings = array(
                         break;
 
                     case 'blog':
-                        include 'pages/blog/blog.php';
-                        break;
-
-                    case 'misc':
                         include 'pages/blog/blog.php';
                         break;
 
