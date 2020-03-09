@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html, body {
-    background-color: #EEE;
+    background-color: #333;
 }
 body {
     min-height: 100vh;
@@ -14,10 +14,9 @@ body {
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.5;
-    color: #333;
+    color: #EEE;
 }
-.header,
-.footer,
+h1,
 .element .headline,
 .aboutme .hi {
     font-family: "Playfair Display","Times New Roman", "Times","serif";
@@ -34,12 +33,6 @@ a {
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-a:hover,
-.header .branding h1:hover,
-.header .branding h2:hover,
-.header nav a:hover {
-    color:  #77A;
-}
 .header {
     display: grid;
     grid-template-columns: 5% 0.6fr 0.4fr 5%;
@@ -47,7 +40,7 @@ a:hover,
     top: 0;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color:  #333;
+    background-color:  #222;
     -webkit-box-shadow: 0 2px 1px 0 rgba(50, 50, 50, 0.88);
     box-shadow:         0 2px 1px 0 rgba(50, 50, 50, 0.88);
     overflow: auto;
@@ -98,7 +91,7 @@ a:hover,
 .header nav a {
     position: relative;
     bottom: 0;
-    /*transition-property: color, bottom;*/
+    /*transition-property: bottom;*/
     /*transition-duration: 3.5s;*/
     /*-o-transition-duration: 3.5s;*/
     /*-moz-transition-duration: 3.5s;*/
