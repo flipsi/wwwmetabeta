@@ -30,6 +30,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="https://www.instagram.com/soziflip/">
+                        <img src="img/icon/iconfinder_38-instagram_1161953.png" alt="Instagram"/>
+                    </a>
+                </li>
+                <li>
                     <a href="http://www.facebook.com/soziflip/">
                         <img src="img/icon/iconfinder_icon-social-facebook_211902.png" alt="Facebook"/>
                     </a>
@@ -47,6 +52,11 @@
                 <li>
                     <a href="http://stackoverflow.com/users/4568748/philipp-moers?tab=profile/">
                         <img src="img/icon/iconfinder_stackoverflow_394194.png" alt="Stack Overflow"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://paypal.me/sflip">
+                        <img src="img/icon/iconfinder_paypal-bank-transaction-money-platform_1169164.png " alt="PayPal"/>
                     </a>
                 </li>
                 <li>
