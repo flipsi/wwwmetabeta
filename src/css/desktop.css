@@ -26,12 +26,16 @@ body {
 .header nav li {
     margin-left: 4em;
 }
+.header nav a {
+    text-decoration-line: none;
+}
 .page {
     min-width: 970px;
     max-width: 970px;
     margin: 5em auto;
 }
 .aboutme .portrait {
+    display: block;
     float: left;
     width: 240px;
     margin-right: 100px;

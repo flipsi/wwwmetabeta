@@ -17,6 +17,7 @@ body {
     color: #EEE;
 }
 h1,
+h2,
 .element .headline,
 .aboutme .hi {
     font-family: "Playfair Display","Times New Roman", "Times","serif";
@@ -57,7 +58,7 @@ a {
     grid-column: 2 / span 2;
 }
 .header .branding {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 .header .branding h1,
 .header .branding h2 {
@@ -67,9 +68,6 @@ a {
 }
 .header .branding h1 {
     font-size: 3em;
-}
-.header .branding h2 {
-    display: none;
 }
 .header nav {
     font-size: 2em;
@@ -91,6 +89,7 @@ a {
 .header nav a {
     position: relative;
     bottom: 0;
+    text-decoration: underline;
     /*transition-property: bottom;*/
     /*transition-duration: 3.5s;*/
     /*-o-transition-duration: 3.5s;*/
