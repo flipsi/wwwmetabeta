@@ -100,7 +100,7 @@ $uiStrings = array(
     <footer class="footer">
 
         <div class="copyright">
-            © Copyright 2018
+            © Copyright <?php echo date("Y"); ?>
             <a href="?page=aboutme">Philipp Moers</a>.
             All rights reserved.
         </div>
