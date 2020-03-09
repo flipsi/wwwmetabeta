@@ -32,6 +32,7 @@ $uiStrings = array(
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/colors.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1025px)">
 
 </head>
