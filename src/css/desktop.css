@@ -42,8 +42,11 @@ body {
     position: relative;
     right: 10px;
 }
+.aboutme .links {
+    width: 80%;
+}
 .aboutme .links img {
-    height: 55px;
+    height: 65px;
 }
 .aboutme .links img:hover {
     bottom: 4px;

@@ -12,47 +12,46 @@
         I like to craft software, play music and eat bananas.
         Meet me anywhere:
 
-
         <div class="links">
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/sflip/">
-                        <img src="img/icon/linkedin/linkedin.png" alt="LinkedIn"/>
+                        <img src="img/icon/iconfinder_11-linkedin_104493.png" alt="LinkedIn"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.xing.com/profile/Philipp_Moers3/">
-                        <img src="img/icon/xing/xing.png" alt="XING"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.facebook.com/soziflip/">
-                        <img src="img/icon/facebook/facebook.png" alt="Facebook"/>
+                        <img src="img/icon/iconfinder_xing_115685.png" alt="XING"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/soziflip/">
-                        <img src="img/icon/twitter/twitter.png" alt="Twitter"/>
+                        <img src="img/icon/iconfinder_03-twitter_104501.png" alt="Twitter"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.facebook.com/soziflip/">
+                        <img src="img/icon/iconfinder_icon-social-facebook_211902.png" alt="Facebook"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/channel/UCS80KceXi-mHB51YmZmdlSw/">
-                        <img src="img/icon/youtube/youtube_icon.png" alt="Youtube"/>
+                        <img src="img/icon/iconfinder_icon-social-youtube-outline_211928.png" alt="Youtube"/>
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/sflip/">
-                        <img src="img/icon/github/github.png" alt="GitHub"/>
+                        <img src="img/icon/iconfinder_icon-social-github_211904.png" alt="GitHub"/>
                     </a>
                 </li>
                 <li>
                     <a href="http://stackoverflow.com/users/4568748/philipp-moers?tab=profile/">
-                        <img src="img/icon/stackoverflow/stackoverflow.png" alt="Stack Overflow"/>
+                        <img src="img/icon/iconfinder_stackoverflow_394194.png" alt="Stack Overflow"/>
                     </a>
                 </li>
                 <li>
                     <a href="mailto:soziflip@gmail.com">
-                        <img src="img/icon/mail/iconarchive.png" alt="Mail"/>
+                        <img src="img/icon/iconfinder_Streamline-58_185078.png" alt="Mail"/>
                     </a>
                 </li>
             </ul>

@@ -140,7 +140,8 @@ a {
     overflow: auto;
 }
 .aboutme .links {
-    margin-top: 2em;
+    margin-top: 3em;
+    width: 100%;
 }
 .aboutme .links ul {
     list-style-type: none;
@@ -149,13 +150,15 @@ a {
 }
 .aboutme .links li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 .aboutme .links li:last-child {
     margin-right: 0;
+    margin-left: 5px; /* weird mail icon */
 }
 .aboutme .links img {
-    height: 150px;
+    height: 160px;
     margin: 0 0 30px 0;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
@@ -164,6 +167,7 @@ a {
     position: relative;
     bottom: 0;
     right: 0;
+    filter: invert(100%);
 }
 .footer {
     clear: left;
