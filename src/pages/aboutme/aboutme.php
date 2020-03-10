@@ -92,7 +92,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:soziflip@gmail.com">
+                    <a href="mailto:soziflip+web@gmail.com">
                         <img title="Mail" alt="Mail" src="img/icon/iconfinder_Streamline-58_185078.png" />
                     </a>
                 </li>
