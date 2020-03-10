@@ -157,7 +157,6 @@ a {
     position: relative;
     bottom: 0;
     right: 0;
-    filter: invert(100%);
 }
 .footer {
     clear: left;
