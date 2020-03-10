@@ -2,7 +2,8 @@ html, body {
     background-color: #333;
     color: #EEE;
 }
-a {
+.pagewrapper a,
+.footer a {
     color: #999;
 }
 .header a {
@@ -16,7 +17,9 @@ a {
 .aboutme .portrait img {
     box-shadow: 5px 5px 5px 0 rgba(50, 50, 50, 0.75);
 }
-a:hover,
+nav a:hover,
+.pagewrapper a:hover,
+.footer a:hover,
 .header .branding h2,
 .aboutme .hi {
     color: #F54B4B;
