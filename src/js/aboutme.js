@@ -1,3 +1,8 @@
+function randomInt(min, max) {
+    return Math.floor(Math.random()*(max - min + 1) + min);
+}
+
+
 $(function () {
 
     const FUNNY_PORTRAIT_DURATION = 900;
@@ -10,11 +15,6 @@ $(function () {
 
     $portraitRegular.css({'opacity': '0.0'});
     $portraitRegular.animate({'right': '20px', 'opacity': '1.0'}, 300);
-    // location.reload(true);
-
-    function randomInt(min, max) {
-        return Math.floor(Math.random()*(max - min + 1) + min);
-    }
 
     function togglePortraits() {
         if ($portraitRegular.css('display') === 'none') {
@@ -36,5 +36,48 @@ $(function () {
             FUNNY_PORTRAIT_TIMEOUT_MAX));
     }
     setTimeout(beFunnyOnceInAWhile, FUNNY_PORTRAIT_TIMOUT_FIRST);
+
+});
+
+
+$(function () {
+
+    const BANANA_DURATION = 4000;
+    const BANANA_TIMEOUT_MIN = 5 * 1000;
+    const BANANA_TIMEOUT_MAX = 10 * 1000;
+    const BANANA_TIMOUT_FIRST = 5000;
+
+    const $linklist = $('.links > ul');
+    const $banana = $('#banana');
+
+    $banana.remove();
+    const numberOfLinks = $linklist.find('li').length; // without the banana
+
+    let showBanana = false;
+
+    function toggleBanana() {
+        const $links = $linklist.find('li');
+        if (showBanana = !showBanana) {
+            const $randomLink = $($links.get(randomInt(0, numberOfLinks - 1)));
+            $randomLink.css({'display': 'none'});
+            $randomLink.after($banana);
+        } else {
+            $banana.remove();
+            $links.css({'display': 'inline'});
+        }
+    }
+
+    function showBananaOnceInAWhile() {
+        toggleBanana();
+        setTimeout(function() {
+            toggleBanana();
+        }, BANANA_DURATION);
+        setTimeout(showBananaOnceInAWhile, randomInt(
+            BANANA_TIMEOUT_MIN,
+            BANANA_TIMEOUT_MAX));
+    }
+    setTimeout(showBananaOnceInAWhile, BANANA_TIMOUT_FIRST);
+
+    $('.bananatoggle').on('click', () => toggleBanana());
 
 });

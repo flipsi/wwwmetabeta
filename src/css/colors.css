@@ -27,6 +27,6 @@ a:hover,
 .aboutme .links img:hover {
     /* filter: invert(54%) sepia(45%) saturate(4152%) hue-rotate(327deg) brightness(93%) contrast(107%); */
 }
-#banana:hover {
+#banana:hover img {
     filter: invert(79%) sepia(80%) saturate(1963%) hue-rotate(6deg) brightness(105%) contrast(105%);
 }

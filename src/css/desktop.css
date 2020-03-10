@@ -53,6 +53,7 @@ body {
 }
 .aboutme .links img {
     height: 60px;
+    width: 60px;
 }
 .aboutme .links img:hover {
     bottom: 4px;

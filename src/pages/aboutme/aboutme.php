@@ -36,7 +36,8 @@
         </div>
         My name is Philipp.
         Some people call me Flipsi.
-        I like to craft software, play music and eat bananas.
+        I like to craft software, play music and eat
+        <span class="bananatoggle">bananas</span>.
         Meet me anywhere:
 
         <div class="links">
@@ -101,9 +102,9 @@
                         <img title="Mail" alt="Mail" src="img/icon/iconfinder_Streamline-58_185078.png" />
                     </a>
                 </li>
-                <li>
+                <li id="banana">
                     <a href="https://theuselessweb.com/">
-                        <img title="Banana" alt="Banana" src="img/icon/iconfinder_Fruits_Outline-10_3692816.png" id="banana" />
+                        <img title="Banana" alt="Banana" src="img/icon/iconfinder_Fruits_Outline-10_3692816.png" />
                     </a>
                 </li>
             </ul>
