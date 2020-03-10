@@ -87,6 +87,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="https://t.me/sflip">
+                        <img src="img/icon/iconfinder_335_Telegram_logo_4375490.png" alt="Telegram"/>
+                    </a>
+                </li>
+                <li>
                     <a href="mailto:soziflip@gmail.com">
                         <img src="img/icon/iconfinder_Streamline-58_185078.png" alt="Mail"/>
                     </a>
