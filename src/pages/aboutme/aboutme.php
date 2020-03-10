@@ -43,62 +43,62 @@
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/sflip/">
-                        <img src="img/icon/iconfinder_11-linkedin_104493.png" alt="LinkedIn" />
+                        <img title="LinkedIn" alt="LinkedIn" src="img/icon/iconfinder_11-linkedin_104493.png" />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.xing.com/profile/Philipp_Moers3/">
-                        <img src="img/icon/iconfinder_xing_115685.png" alt="XING" />
+                        <img title="Xing" alt="Xing" src="img/icon/iconfinder_xing_115685.png" />
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/soziflip/">
-                        <img src="img/icon/iconfinder_03-twitter_104501.png" alt="Twitter" />
+                        <img title="Twitter" alt="Twitter" src="img/icon/iconfinder_03-twitter_104501.png" />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/soziflip/">
-                        <img src="img/icon/iconfinder_38-instagram_1161953.png" alt="Instagram" />
+                        <img title="Instagram" alt="Instagram" src="img/icon/iconfinder_38-instagram_1161953.png" />
                     </a>
                 </li>
                 <li>
                     <a href="http://www.facebook.com/soziflip/">
-                        <img src="img/icon/iconfinder_icon-social-facebook_211902.png" alt="Facebook" />
+                        <img title="Facebook" alt="Facebook" src="img/icon/iconfinder_icon-social-facebook_211902.png" />
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/channel/UCS80KceXi-mHB51YmZmdlSw/">
-                        <img src="img/icon/iconfinder_icon-social-youtube-outline_211928.png" alt="Youtube" />
+                        <img title="Youtube" alt="Youtube" src="img/icon/iconfinder_icon-social-youtube-outline_211928.png" />
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/sflip/">
-                        <img src="img/icon/iconfinder_icon-social-github_211904.png" alt="GitHub" />
+                        <img title="GitHub" alt="GitHub" src="img/icon/iconfinder_icon-social-github_211904.png" />
                     </a>
                 </li>
                 <li>
                     <a href="http://stackoverflow.com/users/4568748/philipp-moers?tab=profile/">
-                        <img src="img/icon/iconfinder_stackoverflow_394194.png" alt="Stack Overflow" />
+                        <img title="Stack Overflow" alt="Stack Overflow" src="img/icon/iconfinder_stackoverflow_394194.png" />
                     </a>
                 </li>
                 <li>
                     <a href="https://paypal.me/sflip">
-                        <img src="img/icon/iconfinder_paypal-bank-transaction-money-platform_1169164.png " alt="PayPal" />
+                        <img title="PayPal" alt="PayPal" src="img/icon/iconfinder_paypal-bank-transaction-money-platform_1169164.png " />
                     </a>
                 </li>
                 <li>
                     <a href="https://t.me/sflip">
-                        <img src="img/icon/iconfinder_335_Telegram_logo_4375490.png" alt="Telegram" />
+                        <img title="Telegram" alt="Telegram" src="img/icon/iconfinder_335_Telegram_logo_4375490.png" />
                     </a>
                 </li>
                 <li>
                     <a href="mailto:soziflip@gmail.com">
-                        <img src="img/icon/iconfinder_Streamline-58_185078.png" alt="Mail" />
+                        <img title="Mail" alt="Mail" src="img/icon/iconfinder_Streamline-58_185078.png" />
                     </a>
                 </li>
                 <li>
                     <a href="https://theuselessweb.com/">
-                        <img src="img/icon/iconfinder_Fruits_Outline-10_3692816.png" id="banana" alt="Banana" />
+                        <img title="Banana" alt="Banana" src="img/icon/iconfinder_Fruits_Outline-10_3692816.png" id="banana" />
                     </a>
                 </li>
             </ul>
