@@ -2,7 +2,7 @@
 
 $uiStrings = array(
     'title'    => 'Philipp Moers',
-    'subtitle' => 'Software Engineer, Musician, Banana Nerd',
+    'subtitle' => 'Software Engineer / Musician / Banana Nerd',
     'aboutme'  => 'Me',
     'blog'     => 'Blog',
     'misc'     => 'Misc',
