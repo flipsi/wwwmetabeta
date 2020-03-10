@@ -158,6 +158,9 @@ a {
     bottom: 0;
     right: 0;
 }
+#banana {
+    display: none;
+}
 .footer {
     clear: left;
     height: 3em;

@@ -82,8 +82,13 @@
                     </a>
                 </li>
                 <li>
+                    <a href="https://open.spotify.com/user/sozifly?si=8GFuvVJ7REK-8ebDxzn0IQ">
+                        <img title="Spotify" alt="Spotify" src="img/icon/iconfinder_spotify_rounded_621252.png" />
+                    </a>
+                </li>
+                <li>
                     <a href="https://paypal.me/sflip">
-                        <img title="PayPal" alt="PayPal" src="img/icon/iconfinder_paypal-bank-transaction-money-platform_1169164.png " />
+                        <img title="PayPal" alt="PayPal" src="img/icon/iconfinder_paypal-bank-transaction-money-platform_1169164.png" />
                     </a>
                 </li>
                 <li>
