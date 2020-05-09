@@ -2,6 +2,7 @@ function randomInt(min, max) {
     return Math.floor(Math.random()*(max - min + 1) + min);
 }
 
+
 //////////////////////
 // Background image //
 //////////////////////
@@ -78,7 +79,7 @@ $(function () {
 
 
 ////////////////////
-// Funny portrait //
+// Portrait image //
 ////////////////////
 
 $(function () {
@@ -86,13 +87,14 @@ $(function () {
     const FUNNY_PORTRAIT_DURATION = 900;
     const FUNNY_PORTRAIT_TIMEOUT_MIN = 5 * 1000;
     const FUNNY_PORTRAIT_TIMEOUT_MAX = 40 * 1000;
-    const FUNNY_PORTRAIT_TIMOUT_FIRST = 3500;
+    const FUNNY_PORTRAIT_TIMOUT_FIRST = 9500;
 
+    const $portraitContainer = $('.portrait');
     const $portraitRegular = $('.portrait .regular');
     const $portraitFun = $('.portrait .fun');
 
-    $portraitRegular.css({'opacity': '0.0'});
-    $portraitRegular.animate({'right': '20px', 'opacity': '1.0'}, 300);
+    $portraitContainer.css({'opacity': '0.0'});
+    $portraitContainer.animate({'right': '20px', 'opacity': '1.0'}, 300);
 
     function togglePortraits() {
         if ($portraitRegular.css('display') === 'none') {
