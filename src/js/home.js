@@ -22,16 +22,28 @@ $(function () {
 });
 
 $(function () {
+
+    const stylesheet_bright = document.querySelector('.stylesheet_bright');
+    const stylesheet_dark = document.querySelector('.stylesheet_dark');
+
     // TODO: persist in localstorage for pageloads
-    // TODO: choose automatically based on daytime
     function toggleBrightAndDark() {
-        const stylesheet_bright = document.querySelector('.stylesheet_bright');
-        const stylesheet_dark = document.querySelector('.stylesheet_dark');
         stylesheet_dark.disabled = !stylesheet_dark.disabled;
         stylesheet_bright.disabled = !stylesheet_bright.disabled;
     }
+
     const $toggleLink = $('a.toggle_bright, a.toggle_dark');
     $toggleLink.on('click', toggleBrightAndDark);
+
+    function chooseBasedOnDayTime() {
+        const hours = new Date().getHours();
+        const isNight = hours < 8 || 20 <= hours;
+        console.log("It's " + (isNight ? "night" : "day") + ".");
+        if (stylesheet_dark.disabled && isNight || stylesheet_bright.disabled && !isNight)
+            toggleBrightAndDark();
+    }
+    chooseBasedOnDayTime();
+
 });
 
 $(function () {
