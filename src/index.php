@@ -7,6 +7,7 @@ $uiStrings = array(
     'aboutme'   => 'Me',
     'blog'      => 'Blog',
     'imprint'   => 'Imprint',
+    'toggle_background'   => 'Background',
 );
 
 
@@ -118,6 +119,11 @@ $uiStrings = array(
 
         <nav>
             <ul>
+                <li>
+                    <a href="#" onclick="return false" class="toggle_background">
+                        <?php echo $uiStrings['toggle_background']; ?>
+                    </a>
+                </li>
                 <li>
                     <a href="?page=home">
                         <?php echo $uiStrings['home']; ?>

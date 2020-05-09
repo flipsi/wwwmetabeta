@@ -86,7 +86,8 @@ nav li:first-child {
 .header nav a:hover {
     bottom: 2px;
 }
-img.background {
+img.background,
+a.toggle_background {
     display: none;
 }
 .pagewrapper {

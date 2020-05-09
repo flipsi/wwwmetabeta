@@ -4,6 +4,13 @@ function randomInt(min, max) {
 
 
 $(function () {
+    const $imgBackground = $('img.background');
+    const $toggleBackgroundLink = $('a.toggle_background');
+    $toggleBackgroundLink.on('click', () => $imgBackground.toggle());
+});
+
+
+$(function () {
 
     const FUNNY_PORTRAIT_DURATION = 900;
     const FUNNY_PORTRAIT_TIMEOUT_MIN = 5 * 1000;

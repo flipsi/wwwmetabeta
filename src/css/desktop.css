@@ -29,8 +29,11 @@ body {
 .header nav a {
     text-decoration-line: none;
 }
-img.background {
+img.background,
+a.toggle_background {
     display: block;
+}
+img.background {
     position: absolute;
     left: 0;
     top: 0;
