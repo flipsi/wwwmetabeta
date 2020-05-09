@@ -33,3 +33,23 @@ nav a:hover,
 #banana:hover img {
     filter: invert(79%) sepia(80%) saturate(1963%) hue-rotate(6deg) brightness(105%) contrast(105%);
 }
+.curriculumvitae .content .when {
+    color: #F54B4B;
+}
+.curriculumvitae::after,
+.curriculumvitae .content {
+    background-color: #666;
+}
+.curriculumvitae .container::after {
+    background-color: #F54B4B;
+}
+.curriculumvitae .left::before,
+.curriculumvitae .right::before {
+    border-color: #666;
+}
+.curriculumvitae .left::before {
+    border-color: transparent transparent transparent #666;
+}
+.curriculumvitae .right::before {
+    border-color: transparent #666 transparent transparent;
+}
