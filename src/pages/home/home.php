@@ -31,7 +31,7 @@
         <img loading="lazy" class="fun" src="img/bewerbungsfoto-20170602-fun.jpg" alt="portait" />
     </div>
     <div class="thatsme">
-        <div class="hi">
+        <div class="hi typewriter">
             <?php echo randomGreeting(); ?>
         </div>
         My name is Philipp.
