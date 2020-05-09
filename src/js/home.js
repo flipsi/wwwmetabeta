@@ -2,6 +2,18 @@ function randomInt(min, max) {
     return Math.floor(Math.random()*(max - min + 1) + min);
 }
 
+function ReLoadImages() {
+    $('img[data-lazysrc]').each(function() {
+        const $img = $(this);
+        const src = $img.attr('data-lazysrc');
+        $img.attr('src', src);
+    });
+}
+
+document.addEventListener('readystatechange', event => {
+    if (event.target.readyState === "interactive")
+        ReLoadImages();
+});
 
 $(function () {
     const $imgBackground = $('img.background');
