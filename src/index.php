@@ -5,7 +5,7 @@ $uiStrings = array(
     'subtitle' => 'Software Engineer / Musician / Banana Nerd',
     'aboutme'  => 'Me',
     'blog'     => 'Blog',
-    'misc'     => 'Misc',
+    'imprint'  => 'Imprint',
 );
 
 
@@ -104,12 +104,18 @@ $uiStrings = array(
 
     <footer class="footer">
 
-        <div class="content">
+        <div class="copyright">
             © <?php echo date("Y"); ?> Philipp Moers.
+        </div>
+
+        <div class="links">
+            <a href="?page=aboutme">
+                <?php echo $uiStrings['aboutme']; ?>
+            </a>
             &nbsp;
-            <a href="?page=aboutme">Me</a>
-            &nbsp;
-            <a href="?page=imprint">Imprint</a>
+            <a href="?page=imprint">
+                <?php echo $uiStrings['imprint']; ?>
+            </a>
         </div>
 
     </footer>
