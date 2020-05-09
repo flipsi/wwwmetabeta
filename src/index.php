@@ -80,7 +80,7 @@ $uiStrings = array(
 
 
     <div class="pagewrapper">
-        <img class="background" data-lazysrc="img/monkeymagicos.png" alt=""/>
+        <img class="background" data-lazysrc="img/monkeymagicos.jpeg" alt=""/>
         <div class="page">
 
             <?php
