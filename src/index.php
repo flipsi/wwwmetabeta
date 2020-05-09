@@ -84,6 +84,10 @@ $uiStrings = array(
                         include 'pages/blog/blog.php';
                         break;
 
+                    case 'imprint':
+                        include 'pages/imprint/imprint.php';
+                        break;
+
                     default:
                         include 'pages/aboutme/aboutme.php';
                         break;
@@ -100,11 +104,14 @@ $uiStrings = array(
 
     <footer class="footer">
 
-        <div class="copyright">
-            © Copyright <?php echo date("Y"); ?>
-            <a href="?page=aboutme">Philipp Moers</a>.
-            All rights reserved.
+        <div class="content">
+            © <?php echo date("Y"); ?> Philipp Moers.
+            &nbsp;
+            <a href="?page=aboutme">Me</a>
+            &nbsp;
+            <a href="?page=imprint">Imprint</a>
         </div>
+
     </footer>
 
 </body>
