@@ -108,15 +108,20 @@ $uiStrings = array(
             © <?php echo date("Y"); ?> Philipp Moers.
         </div>
 
-        <div class="links">
-            <a href="?page=aboutme">
-                <?php echo $uiStrings['aboutme']; ?>
-            </a>
-            &nbsp;
-            <a href="?page=imprint">
-                <?php echo $uiStrings['imprint']; ?>
-            </a>
-        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="?page=aboutme">
+                        <?php echo $uiStrings['aboutme']; ?>
+                    </a>
+                </li>
+                <li>
+                    <a href="?page=imprint">
+                        <?php echo $uiStrings['imprint']; ?>
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
     </footer>
 

@@ -29,10 +29,24 @@ a {
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-.header {
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    margin-left: 2em;
+}
+nav li:first-child {
+    margin-left: 0;
+}
+.header, .footer {
     display: grid;
-    grid-template-columns: 5% 0.6fr 0.4fr 5%;
+    grid-template-columns: 5% 0.5fr 0.5fr 5%;
     width: 100%;
+}
+.header {
     top: 0;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -41,18 +55,14 @@ a {
 .header a {
     text-decoration: none;
 }
-.header .branding {
+.header .branding, .header nav {
     grid-column: 2 / span 2;
-}
-.header nav {
-    grid-column: 2 / span 2;
-}
-.header .branding {
     margin-bottom: 1.5em;
 }
 .header .branding h1,
 .header .branding h2 {
     margin: 0;
+    font-size: 1em;
     font-weight: normal;
     transition-duration: 0.3s;
 }
@@ -62,19 +72,6 @@ a {
 .header nav {
     font-size: 2em;
     margin-bottom: 1em;
-}
-.header nav ul {
-    /* height: 1em; */
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-.header nav li {
-    float: left;
-    margin-left: 2em;
-}
-.header nav li:first-child {
-    margin-left: 0;
 }
 .header nav a {
     position: relative;
@@ -158,24 +155,16 @@ a {
     bottom: 0;
     right: 0;
 }
-.footer {
-    display: grid;
-    grid-template-columns: 5% 0.5fr 0.5fr 5%;
-    width: 100%;
-    height: 3em;
+.footer  {
     position: absolute;
     bottom: 0;
+    height: 2em;
     margin: 1em 0;
-    font-size: 1em;
 }
 .footer .copyright {
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 1;
 }
-.footer links {
-    grid-column: 2 / span 2;
-}
-.footer .content {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.footer nav {
+    grid-column: 3 / span 1;
+    justify-self: right;
 }

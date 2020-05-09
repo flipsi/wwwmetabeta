@@ -21,13 +21,9 @@ body {
 }
 .header nav {
     grid-column: 3 / span 1;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+    justify-self: right;
+    align-self: end;
     font-size: 1.2em;
-}
-.header nav li {
-    margin-left: 4em;
 }
 .header nav a {
     text-decoration-line: none;
@@ -60,4 +56,11 @@ body {
 }
 .footer {
     font-size: 0.8em;
+}
+.footer .copyright {
+    grid-column: 2 / span 1;
+}
+.footer nav {
+    grid-column: 3 / span 1;
+    justify-self: right;
 }
