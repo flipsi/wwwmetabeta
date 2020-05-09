@@ -76,6 +76,7 @@ $uiStrings = array(
 
 
     <div class="pagewrapper">
+        <img class="background" src="img/monkeymagicos_dark_wood_by_monkeymagico-d30s9wp.png" alt=""/>
         <div class="page">
 
             <?php
@@ -105,11 +106,8 @@ $uiStrings = array(
 
              ?>
 
-
-
         </div>
     </div>
-
 
 
     <footer class="footer">

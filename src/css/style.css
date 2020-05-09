@@ -86,12 +86,15 @@ nav li:first-child {
 .header nav a:hover {
     bottom: 2px;
 }
-.page {
-    width: 85%;
-    margin: 5em auto;
+img.background {
+    display: none;
 }
 .pagewrapper {
     padding-bottom: 2em; /* height of footer */
+}
+.page {
+    width: 85%;
+    margin: 5em auto;
 }
 .element {
     padding-bottom: 2em;
