@@ -15,10 +15,34 @@ document.addEventListener('readystatechange', event => {
         ReLoadImages();
 });
 
+
+//////////////////////
+// Background image //
+//////////////////////
+
 $(function () {
-    const $imgBackground = $('img.background');
+
+    const sessionStorageKey = 'background_image';
+    const $img = $('img.background');
     const $toggleLink = $('a.toggle_background');
-    $toggleLink.on('click', () => $imgBackground.toggle());
+
+    function showBackgroundImage(saveToSession = true) {
+        $img.show();
+        if (saveToSession) window.sessionStorage.setItem(sessionStorageKey, true);
+    }
+
+    function hideBackgroundImage(saveToSession = true) {
+        $img.hide();
+        if (saveToSession) window.sessionStorage.setItem(sessionStorageKey, false);
+    }
+
+    const toggleBackgroundImage = () => $img.css('display') === 'none' ? showBackgroundImage() : hideBackgroundImage();
+    $toggleLink.on('click', toggleBackgroundImage);
+
+    console.log(window.sessionStorage.getItem(sessionStorageKey));
+    if (window.sessionStorage.getItem(sessionStorageKey) === "true")
+        showBackgroundImage();
+
 });
 
 
@@ -36,15 +60,13 @@ $(function () {
     function setDark(saveToSession = false) {
         stylesheet_dark.disabled = false;
         stylesheet_bright.disabled = true;
-        if (saveToSession)
-            window.sessionStorage.setItem(sessionStorageKey, 'dark');
+        if (saveToSession) window.sessionStorage.setItem(sessionStorageKey, 'dark');
     }
 
     function setBright(saveToSession = false) {
         stylesheet_dark.disabled = true;
         stylesheet_bright.disabled = false;
-        if (saveToSession)
-            window.sessionStorage.setItem(sessionStorageKey, 'bright');
+        if (saveToSession) window.sessionStorage.setItem(sessionStorageKey, 'bright');
     }
 
     function chooseBasedOnDayTime() {
