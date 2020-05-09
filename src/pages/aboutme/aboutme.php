@@ -27,6 +27,12 @@
                     <a href="https://www.uni-muenchen.de/index.html">Ludwig-Maximilians Universität München</a>
                 </div>
                 <div class="what">Master of Science (M.Sc.) Media Informatics</div>
+                <div class="thesis">
+                    Thesis:
+                    <a href="files/masterthesis.pdf" target="_blank">
+                        <i>Der Vergleich von Trajektorien: Wie man mit Pfaden von bewegten Objekten umgeht</i>
+                    </a>
+                </div>
             </div>
         </li>
         <li class="container right">
@@ -37,6 +43,12 @@
                     <a href="https://uni-tuebingen.de/">University of Tübingen</a>
                 </div>
                 <div class="what">Bacherlor of Science (B.Sc.) Media Informatics</div>
+                <div class="thesis">
+                    Thesis:
+                    <a href="files/bachelorthesis.pdf" target="_blank">
+                        <i>Binoculars for Habitat: Implementation of a Web-Based Frontend for an Observational SQL-Debugger</i>
+                    </a>
+                </div>
             </div>
         </li>
         <li class="container left">

@@ -200,6 +200,9 @@ a.toggle_background {
 .curriculumvitae .content .where {
     font-weight: bold;
 }
+.curriculumvitae .content .thesis {
+    margin-top: 20px;
+}
 /* The circles on the timeline */
 .curriculumvitae .container::after {
     content: '';
