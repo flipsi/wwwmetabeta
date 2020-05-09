@@ -2,7 +2,7 @@
 
     <h1>Curriculum Vitae</h1>
     <ul class="curriculumvitae">
-        <li class="container left">
+        <li class="container right">
             <div class="content">
                 <div class="when">May 2017 - Present</div>
                 <div class="where">
@@ -11,7 +11,7 @@
                 <div class="what">Software Engineer</div>
             </div>
         </li>
-        <li class="container right">
+        <li class="container left">
             <div class="content">
                 <div class="when">October 2015 - March 2017</div>
                 <div class="where">
@@ -20,7 +20,7 @@
                 <div class="what">Web Developer</div>
             </div>
         </li>
-        <li class="container left">
+        <li class="container right">
             <div class="content">
                 <div class="when">2014 - 2017</div>
                 <div class="where">
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </li>
-        <li class="container right">
+        <li class="container left">
             <div class="content">
                 <div class="when">2011 - 2014</div>
                 <div class="where"></div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </li>
-        <li class="container left">
+        <li class="container right">
             <div class="content">
                 <div class="when">2002 - 2011</div>
                 <div class="where">
@@ -60,7 +60,7 @@
                 <div class="what">Abitur</div>
             </div>
         </li>
-        <li class="container right">
+        <li class="container left">
             <div class="content">
                 <div class="when">1998</div>
                 <div class="where">Schwimmverein Paffrath</div>
