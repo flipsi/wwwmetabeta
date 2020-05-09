@@ -8,7 +8,8 @@
     Germany</p>
     
     <h2>Kontakt</h2>
-    <p>E-Mail: soziflip+web@gmail.com</p>
+    <p>E-Mail: <a href="mailto:soziflip+web@gmail.com">soziflip+web@gmail.com</a></p>
+
     
     <h2>Verantwortlich f&uuml;r den Inhalt nach &sect; 55 Abs. 2 RStV</h2>
     <p>Philipp Moers</p>
