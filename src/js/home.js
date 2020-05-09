@@ -21,30 +21,58 @@ $(function () {
     $toggleLink.on('click', () => $imgBackground.toggle());
 });
 
+
+//////////////////////////
+// Bright or dark theme //
+//////////////////////////
+
 $(function () {
 
+    const dayFrom = 8, dayUntil = 20;
+    const sessionStorageKey = 'bright_or_dark';
     const stylesheet_bright = document.querySelector('.stylesheet_bright');
     const stylesheet_dark = document.querySelector('.stylesheet_dark');
 
-    // TODO: persist in localstorage for pageloads
-    function toggleBrightAndDark() {
-        stylesheet_dark.disabled = !stylesheet_dark.disabled;
-        stylesheet_bright.disabled = !stylesheet_bright.disabled;
+    function setDark(saveToSession = false) {
+        stylesheet_dark.disabled = false;
+        stylesheet_bright.disabled = true;
+        if (saveToSession)
+            window.sessionStorage.setItem(sessionStorageKey, 'dark');
     }
 
-    const $toggleLink = $('a.toggle_bright, a.toggle_dark');
-    $toggleLink.on('click', toggleBrightAndDark);
+    function setBright(saveToSession = false) {
+        stylesheet_dark.disabled = true;
+        stylesheet_bright.disabled = false;
+        if (saveToSession)
+            window.sessionStorage.setItem(sessionStorageKey, 'bright');
+    }
 
     function chooseBasedOnDayTime() {
         const hours = new Date().getHours();
-        const isNight = hours < 8 || 20 <= hours;
+        const isNight = hours < dayFrom || dayUntil <= hours;
         console.log("It's " + (isNight ? "night" : "day") + ".");
-        if (stylesheet_dark.disabled && isNight || stylesheet_bright.disabled && !isNight)
-            toggleBrightAndDark();
+        if (isNight) setDark(); else setBright();
     }
-    chooseBasedOnDayTime();
+
+    switch (window.sessionStorage.getItem(sessionStorageKey)) {
+        case 'dark': setDark(); break;
+        case 'bright': setBright(); break;
+        default: chooseBasedOnDayTime();
+    }
+
+    function toggleBrightAndDark() {
+        const toBright = !stylesheet_dark.disabled;
+        if (toBright) setBright(true); else setDark(true);
+    }
+    const $toggleLink = $('a.toggle_bright, a.toggle_dark');
+    $toggleLink.on('click', toggleBrightAndDark);
 
 });
+
+
+////////////////////
+// Funny portrait //
+////////////////////
 
 $(function () {
 
@@ -82,6 +110,10 @@ $(function () {
 
 });
 
+
+//////////////////
+// Funny banana //
+//////////////////
 
 $(function () {
 
