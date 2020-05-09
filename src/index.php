@@ -31,7 +31,7 @@ $uiStrings = array(
        window.jQuery || document.write('<script src="lib/jquery-1.12.0.min.js"><\/script>');
     </script>
 
-    <script src="js/home.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display" rel="stylesheet">
 
