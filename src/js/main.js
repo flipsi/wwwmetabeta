@@ -25,7 +25,6 @@ $(function () {
     const toggleBackgroundImage = () => $img.css('display') === 'none' ? showBackgroundImage() : hideBackgroundImage();
     $toggleLink.on('click', toggleBackgroundImage);
 
-    console.log(window.sessionStorage.getItem(sessionStorageKey));
     if (window.sessionStorage.getItem(sessionStorageKey) === "true")
         showBackgroundImage();
 
