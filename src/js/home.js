@@ -17,10 +17,22 @@ document.addEventListener('readystatechange', event => {
 
 $(function () {
     const $imgBackground = $('img.background');
-    const $toggleBackgroundLink = $('a.toggle_background');
-    $toggleBackgroundLink.on('click', () => $imgBackground.toggle());
+    const $toggleLink = $('a.toggle_background');
+    $toggleLink.on('click', () => $imgBackground.toggle());
 });
 
+$(function () {
+    // TODO: persist in localstorage for pageloads
+    // TODO: choose automatically based on daytime
+    function toggleBrightAndDark() {
+        const stylesheet_bright = document.querySelector('.stylesheet_bright');
+        const stylesheet_dark = document.querySelector('.stylesheet_dark');
+        stylesheet_dark.disabled = !stylesheet_dark.disabled;
+        stylesheet_bright.disabled = !stylesheet_bright.disabled;
+    }
+    const $toggleLink = $('a.toggle_bright, a.toggle_dark');
+    $toggleLink.on('click', toggleBrightAndDark);
+});
 
 $(function () {
 

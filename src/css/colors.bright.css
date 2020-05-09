@@ -1,6 +1,6 @@
 html, body {
-    background-color: #333;
-    color: #EEE;
+    background-color: #EEE;
+    color: #333;
 }
 .pagewrapper a,
 .footer a {
@@ -10,7 +10,7 @@ html, body {
     color: #DDD;
 }
 .header {
-    background-color:  #222;
+    background-color:  #333;
     -webkit-box-shadow: 0 2px 1px 0 rgba(50, 50, 50, 0.88);
     box-shadow:         0 2px 1px 0 rgba(50, 50, 50, 0.88);
 }
@@ -25,7 +25,7 @@ nav a:hover,
     color: #F54B4B;
 }
 .home .links img {
-    filter: invert(100%);
+    filter: invert(20%);
 }
 .home .links img:hover {
     /* filter: invert(54%) sepia(45%) saturate(4152%) hue-rotate(327deg) brightness(93%) contrast(107%); */
@@ -38,18 +38,21 @@ nav a:hover,
 }
 .curriculumvitae::after,
 .curriculumvitae .content {
-    background-color: #666;
+    background-color: #BBB;
 }
 .curriculumvitae .container::after {
     background-color: #F54B4B;
 }
 .curriculumvitae .left::before,
 .curriculumvitae .right::before {
-    border-color: #666;
+    border-color: #BBB;
 }
 .curriculumvitae .left::before {
-    border-color: transparent transparent transparent #666;
+    border-color: transparent transparent transparent #BBB;
 }
 .curriculumvitae .right::before {
-    border-color: transparent #666 transparent transparent;
+    border-color: transparent #BBB transparent transparent;
+}
+.toggle_bright {
+    display: none;
 }

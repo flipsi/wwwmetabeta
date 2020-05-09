@@ -1,13 +1,15 @@
 <?php
 
 $uiStrings = array(
-    'title'     => 'Philipp Moers',
-    'subtitle'  => 'Software Engineer / Musician / Banana Nerd',
-    'home'      => 'Home',
-    'aboutme'   => 'About Me',
-    'blog'      => 'Blog',
-    'imprint'   => 'Imprint',
-    'toggle_background'   => 'Background',
+    'title'                 => 'Philipp Moers',
+    'subtitle'              => 'Software Engineer / Musician / Banana Nerd',
+    'home'                  => 'Home',
+    'aboutme'               => 'About Me',
+    'blog'                  => 'Blog',
+    'imprint'               => 'Imprint',
+    'toggle_background'     => 'Background',
+    'toggle_dark'           => 'Dark',
+    'toggle_bright'         => 'Bright',
 );
 
 
@@ -34,8 +36,9 @@ $uiStrings = array(
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="css/colors.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1025px)">
+    <link href="css/colors.bright.css" class="stylesheet_bright" rel="stylesheet" type="text/css" media="screen" disabled>
+    <link href="css/colors.dark.css" class="stylesheet_dark" rel="stylesheet" type="text/css" media="screen">
 
 </head>
 <body>
@@ -119,6 +122,14 @@ $uiStrings = array(
 
         <nav>
             <ul>
+                <li>
+                    <a href="#" onclick="return false" class="toggle_dark">
+                        <?php echo $uiStrings['toggle_dark']; ?>
+                    </a>
+                    <a href="#" onclick="return false" class="toggle_bright">
+                        <?php echo $uiStrings['toggle_bright']; ?>
+                    </a>
+                </li>
                 <li>
                     <a href="#" onclick="return false" class="toggle_background">
                         <?php echo $uiStrings['toggle_background']; ?>
