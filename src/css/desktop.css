@@ -33,7 +33,7 @@ body {
     max-width: 970px;
     margin: 5em auto;
 }
-.aboutme .portrait {
+.home .portrait {
     display: block;
     float: left;
     width: 240px;
@@ -41,17 +41,17 @@ body {
     position: relative;
     right: 10px;
 }
-.aboutme .links {
+.home .links {
     margin-top: 2em;
 }
-.aboutme .links {
+.home .links {
     width: 90%;
 }
-.aboutme .links img {
+.home .links img {
     height: 60px;
     width: 60px;
 }
-.aboutme .links img:hover {
+.home .links img:hover {
     bottom: 4px;
 }
 .footer {

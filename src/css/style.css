@@ -15,7 +15,7 @@ body {
 h1,
 h2,
 .element .headline,
-.aboutme .hi {
+.home .hi {
     font-family: "Playfair Display","Times New Roman", "Times","serif";
 }
 a {
@@ -104,46 +104,46 @@ nav li:first-child {
     margin-bottom: 0.5em;
 }
 
-.aboutme .hi {
+.home .hi {
     font-size: 3em;
     margin-bottom: 0.5em;
 }
-.aboutme .portrait {
+.home .portrait {
     display: none;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
 }
-.aboutme .portrait img {
+.home .portrait img {
     border-radius: 10px;
     display: block;
     width: 100%;
 }
-.aboutme .portrait .fun {
+.home .portrait .fun {
     display: none;
 }
-.aboutme .thatsme {
+.home .thatsme {
     overflow: auto;
 }
-.aboutme .links {
+.home .links {
     margin-top: 3em;
     width: 100%;
 }
-.aboutme .links ul {
+.home .links ul {
     list-style-type: none;
     padding: 0;
     margin-top: 25px;
 }
-.aboutme .links li {
+.home .links li {
     display: inline;
     margin-right: 25px;
     margin-bottom: 25px;
 }
-.aboutme .links li:last-child {
+.home .links li:last-child {
     margin-right: 0;
     margin-left: 5px; /* weird mail icon */
 }
-.aboutme .links img {
+.home .links img {
     height: 160px;
     width: 160px;
     margin: 0 0 30px 0;

@@ -3,15 +3,15 @@
         Quite frankly...
     </div>
     <div class="content">
-        ...I don't really have a blog. This is just a stupid mockup.
+        I don't have a blog yet. This is just a stupid mockup.
     </div>
 </div>
 
 <div class="element">
     <div class="headline">
-        Maybe
+        Soon...
     </div>
     <div class="content">
-        Sometimes I'm going to add something here in the future.
+        I'm going to add something interesting here.
     </div>
 </div>

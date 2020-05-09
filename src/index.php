@@ -1,11 +1,12 @@
 <?php
 
 $uiStrings = array(
-    'title'    => 'Philipp Moers',
-    'subtitle' => 'Software Engineer / Musician / Banana Nerd',
-    'aboutme'  => 'Me',
-    'blog'     => 'Blog',
-    'imprint'  => 'Imprint',
+    'title'     => 'Philipp Moers',
+    'subtitle'  => 'Software Engineer / Musician / Banana Nerd',
+    'home'      => 'Home',
+    'aboutme'   => 'Me',
+    'blog'      => 'Blog',
+    'imprint'   => 'Imprint',
 );
 
 
@@ -27,7 +28,7 @@ $uiStrings = array(
        window.jQuery || document.write('<script src="lib/jquery-1.12.0.min.js"><\/script>');
     </script>
 
-    <script src="js/aboutme.js" charset="utf-8"></script>
+    <script src="js/home.js" charset="utf-8"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display" rel="stylesheet">
 
@@ -41,7 +42,7 @@ $uiStrings = array(
     <header class="header">
 
         <div class="branding">
-            <a href="?page=aboutme">
+            <a href="?page=home">
             <h1>
                 <?php echo $uiStrings['title']; ?>
             </h1>
@@ -53,6 +54,11 @@ $uiStrings = array(
 
         <nav>
             <ul>
+                <li>
+                    <a href="?page=home">
+                        <?php echo $uiStrings['home']; ?>
+                    </a>
+                </li>
                 <li>
                     <a href="?page=aboutme">
                         <?php echo $uiStrings['aboutme']; ?>
@@ -76,6 +82,10 @@ $uiStrings = array(
 
                 switch ($_GET['page']) {
 
+                    case 'home':
+                        include 'pages/home/home.php';
+                        break;
+
                     case 'aboutme':
                         include 'pages/aboutme/aboutme.php';
                         break;
@@ -89,7 +99,7 @@ $uiStrings = array(
                         break;
 
                     default:
-                        include 'pages/aboutme/aboutme.php';
+                        include 'pages/home/home.php';
                         break;
                 }
 
@@ -110,6 +120,11 @@ $uiStrings = array(
 
         <nav>
             <ul>
+                <li>
+                    <a href="?page=home">
+                        <?php echo $uiStrings['home']; ?>
+                    </a>
+                </li>
                 <li>
                     <a href="?page=aboutme">
                         <?php echo $uiStrings['aboutme']; ?>
