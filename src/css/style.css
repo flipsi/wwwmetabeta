@@ -263,7 +263,7 @@ a.toggle_background {
   max-width: fit-content; /* Don't type trailing whitespace */
   padding-right: 13px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #F54B4B; /* The typwriter cursor */
+  border-right: .09em solid #F54B4B; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   /* margin: 0 auto; [> Gives that scrolling effect as the typing happens <] */
   /* letter-spacing: .12em; [> Adjust as needed <] */
