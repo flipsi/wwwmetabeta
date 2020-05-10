@@ -165,3 +165,42 @@ $(function () {
     $('.bananatoggle').on('click', () => toggleBanana());
 
 });
+
+
+//////////////
+// About Me //
+//////////////
+
+$(function () {
+
+    const $main = $('.aboutme main');
+
+    function setSmoothScroll(enabled = true) {
+        $main.css('scroll-behavior', enabled ? 'smooth' : 'auto');
+    }
+
+    // Scroll horizontally, but don't jump down
+    function scrollToArticle(hash, immediately = false) {
+        const target = document.getElementById(hash.substr(1));
+        target.scrollIntoViewIfNeeded({
+             behavior: immediately ? "auto" : "smooth"
+        });
+        window.scroll(top);
+        history.pushState(null, null, hash);
+    }
+
+    // ... on page load if fragment given
+    if (window.location.search == "?page=aboutme" && window.location.hash) {
+        setSmoothScroll(false);
+        scrollToArticle(window.location.hash, true);
+        setSmoothScroll(true);
+    }
+
+    // ... on navi click
+    $('.aboutme > nav a').on('click', function(event) {
+        event.preventDefault();
+        const hash = $(this).attr("href");
+        scrollToArticle(hash);
+    });
+
+});

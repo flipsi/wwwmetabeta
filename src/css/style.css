@@ -95,7 +95,7 @@ a.toggle_background {
 }
 .page {
     width: 85%;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 .element {
     padding-bottom: 2em;
@@ -159,7 +159,26 @@ a.toggle_background {
     bottom: 0;
     right: 0;
 }
-
+.aboutme {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content 1fr;
+}
+.aboutme main {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+.aboutme main::-webkit-scrollbar {
+    display: none;
+}
+.aboutme article {
+    scroll-snap-align: start;
+}
 .curriculumvitae {
     position: relative;
     margin: 0 auto;

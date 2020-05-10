@@ -50,7 +50,9 @@ img.background {
 .page {
     min-width: 970px;
     max-width: 970px;
-    margin: 5em auto;
+}
+.home {
+    margin-top: 150px;
 }
 .home .portrait {
     display: block;
