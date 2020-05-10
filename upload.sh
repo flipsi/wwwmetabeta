@@ -10,5 +10,6 @@ HOST="sflip.bplaced.net"
 DST="/www/"
 
 PREPEND_COMMANDS="set ftp:ssl-allow no;" # ¯\_(ツ)_/
-lftp -e "$PREPEND_COMMANDS mirror -R $SRC $DST" -u "$USER,$PASS" "$HOST"
+APPEND_COMMANDS="exit"
+lftp -e "$PREPEND_COMMANDS mirror -R $SRC $DST; $APPEND_COMMANDS" -u "$USER,$PASS" "$HOST"
 
