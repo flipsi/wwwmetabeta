@@ -49,9 +49,10 @@ img.background {
 }
 .page {
     min-width: 970px;
-    max-width: 970px;
+    max-width: 1200px;
 }
 .home {
+    max-width: 970px;
     margin-top: 150px;
 }
 .home .portrait {
