@@ -203,4 +203,11 @@ $(function () {
         scrollToArticle(hash);
     });
 
+    const $interesting_boxes = $('.interesting_boxes > div');
+    $interesting_boxes.find('.title').on('click', function(event) {
+        const $target = $(event.target);
+        $target.parent().toggleClass('active');
+        $target.siblings('.description').slideToggle(400);
+    });
+
 });

@@ -159,6 +159,7 @@ a.toggle_background {
     bottom: 0;
     right: 0;
 }
+
 .aboutme {
     display: grid;
     grid-template-columns: 1fr;
@@ -178,6 +179,10 @@ a.toggle_background {
 }
 .aboutme article {
     scroll-snap-align: start;
+}
+.curriculumvitae .content,
+.interesting_boxes > div {
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 .curriculumvitae {
     position: relative;
@@ -203,7 +208,6 @@ a.toggle_background {
 .curriculumvitae .content {
     padding: 14px 20px;
     position: relative;
-    border-radius: 4px;
 }
 .curriculumvitae .content a {
     color: inherit;
@@ -255,12 +259,30 @@ a.toggle_background {
     z-index: 1;
 }
 .curriculumvitae .left::before {
-    right: 30px;
+    right: 36px;
     border-width: 10px 0 10px 10px;
 }
 .curriculumvitae .right::before {
     left: 30px;
     border-width: 10px 10px 10px 0;
+}
+.interesting_boxes {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100%;
+}
+.interesting_boxes > div {
+    padding: 4px 18px;
+    margin: 2em;
+    height: fit-content;
+}
+.interesting_boxes > div .title {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.interesting_boxes > div .description {
+    display: none;
 }
 
 .footer  {

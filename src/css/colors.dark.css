@@ -33,11 +33,22 @@ nav a:hover,
 #banana:hover img {
     filter: invert(79%) sepia(80%) saturate(1963%) hue-rotate(6deg) brightness(105%) contrast(105%);
 }
+.interesting_boxes > div {
+    transition : border 400ms ease-out;
+}
+.interesting_boxes > div.active {
+    border: solid 5px #F54B4B;
+}
+.interesting_boxes > div,
+.curriculumvitae .content {
+    border: solid 5px #666;
+}
 .curriculumvitae .content .when {
     color: #F54B4B;
 }
 .curriculumvitae::after,
-.curriculumvitae .content {
+.curriculumvitae .content,
+.interesting_boxes > div {
     background-color: #666;
 }
 .curriculumvitae .container::after {
