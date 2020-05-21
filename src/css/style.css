@@ -20,13 +20,7 @@ h2,
 }
 a {
     text-decoration: none;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -o-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
+    transition-property: color;
     transition-duration: 0.3s;
 }
 nav ul {
@@ -64,7 +58,6 @@ nav li:first-child {
     margin: 0;
     font-size: 1em;
     font-weight: normal;
-    transition-duration: 0.3s;
 }
 .header .branding h1 {
     font-size: 5em;
@@ -77,11 +70,8 @@ nav li:first-child {
     position: relative;
     bottom: 0;
     text-decoration: underline;
-    /*transition-property: bottom;*/
-    /*transition-duration: 3.5s;*/
-    /*-o-transition-duration: 3.5s;*/
-    /*-moz-transition-duration: 3.5s;*/
-    /*-webkit-transition-duration: 3.5s;*/
+    transition-duration: 0.3s;
+    transition-property: bottom, color;
 }
 .header nav a:hover {
     bottom: 2px;
@@ -151,9 +141,7 @@ a.toggle_background {
     height: 160px;
     width: 160px;
     margin: 0 0 30px 0;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
+    transition-property: bottom;
     transition-duration: 0.3s;
     position: relative;
     bottom: 0;
