@@ -204,6 +204,7 @@ $(function () {
         scrollToArticle(hash);
     });
 
+    // Toggle content of boxes on click
     const $interesting_boxes = $('.interesting_boxes > div');
     $interesting_boxes.find('.title').on('click', function(event) {
         const $target = $(event.target);

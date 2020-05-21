@@ -298,6 +298,7 @@ a.toggle_background {
 .interesting_boxes > div {
     padding: 4px 18px;
     margin: 20px;
+    height: -moz-fit-content;
     height: fit-content;
 }
 .interesting_boxes > div .title {
