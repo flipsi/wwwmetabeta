@@ -26,6 +26,8 @@ $uiStrings = array(
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="author" content="sflip">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script>
        window.jQuery || document.write('<script src="lib/jquery-1.12.0.min.js"><\/script>');
