@@ -33,6 +33,16 @@ nav a:hover,
 #banana:hover img {
     filter: invert(79%) sepia(80%) saturate(1963%) hue-rotate(6deg) brightness(105%) contrast(105%);
 }
+.typewriter {
+  border-right-color: #F54B4B;
+  animation:
+    typing 2.2s steps(42, end),
+    blinking-cursor .7s step-end infinite;
+}
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: #F54B4B; }
+}
 .interesting_boxes > div {
     transition : border 400ms ease-out;
 }
@@ -41,7 +51,7 @@ nav a:hover,
 }
 .interesting_boxes > div,
 .curriculumvitae .content {
-    border: solid 5px #666;
+    border: solid 5px #555;
 }
 .curriculumvitae .content .when {
     color: #F54B4B;
@@ -49,20 +59,20 @@ nav a:hover,
 .curriculumvitae::after,
 .curriculumvitae .content,
 .interesting_boxes > div {
-    background-color: #666;
+    background-color: #555;
 }
 .curriculumvitae .container::after {
     background-color: #F54B4B;
 }
 .curriculumvitae .left::before,
 .curriculumvitae .right::before {
-    border-color: #666;
+    border-color: #555;
 }
 .curriculumvitae .left::before {
-    border-color: transparent transparent transparent #666;
+    border-color: transparent transparent transparent #555;
 }
 .curriculumvitae .right::before {
-    border-color: transparent #666 transparent transparent;
+    border-color: transparent #555 transparent transparent;
 }
 .toggle_dark {
     display: none;

@@ -4,7 +4,7 @@ html, body {
 }
 .pagewrapper a,
 .footer a {
-    color: #999;
+    color: #777;
 }
 .header a {
     color: #DDD;
@@ -18,11 +18,23 @@ html, body {
     box-shadow: 5px 5px 5px 0 rgba(50, 50, 50, 0.75);
 }
 nav a:hover,
+.header .branding h2 {
+    color: #E45151;
+}
+.home .hi,
 .pagewrapper a:hover,
-.footer a:hover,
-.header .branding h2,
-.home .hi {
-    color: #F54B4B;
+.footer a:hover {
+    color: #AA3838;
+}
+.typewriter {
+  border-right-color: #AA3838;
+  animation:
+    typing 2.2s steps(42, end),
+    blinking-cursor .7s step-end infinite;
+}
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: #AA3838; }
 }
 .home .links img {
     filter: invert(20%);
@@ -37,14 +49,14 @@ nav a:hover,
     transition : border 400ms ease-out;
 }
 .interesting_boxes > div.active {
-    border: solid 5px #F54B4B;
+    border: solid 5px #AA3838;
 }
 .interesting_boxes > div,
 .curriculumvitae .content {
     border: solid 5px #BBB;
 }
 .curriculumvitae .content .when {
-    color: #F54B4B;
+    color: #AA3838;
 }
 .curriculumvitae::after,
 .curriculumvitae .content,
@@ -52,7 +64,7 @@ nav a:hover,
     background-color: #BBB;
 }
 .curriculumvitae .container::after {
-    background-color: #F54B4B;
+    background-color: #AA3838;
 }
 .curriculumvitae .left::before,
 .curriculumvitae .right::before {
