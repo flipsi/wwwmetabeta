@@ -182,9 +182,10 @@ $(function () {
     // Scroll horizontally, but don't jump down
     function scrollToArticle(hash, immediately = false) {
         const target = document.getElementById(hash.substr(1));
-        target.scrollIntoViewIfNeeded({
-             behavior: immediately ? "auto" : "smooth"
-        });
+        const options = { behavior: immediately ? 'auto' : 'smooth' };
+        if (typeof target.scrollIntoViewIfNeeded === 'function')
+            target.scrollIntoViewIfNeeded(options);
+        else target.scrollIntoView(options);
         window.scroll(top);
         history.pushState(null, null, hash);
     }
