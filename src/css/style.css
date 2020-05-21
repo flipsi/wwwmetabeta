@@ -294,6 +294,7 @@ a.toggle_background {
 
 .typewriter {
   /* font-family: monospace; [> Web-safe typewriter-like font <] */
+  max-width: -moz-fit-content; /* Don't type trailing whitespace */
   max-width: fit-content; /* Don't type trailing whitespace */
   padding-right: 13px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
