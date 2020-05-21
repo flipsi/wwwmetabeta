@@ -56,11 +56,15 @@ nav li:first-child {
 .header .branding h1,
 .header .branding h2 {
     margin: 0;
-    font-size: 1em;
     font-weight: normal;
 }
 .header .branding h1 {
-    font-size: 5em;
+    font-size: 5em; /* fallback */
+    font-size: 14vw;
+}
+.header .branding h2 {
+    font-size: 1em; /* fallback */
+    font-size: 4vw;
 }
 .header nav {
     font-size: 2em;
