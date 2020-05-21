@@ -157,6 +157,10 @@ a.toggle_background {
     grid-template-columns: 1fr;
     grid-template-rows: min-content min-content 1fr;
 }
+.aboutme nav {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
 .aboutme main {
     display: grid;
     grid-template-rows: 1fr;
@@ -257,6 +261,30 @@ a.toggle_background {
 .curriculumvitae .right::before {
     left: 30px;
     border-width: 10px 10px 10px 0;
+}
+@media screen and (max-width: 1025px) {
+  .curriculumvitae::after {
+    left: 31px;
+  }
+  .curriculumvitae .container {
+    width: 100%;
+    margin-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 55px;
+  }
+  .curriculumvitae .container::before {
+    display: none; /* because I fail to make every second arrow visible */
+    left: 20px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .curriculumvitae .left::after, .curriculumvitae .right::after {
+    left: -15px;
+  }
+  .curriculumvitae .right {
+    left: 0%;
+  }
 }
 .interesting_boxes {
     display: grid;

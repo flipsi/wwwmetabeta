@@ -76,6 +76,9 @@ img.background {
 .home .links img:hover {
     bottom: 4px;
 }
+.aboutme nav {
+    font-size: 1em;
+}
 .interesting_boxes {
     grid-template-columns: 33% 33% 33%;
 }
