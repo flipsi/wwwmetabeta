@@ -270,8 +270,8 @@ a.toggle_background {
   .curriculumvitae .container {
     width: 100%;
     margin-bottom: 35px;
-    padding-left: 30px;
-    padding-right: 55px;
+    padding-left: 20px;
+    padding-right: 15px;
   }
   .curriculumvitae .container::before {
     display: none; /* because I fail to make every second arrow visible */
@@ -286,6 +286,9 @@ a.toggle_background {
   .curriculumvitae .right {
     left: 0%;
   }
+  .curriculumvitae .content .when {
+    font-size: 0.8em;
+  }
 }
 .interesting_boxes {
     display: grid;
@@ -294,7 +297,7 @@ a.toggle_background {
 }
 .interesting_boxes > div {
     padding: 4px 18px;
-    margin: 2em;
+    margin: 20px;
     height: fit-content;
 }
 .interesting_boxes > div .title {
