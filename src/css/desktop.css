@@ -23,9 +23,6 @@
     align-self: end;
     font-size: 1.2em;
 }
-.header nav a {
-    text-decoration-line: none;
-}
 img.background {
     display: none; // disable until stretch over 100% height issue is fixed
 }
