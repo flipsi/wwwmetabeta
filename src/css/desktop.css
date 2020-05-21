@@ -49,13 +49,33 @@ img.background {
     max-width: 970px;
     margin-top: 150px;
 }
-.home .portrait {
+.home .portraitcontainer {
     display: block;
     float: left;
-    width: 240px;
     margin-right: 100px;
+    margin-left: auto;
+    margin-bottom: 100px;
     position: relative;
     right: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.home .portrait {
+    background-image: url("../img/bewerbungsfoto-20170602-regular-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: none;
+    transition: transform 0.5s, background-image 0.5s;
+    width: 255px;
+    height: 384px;
+}
+.home .portraitcontainer:hover .portrait {
+    transform: rotateZ(360deg);
+    background: url("../img/bewerbungsfoto-20170602-fun-small.jpg");
+    background-size: cover;
+    width: 255px;
+    height: 384px;
 }
 .home .links {
     margin-top: 2em;

@@ -26,9 +26,8 @@
 ?>
 
 <div class="home">
-    <div class="portrait">
-        <img loading="lazy" class="regular"  src="img/bewerbungsfoto-20170602-regular.jpg" alt="portait" />
-        <img loading="lazy" class="fun" src="img/bewerbungsfoto-20170602-fun.jpg" alt="portait" />
+    <div class="portraitcontainer">
+        <div class="portrait"></div>
     </div>
     <div class="thatsme">
         <div class="hi typewriter">

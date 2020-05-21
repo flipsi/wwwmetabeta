@@ -106,18 +106,7 @@ a.toggle_background {
     font-size: 3em;
     margin-bottom: 0.5em;
 }
-.home .portrait {
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-}
-.home .portrait img {
-    border-radius: 10px;
-    display: block;
-    width: 100%;
-}
-.home .portrait .fun {
+.home .portraitcontainer {
     display: none;
 }
 .home .thatsme {

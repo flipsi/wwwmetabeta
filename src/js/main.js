@@ -78,47 +78,6 @@ $(function () {
 });
 
 
-////////////////////
-// Portrait image //
-////////////////////
-
-$(function () {
-
-    const FUNNY_PORTRAIT_DURATION = 900;
-    const FUNNY_PORTRAIT_TIMEOUT_MIN = 5 * 1000;
-    const FUNNY_PORTRAIT_TIMEOUT_MAX = 40 * 1000;
-    const FUNNY_PORTRAIT_TIMOUT_FIRST = 9500;
-
-    const $portraitContainer = $('.portrait');
-    const $portraitRegular = $('.portrait .regular');
-    const $portraitFun = $('.portrait .fun');
-
-    $portraitContainer.css({'opacity': '0.0'});
-    $portraitContainer.animate({'right': '20px', 'opacity': '1.0'}, 300);
-
-    function togglePortraits() {
-        if ($portraitRegular.css('display') === 'none') {
-            $portraitRegular.css({'display': 'block'});
-            $portraitFun.css({'display': 'none'});
-        } else {
-            $portraitRegular.css({'display': 'none'});
-            $portraitFun.css({'display': 'block'});
-        }
-    }
-
-    function beFunnyOnceInAWhile() {
-        togglePortraits();
-        setTimeout(function() {
-            togglePortraits();
-        }, FUNNY_PORTRAIT_DURATION);
-        setTimeout(beFunnyOnceInAWhile, randomInt(
-            FUNNY_PORTRAIT_TIMEOUT_MIN,
-            FUNNY_PORTRAIT_TIMEOUT_MAX));
-    }
-    setTimeout(beFunnyOnceInAWhile, FUNNY_PORTRAIT_TIMOUT_FIRST);
-
-});
-
 
 //////////////////
 // Funny banana //
