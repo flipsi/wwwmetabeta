@@ -246,6 +246,7 @@ a.toggle_background {
 /* The arrows next to containers */
 .curriculumvitae .left::before,
 .curriculumvitae .right::before {
+    display: none; /* because they look shitty if containers have fancy borders */
     content: " ";
     width: 0;
     height: 0;
