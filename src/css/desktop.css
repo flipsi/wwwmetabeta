@@ -80,6 +80,7 @@ img.background {
     grid-template-columns: 33% 33% 33%;
 }
 .footer {
+    grid-template-columns: 5% 0.5fr 0.5fr 5%;
     font-size: 0.8em;
 }
 .footer .copyright {
@@ -87,5 +88,4 @@ img.background {
 }
 .footer nav {
     grid-column: 3 / span 1;
-    justify-self: right;
 }
