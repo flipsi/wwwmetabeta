@@ -203,8 +203,10 @@
                         People like
                         <a href="https://www.youtube.com/user/jacobcolliermusic">Jacob Collier</a>
                         inspire me.
-                        I play the piano and base guitar and
-                        <a href="http://catchatune.de/">am singing in a Jazz choir</a>.
+                        Learning to play the piano when I was young, I am now playing electric bass guitar in
+                        <a href="https://www.cantaloupe-jazz.com/wp/">a Big Band</a>
+                        and singing in
+                        <a href="http://catchatune.de/">a Jazz choir</a>.
                     </p>
                 </div>
 
