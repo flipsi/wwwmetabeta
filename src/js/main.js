@@ -85,9 +85,9 @@ $(function () {
 
 $(function () {
 
-    const BANANA_DURATION = 4000;
-    const BANANA_TIMEOUT_MIN = 5 * 1000;
-    const BANANA_TIMEOUT_MAX = 10 * 1000;
+    const BANANA_DURATION = 2000;
+    const BANANA_TIMEOUT_MIN = 8 * 1000;
+    const BANANA_TIMEOUT_MAX = 30 * 1000;
     const BANANA_TIMOUT_FIRST = 5000;
 
     const $linklist = $('.links > ul');
