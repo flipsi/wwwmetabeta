@@ -155,9 +155,9 @@
                     <p class="title">Vim, Scripting and the CLI</p>
                     <p class="description">
                         Being an absolute Vim addict,
-                        <a href="https://github.com/sflip/dotfiles/blob/master/vim/vimrc">my .vimrc</a> has over 4000
-                        lines. I love to customize my dev environment and hate to move my hands away from the keyboard.
-                        If I manage to automate another nasty task, it makes me sleep better.
+                        <a href="https://github.com/sflip/dotfiles/blob/master/vim/vimrc">my handcrafted .vimrc</a> has
+                        over 5000 lines. I love to customize my dev environment - and hate to move my hands away from
+                        the keyboard. If I manage to automate another nasty task, it makes me sleep better.
                     </p>
                 </div>
 
