@@ -135,7 +135,8 @@
                     <p class="title"><?php echo gettext('aboutme:ias:agile_and_communication:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:ias:agile_and_communication:description'),
-                            '<a href="https://agilemanifesto.org/">Agile Manifesto</a>'
+                            '<a href="https://agilemanifesto.org/">' .
+                                gettext('aboutme:ias:agile_and_communication:manifesto') . '</a>',
                         ); ?>
                     </p>
                 </div>
@@ -188,7 +189,7 @@
                     <p class="title"><?php echo gettext('aboutme:ias:puzzles_and_problems:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:ias:puzzles_and_problems:description'),
-                            '<i>just works</i>',
+                            '<i>' . gettext('aboutme:ias:puzzles_and_problems:just_works') . '</i>',
                         ); ?>
                     </p>
                 </div>
