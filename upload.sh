@@ -13,7 +13,7 @@ function upload_via_ssh() {
     # [[ "${SRC}" != */ ]] && SRC="${SRC}/" # append trailing slash if there is none
     [[ "${SRC}" == */ ]] && SRC="${SRC: : -1}" # remove trailing slash if there is one
     # scp -r "$SRC/." "$USER@$HOST:/$DST"
-    rsync -ruL --progress "$SRC/." "$USER@$HOST:$DST"
+    rsync -rL --progress "$SRC/." "$USER@$HOST:$DST"
 }
 
 
