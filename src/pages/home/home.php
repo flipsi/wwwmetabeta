@@ -33,12 +33,13 @@
         <div class="hi typewriter">
             <?php echo randomGreeting(); ?>
         </div>
-        My name is Philipp.
-        Some people call me Flipsi.
-        I like to craft software, play music and eat
-        <span class="bananatoggle">bananas</span>.
-        <a href="?page=aboutme">Get to know me here</a>
-        or meet me anywhere:
+        <?php echo sprintf(
+            gettext('home:introduction'),
+            '<span class="bananatoggle">' . ngettext('banana', 'bananas', 2) . '</span>',
+            '<a href="?page=aboutme">' . gettext('home:introduction:get_to_know_me') . '</a>'
+        ); ?>
+
+
 
         <div class="links">
             <ul>

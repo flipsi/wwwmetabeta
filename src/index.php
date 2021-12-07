@@ -1,26 +1,50 @@
 <?php
 
-$uiStrings = array(
-    'title'                 => 'Philipp Moers',
-    'subtitle'              => 'Software Engineer / Musician / Banana Nerd',
-    'home'                  => 'Home',
-    'aboutme'               => 'About Me',
-    'blog'                  => 'Blog',
-    'imprint'               => 'Imprint',
-    'toggle_background'     => 'Background',
-    'toggle_dark'           => 'Dark',
-    'toggle_bright'         => 'Bright',
-);
+define('ENGLISH','en_US.UTF-8');
+define('GERMAN', 'de_DE.UTF-8');
+define('FALLBACK_LANG', ENGLISH);
+
+define('COOKIE_LANG', 'LANG');
+
+$LANG = FALLBACK_LANG;
 
 
- ?>
+function manage_user_locale() {
+    global $LANG;
+    if (!empty($_POST['LANG'])) {
+        $LANG = $_POST['LANG'];
+        setcookie(COOKIE_LANG, $LANG);
+        header('Location: ' . $_SERVER['REQUEST_URI']); // PRG pattern
+        exit;
+    // } else if (false) { // TODO: detect browser language
+        // $LANG = ???
+    }
+    if (!empty($_COOKIE[COOKIE_LANG] )) {
+        $LANG = $_COOKIE[COOKIE_LANG];
+    }
+}
+
+function setup_localization() {
+    global $LANG;
+    putenv("LANG=" . $LANG);
+    setlocale(LC_ALL, $LANG);
+    $domain = "messages"; // files have to be named like that
+    bindtextdomain($domain, "./locale"); // location of translations
+    textdomain($domain);
+}
+
+
+manage_user_locale();
+setup_localization();
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
     <title>
-        <?php echo $uiStrings['title']; ?>
+        <?php echo gettext('title'); ?>
     </title>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -50,10 +74,10 @@ $uiStrings = array(
         <div class="branding">
             <a href="?page=home">
             <h1>
-                <?php echo $uiStrings['title']; ?>
+                <?php echo gettext('title'); ?>
             </h1>
             <h2>
-                <?php echo '&thinsp;' . $uiStrings['subtitle']; ?>
+                <?php echo '&thinsp;' . gettext('subtitle'); ?>
             </h2>
             </a>
         </div>
@@ -62,17 +86,17 @@ $uiStrings = array(
             <ul>
                 <li>
                     <a href="?page=home">
-                        <?php echo $uiStrings['home']; ?>
+                        <?php echo gettext('home'); ?>
                     </a>
                 </li>
                 <li>
                     <a href="?page=aboutme">
-                        <?php echo $uiStrings['aboutme']; ?>
+                        <?php echo gettext('aboutme'); ?>
                     </a>
                 </li>
                 <li>
                     <a href="?page=blog">
-                        <?php echo $uiStrings['blog']; ?>
+                        <?php echo gettext('blog'); ?>
                     </a>
                 </li>
             </ul>
@@ -87,7 +111,10 @@ $uiStrings = array(
 
             <?php
 
-                switch ($_GET['page']) {
+                $default_page = 'home';
+                $page = !empty($_GET['page']) ? $_GET['page'] : $default_page;
+
+                switch ($page) {
 
                     case 'home':
                         include 'pages/home/home.php';
@@ -119,37 +146,47 @@ $uiStrings = array(
     <footer class="footer">
 
         <div class="copyright">
-            © <?php echo date("Y"); ?> Philipp Moers.
+            © <?php echo date('Y') . ' ' . gettext('name') . '.' ; ?>
         </div>
 
         <nav>
             <ul>
                 <li>
+                    <form id="toggleLanguage" action="." method="post">
+                        <?php if ($LANG === ENGLISH) : ?>
+                            <input type="hidden" name="LANG" value="<?php echo GERMAN; ?>" />
+                            <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
+                                <?php echo gettext('toggle_german'); ?>
+                            </a>
+                        <?php else : ?>
+                            <input type="hidden" name="LANG" value="<?php echo ENGLISH; ?>" />
+                            <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
+                                <?php echo gettext('toggle_english'); ?>
+                            </a>
+                        <?php endif ?>
+                    </form>
+                </li>
+                <li>
                     <a href="#" onclick="return false" class="toggle_dark">
-                        <?php echo $uiStrings['toggle_dark']; ?>
+                        <?php echo gettext('toggle_dark'); ?>
                     </a>
                     <a href="#" onclick="return false" class="toggle_bright">
-                        <?php echo $uiStrings['toggle_bright']; ?>
+                        <?php echo gettext('toggle_bright'); ?>
                     </a>
                 </li>
                 <li>
                     <a href="#" onclick="return false" class="toggle_background">
-                        <?php echo $uiStrings['toggle_background']; ?>
+                        <?php echo gettext('toggle_background'); ?>
                     </a>
                 </li>
                 <li>
                     <a href="?page=home">
-                        <?php echo $uiStrings['home']; ?>
-                    </a>
-                </li>
-                <li>
-                    <a href="?page=aboutme">
-                        <?php echo $uiStrings['aboutme']; ?>
+                        <?php echo gettext('home'); ?>
                     </a>
                 </li>
                 <li>
                     <a href="?page=imprint">
-                        <?php echo $uiStrings['imprint']; ?>
+                        <?php echo gettext('imprint'); ?>
                     </a>
                 </li>
             </ul>

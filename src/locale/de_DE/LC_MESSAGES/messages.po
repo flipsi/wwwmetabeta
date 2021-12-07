@@ -1,0 +1,273 @@
+msgid "name"
+msgstr "Philipp Moers"
+
+msgid "title"
+msgstr "Philipp Moers"
+
+msgid "subtitle"
+msgstr "Software-Entwickler / Musiker / Bananen-Nerd"
+
+msgid "home"
+msgstr "Start"
+
+msgid "aboutme"
+msgstr "Über mich"
+
+msgid "blog"
+msgstr "Blog"
+
+msgid "imprint"
+msgstr "Impressum"
+
+msgid "toggle_background"
+msgstr "Hintergrund"
+
+msgid "toggle_dark"
+msgstr "Dunkel"
+
+msgid "toggle_bright"
+msgstr "Hell"
+
+msgid "toggle_german"
+msgstr "Deutsch"
+
+msgid "toggle_english"
+msgstr "Englisch"
+
+msgid "home:introduction"
+msgstr ""
+"Mein Name ist Philipp. Manche nennen mich Flipsi. "
+"Ich baue gerne Software, mache Musik und esse %s. "
+"%s oder triff mich wo du willst:"
+
+msgid "home:introduction:get_to_know_me"
+msgstr "Lerne mich hier kennen"
+
+msgid "banana"
+msgid_plural "bananas"
+msgstr[0] "Banane"
+msgstr[1] "Bananen"
+
+msgid "aboutme:cv"
+msgstr "Lebenslauf"
+
+msgid "aboutme:interests_and_skills"
+msgstr "Interessen und Fähigkeiten"
+
+msgid "aboutme:cv:ryte:when"
+msgstr "März 2017 - jetzt"
+
+msgid "aboutme:cv:ryte:where"
+msgstr "Ryte GmbH"
+
+msgid "aboutme:cv:ryte:what"
+msgstr "Software-Entwickler"
+
+msgid "aboutme:cv:brainworks:when"
+msgstr "Oktober 2015 - März 2017"
+
+msgid "aboutme:cv:brainworks:where"
+msgstr "brainworks computer technologie GmbH"
+
+msgid "aboutme:cv:brainworks:what"
+msgstr "Web-Entwickler"
+
+msgid "aboutme:cv:lmu:when"
+msgstr "2014 - 2017"
+
+msgid "aboutme:cv:lmu:where"
+msgstr "Ludwig-Maximilians Universität München"
+
+msgid "aboutme:cv:lmu:what"
+msgstr "Master of Science (M.Sc.) Medieninformatik"
+
+msgid "aboutme:cv:lmu:thesis_title"
+msgstr "Der Vergleich von Trajektorien: Wie man mit Pfaden von bewegten Objekten umgeht"
+
+msgid "aboutme:cv:tubingen:when"
+msgstr "2011 - 2014"
+
+msgid "aboutme:cv:tubingen:where"
+msgstr "Eberhard Karls Universität Tübingen"
+
+msgid "aboutme:cv:tubingen:what"
+msgstr "Bachelor of Science (B.Sc.) Medieninformatik"
+
+msgid "aboutme:cv:tubingen:thesis_title"
+msgstr "Binoculars for Habitat: Implementation of a Web-Based Frontend for an Observational SQL-Debugger"
+
+msgid "aboutme:cv:go:when"
+msgstr "2002 - 2011"
+
+msgid "aboutme:cv:go:where"
+msgstr "Gymnasium Odenthal"
+
+msgid "aboutme:cv:go:what"
+msgstr "Abitur"
+
+msgid "aboutme:cv:swimming:when"
+msgstr "1998"
+
+msgid "aboutme:cv:swimming:where"
+msgstr "Schwimmverein Paffrath"
+
+msgid "aboutme:cv:swimming:what"
+msgstr "Seepferdchen"
+
+msgid "aboutme:thesis"
+msgstr "Abschlussarbeit"
+
+# TODO: translate everything below
+
+msgid "aboutme:ias:explanation"
+msgstr ""
+"The world is jam-full of things to be curious about. "
+"It is my belief that one can self-improve at almost anything by spending time and energy on it. "
+"Hence, this is a collection of both, things I am enthusiastic about and more or less good at. "
+
+msgid "aboutme:ias:scala_and_fp:title"
+msgstr "Scala and Functional Programming"
+
+msgid "aboutme:ias:scala_and_fp:description"
+msgstr ""
+"There are lots of facts that I love about %s. "
+"First and foremost it implements the concepts of %s which I am an absolute fan of. "
+"But also it makes writing concise code easy and I do loathe boilerplate."
+
+msgid "aboutme:ias:scala_and_fp:fp"
+msgstr "Functional Programming"
+
+msgid "aboutme:ias:reactive_and_streams:title"
+msgstr "Reactive Systems and Streaming Data"
+
+msgid "aboutme:ias:reactive_and_streams:description"
+msgstr ""
+"In my view, Sofware Engineering is still in an early stage of its development. "
+"To build modern and reliable software system of the future, in addition to Functional "
+"Programming, carefully designed paradigm frameworks like the %s can lead the way. "
+
+msgid "aboutme:ias:bits_and_dbs:title"
+msgstr "Bits and Databases"
+
+msgid "aboutme:ias:bits_and_dbs:description"
+msgstr ""
+"If it's true that %s, I think it's absolutely necessary to spread knowledge about "
+"the basics of %s, "
+"how bits as the atomic unit of information become structured data, "
+" %s, "
+"and how databases actually work. "
+"After all, %s."
+
+msgid "aboutme:ias:bits_and_dbs:data_is_oil"
+msgstr "data is the new oil of the 21st century"
+
+msgid "aboutme:ias:bits_and_dbs:information_theory"
+msgstr "Information theory"
+
+msgid "aboutme:ias:bits_and_dbs:scientia_potentia_est"
+msgstr "scientia potentia est"
+
+msgid "aboutme:ias:agile_and_communication:title"
+msgstr "Agile Principles and Communication"
+
+msgid "aboutme:ias:agile_and_communication:description"
+msgstr ""
+"I wholeheartedly dig the %s, "
+"because I think its strength lies in the fact that it's closer to the way humans think and live than other approaches."
+" Whenever I'm convinced that there is a structural issue, "
+"I'd rather spend my time discussing it than risking to waste time in unreasoning labour."
+
+msgid "aboutme:ias:linux_and_foss:title"
+msgstr "Linux and Free Software"
+
+msgid "aboutme:ias:linux_and_foss:description"
+msgstr ""
+"I'm convinced that the existence of Free Software makes the world a better place. "
+"Not only that I use Linux - the OS that sucks fewest - personally, "
+"I think it also is a matter of public interest and support %s. "
+
+msgid "aboutme:ias:vim_and_scripting:title"
+msgstr "Vim, Scripting and the CLI"
+
+msgid "aboutme:ias:vim_and_scripting:description"
+msgstr ""
+"Being an absolute Vim addict, %s has over 5000 lines. "
+"I love to customize my dev environment - and hate to move my hands away from the keyboard. "
+"If I manage to automate another nasty task, it makes me sleep better. "
+
+msgid "aboutme:ias:vim_and_scripting:my_vimrc"
+msgstr "my handcrafted .vimrc"
+
+msgid "aboutme:ias:maths_and_philosophy:title"
+msgstr "Mathematics and Philosophy"
+
+msgid "aboutme:ias:maths_and_philosophy:description"
+msgstr ""
+"It fascinates me how intermingled different fields as mathemathics, philosophy and music really are, "
+"e.g. the concept of %s can be found everywhere. "
+"I'm the happiest whenever a new beautiful %s pops up as I am getting closer to what's at the core of cognition and intelligence. "
+"One of the best expressions of this idea may be one of my favorite books: %s."
+
+msgid "aboutme:ias:maths_and_philosophy:recursion"
+msgstr "recursion"
+
+msgid "aboutme:ias:maths_and_philosophy:isomorphism"
+msgstr "isomorphism"
+
+msgid "aboutme:ias:maths_and_philosophy:geb"
+msgstr "GEB by Douglas Hofstadter"
+
+msgid "aboutme:ias:science_and_cr:title"
+msgstr "Science and Critical Rationalism"
+
+msgid "aboutme:ias:science_and_cr:description"
+msgstr ""
+"The most important finding of science was the finding of our own ignorance. "
+"The Enlightenment is probably one of the best things that happened to mankind. "
+"But from %s to Einstein proving Newton wrong, history makes me humble and I sympathize with the idea of %s."
+
+msgid "aboutme:ias:science_and_cr:cr"
+msgstr "Critical rationalism"
+
+msgid "aboutme:ias:puzzles_and_problems:title"
+msgstr "Logical Puzzles and Problem Solving"
+
+msgid "aboutme:ias:puzzles_and_problems:description"
+msgstr ""
+"I guess the reason that I enjoy programming so much is that it's like solving a mental puzzle. "
+"Nothing beats the satisfaction when one's mind has resolved that state of confusion using logic and creativity "
+"to the same extend and turned it into some program that %s."
+
+msgid "aboutme:ias:music:title"
+msgstr "Listen to and make Music"
+
+msgid "aboutme:ias:music:description"
+msgstr ""
+"Music is my place of inner peace. From Jazz over Funk and Soul via Electroswing to Hard Rock, "
+"I enjoy a broad spectrum - I think of music as I think of food: regularity and diversity matter! "
+"People like %s inspire me. "
+"Learning to play the piano when I was young, "
+"I am now playing electric bass guitar in a %s and singing in %s."
+
+msgid "aboutme:ias:music:cantaloupe"
+msgstr "a Big Band"
+
+msgid "aboutme:ias:music:catchatune"
+msgstr "a Jazz choir"
+
+msgid "aboutme:ias:sports:title"
+msgstr "Table tennis and Rock Climbing"
+
+msgid "aboutme:ias:sports:description"
+msgstr ""
+"Table tennis is the sport I grew up with. I love the precision and competition and only plan to retire when I die. "
+"Many years ago now, I also discovered rock climbing. The holistic requirements fascinate me and I can really clear my mind being on the wall."
+
+msgid "aboutme:ias:playing_games:title"
+msgstr "Poker and Board Games"
+
+msgid "aboutme:ias:playing_games:description"
+msgstr ""
+"Even though I tend to like gambling sometimes, I believe poker isn't about gambling at all. "
+"To me, it's just the perfect symbiosis of statistics and psychology. "
+"Also it teaches my a lot from the mechanics of capitalism to being a good sport when losing. "

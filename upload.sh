@@ -23,7 +23,7 @@ case $SERVER in
         echo "Uploading to Strato..."
         USER=$(pass strato/flipsi | grep ssh-user | cut -f2 -d' ')
         HOST=$(pass strato/flipsi | grep ssh-host | cut -f2 -d' ')
-        SRC="src/"
+        SRC="target/"
         DST="www/"
         upload_via_ssh
         ;;
@@ -31,7 +31,7 @@ case $SERVER in
         echo "Uploading to bplaced..."
         USER=$(pass bplaced.net/gmail | grep login | cut -f2 -d' ')
         PASS=$(pass bplaced.net/gmail | head -n1 | tr -d '\n')
-        SRC="src/"
+        SRC="target/"
         HOST="sflip.bplaced.net"
         DST="/www/"
         upload_via_ftp
