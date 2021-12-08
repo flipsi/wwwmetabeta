@@ -51,7 +51,7 @@ msgstr[1] "Bananen"
 msgid "aboutme:cv"
 msgstr "Lebenslauf"
 
-msgid "aboutme:interests_and_skills"
+msgid "aboutme:ias"
 msgstr "Interessen und Fähigkeiten"
 
 msgid "aboutme:cv:ryte:when"

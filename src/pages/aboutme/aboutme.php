@@ -3,7 +3,7 @@
     <nav>
         <ul>
             <li><a href="#article_cv"><?php echo gettext('aboutme:cv'); ?></a></li>
-            <li><a href="#article_interests"><?php echo gettext('aboutme:interests_and_skills'); ?></a></li>
+            <li><a href="#article_interests"><?php echo gettext('aboutme:ias'); ?></a></li>
         </ul>
     </nav>
 
