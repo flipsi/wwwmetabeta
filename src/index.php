@@ -11,16 +11,25 @@ $LANG = FALLBACK_LANG;
 
 function manage_user_locale() {
     global $LANG;
+    $browser_language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if (!empty($_POST['LANG'])) {
         $LANG = $_POST['LANG'];
         setcookie(COOKIE_LANG, $LANG);
         header('Location: ' . $_SERVER['REQUEST_URI']); // PRG pattern
         exit;
-    // } else if (false) { // TODO: detect browser language
-        // $LANG = ???
     }
-    if (!empty($_COOKIE[COOKIE_LANG] )) {
+    if (!empty($_COOKIE[COOKIE_LANG])) {
         $LANG = $_COOKIE[COOKIE_LANG];
+    } else {
+        switch ($browser_language) {
+            case 'de':
+                $LANG = GERMAN;
+                break;
+            default:
+                $LANG = ENGLISH;
+                break;
+        }
+        setcookie(COOKIE_LANG, $LANG);
     }
 }
 
