@@ -117,8 +117,6 @@ msgstr "Seepferdchen"
 msgid "aboutme:thesis"
 msgstr "Abschlussarbeit"
 
-# TODO: translate everything below
-
 msgid "aboutme:ias:explanation"
 msgstr ""
 "Das Leben ist voller Dinge, auf die es sich lohnt neugierig zu sein. "
