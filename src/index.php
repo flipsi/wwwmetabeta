@@ -21,14 +21,7 @@ function manage_user_locale() {
     if (!empty($_COOKIE[COOKIE_LANG])) {
         $LANG = $_COOKIE[COOKIE_LANG];
     } else {
-        switch ($browser_language) {
-            case 'de':
-                $LANG = GERMAN;
-                break;
-            default:
-                $LANG = ENGLISH;
-                break;
-        }
+        $LANG = $browser_language === 'de' ? GERMAN : FALLBACK_LANG;
         setcookie(COOKIE_LANG, $LANG);
     }
 }
