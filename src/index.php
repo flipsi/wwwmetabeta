@@ -182,11 +182,6 @@ setup_localization();
                     </a>
                 </li>
                 <li>
-                    <a href="?page=home">
-                        <?php echo gettext('home'); ?>
-                    </a>
-                </li>
-                <li>
                     <a href="?page=imprint">
                         <?php echo gettext('imprint'); ?>
                     </a>
