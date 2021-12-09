@@ -118,10 +118,6 @@ setup_localization();
 
                 switch ($page) {
 
-                    case 'home':
-                        include 'pages/home/home.php';
-                        break;
-
                     case 'aboutme':
                         include 'pages/aboutme/aboutme.php';
                         break;
