@@ -3,7 +3,7 @@
     <nav>
         <ul>
             <li><a href="#article_cv"><?php echo gettext('aboutme:cv'); ?></a></li>
-            <li><a href="#article_interests"><?php echo gettext('aboutme:ias'); ?></a></li>
+            <li><a href="#article_interests"><?php echo gettext('aboutme:interests'); ?></a></li>
         </ul>
     </nav>
 
@@ -91,141 +91,141 @@
 
         <article id="article_interests">
 
-            <h1><?php echo gettext('aboutme:interests_and_skills'); ?></h1>
-            <p><?php echo gettext('aboutme:ias:explanation'); ?></p>
+            <h1><?php echo gettext('aboutme:interests'); ?></h1>
+            <p><?php echo gettext('aboutme:interests:explanation'); ?></p>
 
             <div class="interesting_boxes">
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:scala_and_fp:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:scala_and_fp:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:scala_and_fp:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:scala_and_fp:description'),
                             '<a href="https://www.scala-lang.org/">Scala</a>',
                             '<a href="https://en.wikipedia.org/wiki/Functional_programming">' .
-                                gettext('aboutme:ias:scala_and_fp:fp') . '</a>'
+                                gettext('aboutme:interests:scala_and_fp:fp') . '</a>'
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:reactive_and_streams:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:reactive_and_streams:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:reactive_and_streams:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:reactive_and_streams:description'),
                             '<a href="https://www.reactivemanifesto.org/">Reactive Manifesto</a>'
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:bits_and_dbs:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:bits_and_dbs:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:bits_and_dbs:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:bits_and_dbs:description'),
                             '<a href="https://blog.s4rb.com/data-is-the-oil-of-the-21st-century">' .
-                                gettext('aboutme:ias:bits_and_dbs:data_is_oil') . '</a>',
+                                gettext('aboutme:interests:bits_and_dbs:data_is_oil') . '</a>',
                             '<a href="https://en.wikipedia.org/wiki/Information_theory">' .
-                                gettext('aboutme:ias:bits_and_dbs:information_theory') . '</a>',
+                                gettext('aboutme:interests:bits_and_dbs:information_theory') . '</a>',
                             '<a href="https://en.wikipedia.org/wiki/SQL">SQL</a>',
                             '<a href="https://en.wikipedia.org/wiki/Scientia_potentia_est">' .
-                                gettext('aboutme:ias:bits_and_dbs:scientia_potentia_est') . '</a>',
+                                gettext('aboutme:interests:bits_and_dbs:scientia_potentia_est') . '</a>',
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:agile_and_communication:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:agile_and_communication:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:agile_and_communication:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:agile_and_communication:description'),
                             '<a href="https://agilemanifesto.org/">' .
-                                gettext('aboutme:ias:agile_and_communication:manifesto') . '</a>',
+                                gettext('aboutme:interests:agile_and_communication:manifesto') . '</a>',
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:linux_and_foss:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:linux_and_foss:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:linux_and_foss:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:linux_and_foss:description'),
                             '<i><a href="https://publiccode.eu/openletter/">Public Money - Public Code</a></i>'
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:vim_and_scripting:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:vim_and_scripting:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:vim_and_scripting:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:vim_and_scripting:description'),
                             '<a href="https://github.com/sflip/dotfiles/blob/master/vim/vimrc">' .
-                                gettext('aboutme:ias:vim_and_scripting:my_vimrc') . '</a>',
+                                gettext('aboutme:interests:vim_and_scripting:my_vimrc') . '</a>',
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:maths_and_philosophy:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:maths_and_philosophy:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:maths_and_philosophy:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:maths_and_philosophy:description'),
                             '<a href="https://en.wikipedia.org/wiki/Recursion">' .
-                                gettext('aboutme:ias:maths_and_philosophy:recursion') . '</a>',
+                                gettext('aboutme:interests:maths_and_philosophy:recursion') . '</a>',
                             '<a href="https://en.wikipedia.org/wiki/Isomorphism">' .
-                                gettext('aboutme:ias:maths_and_philosophy:isomorphism') . '</a>',
+                                gettext('aboutme:interests:maths_and_philosophy:isomorphism') . '</a>',
                             '<a href="https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach">' .
-                                gettext('aboutme:ias:maths_and_philosophy:geb') . '</a>',
+                                gettext('aboutme:interests:maths_and_philosophy:geb') . '</a>',
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:science_and_cr:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:science_and_cr:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:science_and_cr:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:science_and_cr:description'),
                             '<a href="https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems">Gödel</a>',
                             '<a href="https://en.wikipedia.org/wiki/Critical_rationalism">' .
-                                gettext('aboutme:ias:science_and_cr:cr') . '</a>',
+                                gettext('aboutme:interests:science_and_cr:cr') . '</a>',
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:puzzles_and_problems:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:puzzles_and_problems:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:puzzles_and_problems:description'),
-                            '<i>' . gettext('aboutme:ias:puzzles_and_problems:just_works') . '</i>',
+                        <?php echo sprintf(gettext('aboutme:interests:puzzles_and_problems:description'),
+                            '<i>' . gettext('aboutme:interests:puzzles_and_problems:just_works') . '</i>',
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:music:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:music:title'); ?></p>
                     <p class="description">
-                        <?php echo sprintf(gettext('aboutme:ias:music:description'),
+                        <?php echo sprintf(gettext('aboutme:interests:music:description'),
                             '<a href="https://www.youtube.com/user/jacobcolliermusic">Jacob Collier</a>',
                             '<a href="https://www.cantaloupe-jazz.com/wp/">' .
-                                gettext('aboutme:ias:music:cantaloupe') . '</a>',
+                                gettext('aboutme:interests:music:cantaloupe') . '</a>',
                             '<a href="http://catchatune.de/">' .
-                                gettext('aboutme:ias:music:catchatune') . '</a>',
+                                gettext('aboutme:interests:music:catchatune') . '</a>',
                         ); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:sports:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:sports:title'); ?></p>
                     <p class="description">
-                        <?php echo gettext('aboutme:ias:sports:description'); ?>
+                        <?php echo gettext('aboutme:interests:sports:description'); ?>
                     </p>
                 </div>
 
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:playing_games:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:playing_games:title'); ?></p>
                     <p class="description">
-                        <?php echo gettext('aboutme:ias:playing_games:description'); ?>
+                        <?php echo gettext('aboutme:interests:playing_games:description'); ?>
                     </p>
                 </div>
 
                 <!--
                 <div>
-                    <p class="title"><?php echo gettext('aboutme:ias:bananas:title'); ?></p>
+                    <p class="title"><?php echo gettext('aboutme:interests:bananas:title'); ?></p>
                     <p class="description">
-                        <?php echo gettext('aboutme:ias:bananas:description'); ?>
+                        <?php echo gettext('aboutme:interests:bananas:description'); ?>
                     </p>
                 </div>
                 -->
