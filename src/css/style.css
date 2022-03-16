@@ -106,7 +106,17 @@ a.toggle_background {
     margin-bottom: 0.5em;
 }
 .home .portraitcontainer {
-    display: none;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.home .portrait {
+    background-image: url("../img/bewerbungsfoto-20170602-regular-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .home .thatsme {
     overflow: auto;

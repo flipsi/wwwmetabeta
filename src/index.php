@@ -65,6 +65,7 @@ setup_localization();
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1025px)">
+    <link href="css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)">
     <link href="css/colors.bright.css" class="stylesheet_bright" rel="stylesheet" type="text/css" media="screen" disabled>
     <link href="css/colors.dark.css" class="stylesheet_dark" rel="stylesheet" type="text/css" media="screen">
 
