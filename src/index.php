@@ -90,7 +90,7 @@ setup_localization();
             <div class="setting_icons">
                 <ul>
                     <li>
-                        <form id="toggleLanguage" action="." method="post">
+                        <form id="toggleLanguage" action="?<?php echo $_SERVER['QUERY_STRING']; ?>" method="post">
                             <?php if ($LANG === ENGLISH) : ?>
                                 <input type="hidden" name="LANG" value="<?php echo GERMAN; ?>" />
                                 <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
