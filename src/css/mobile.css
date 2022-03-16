@@ -1,3 +1,6 @@
+/* Ideally, there is no such file. Instead everything happens in style.css and
+ * is only overwritten in desktop.css */
+
 .header {
     min-height: 140px; /* prevent cumulative layout shift when toggling menu */
     padding-top: 0.5em;
