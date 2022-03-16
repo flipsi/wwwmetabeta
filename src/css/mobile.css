@@ -3,13 +3,12 @@
 
 .header {
     min-height: 140px; /* prevent cumulative layout shift when toggling menu */
-    padding-top: 0.5em;
+    padding-top: 1em;
 }
 .header .menu {
     display: none;
 }
 .header .setting_icons {
-    margin-top: 6px;
     margin-right: 15px;
 }
 .header .menu_icon {

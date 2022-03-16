@@ -80,7 +80,7 @@ nav li:first-child {
 }
 .header .branding h1 {
     font-size: 5em; /* fallback */
-    font-size: 12vw; /* adjust to branding strings */
+    font-size: 9vw; /* adjust to branding strings */
 }
 .header .branding h2 {
     font-size: 1em; /* fallback */
@@ -89,7 +89,7 @@ nav li:first-child {
 .header .menu {
     text-align: right;
     font-size: 1.0em; /* fallback */
-    font-size: 4.3vw; /* adjust to menu strings */
+    font-size: 4vw; /* adjust to menu strings */
 }
 .header .menu a {
     position: relative;
