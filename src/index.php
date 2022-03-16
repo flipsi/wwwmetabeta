@@ -148,7 +148,7 @@ setup_localization();
 
 
     <div class="pagewrapper">
-        <img class="background" loading="lazy" src="img/monkeymagicos.jpeg" alt=""/>
+        <img class="background" loading="lazy" src="img/04134_sassolungo_resized.jpg" alt=""/>
         <div class="page">
 
             <?php
