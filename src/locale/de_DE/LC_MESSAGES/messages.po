@@ -41,7 +41,7 @@ msgid "home:introduction"
 msgstr ""
 "Mein Name ist Philipp. Manche nennen mich Flipsi. "
 "Ich baue gerne Software, mache Musik und esse %s. "
-"%s oder triff mich wo du willst:"
+"%s oder finde mich woanders:"
 
 msgid "home:introduction:get_to_know_me"
 msgstr "Lerne mich hier kennen"
