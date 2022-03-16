@@ -96,6 +96,9 @@ msgstr "ultrasonic cleaner for glasses"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
+msgid "wishlist:item:children_toothbrush"
+msgstr "electric toothbrush"
+
 msgid "wishlist:item:baby_clothes"
 msgstr "baby clothing, size 86 or greater"
 

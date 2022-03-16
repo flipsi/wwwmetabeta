@@ -28,8 +28,10 @@
 <h1><?php echo gettext('wishlist:h1:daughter'); ?></h1>
 <p><?php echo gettext('wishlist:same_for_daughter'); ?></p>
 <ul class="wishlist">
+    <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
     <li><?php echo gettext('wishlist:item:baby_clothes'); ?></li>
     <li><?php echo gettext('wishlist:item:baby_mattress'); ?></li>
     <li><?php echo gettext('wishlist:item:baby_bedclothes'); ?></li>
     <li><?php echo gettext('wishlist:item:children_bike_trailer'); ?></li>
+    <li>Wenn kleine Tiere müde sind: Erste Reime für die gute Nacht <em class="isbn">(ISBN 978-3473315529)</em></li>
 </ul>

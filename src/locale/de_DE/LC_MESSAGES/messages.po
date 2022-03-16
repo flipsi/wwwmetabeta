@@ -96,6 +96,9 @@ msgstr "Ultraschallreiniger für Brillen"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
+msgid "wishlist:item:children_toothbrush"
+msgstr "elektrische Kinderzahnbürste"
+
 msgid "wishlist:item:baby_clothes"
 msgstr "Babykleidung ab Größe 86"
 
