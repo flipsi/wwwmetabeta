@@ -152,12 +152,12 @@ a.toggle_background {
 .home .links ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 25px;
+    margin-top: 22px;
 }
 .home .links li {
-    display: inline;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    display: inline-block;
+    margin-right: 22px;
+    margin-bottom: 22px;
 }
 .home .links li:last-child {
     margin-right: 0;

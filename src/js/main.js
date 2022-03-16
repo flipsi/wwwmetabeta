@@ -131,7 +131,7 @@ $(function () {
             $randomLink.after($banana);
         } else {
             $banana.remove();
-            $links.css({'display': 'inline'});
+            $links.css({'display': 'inline-block'});
         }
     }
 
