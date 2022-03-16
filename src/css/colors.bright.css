@@ -79,6 +79,9 @@ nav a:hover,
 .wishlist li::marker {
     color: #AA3838;
 }
+.wishlist .isbn {
+    color: #777;
+}
 .toggle_bright {
     display: none;
 }

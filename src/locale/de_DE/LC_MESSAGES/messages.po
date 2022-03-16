@@ -54,6 +54,9 @@ msgstr[1] "Bananen"
 msgid "wishlist:h1:introduction"
 msgstr "Wunschliste"
 
+msgid "wishlist:h1:books"
+msgstr "Bücher"
+
 msgid "wishlist:h1:always_nice"
 msgstr "Evergreens"
 
@@ -65,6 +68,9 @@ msgstr ""
 "Ich habe wirklich alles, was ich brauche. "
 "Es kommt allerdings einigermaßen regelmäßig vor, dass Menschen mir Geschenke machen wollen und nicht wissen, was ich gebrauchen könnte oder worüber ich mich freuen würde. "
 "Deswegen hier eine Liste, die es solchen Menschen erleichtern soll, ein Geschenk zu finden."
+
+msgid "wishlist:books"
+msgstr "... oder vielleicht ein Buch?"
 
 msgid "wishlist:always_nice"
 msgstr "Von manchen Dingen kann man nicht genug haben. Ich freue mich immer über folgendes:"
