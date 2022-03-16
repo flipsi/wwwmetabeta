@@ -298,6 +298,13 @@ a.toggle_background {
     display: none;
 }
 
+.wishlist li {
+    font-size: 1.5em;
+}
+.wishlist {
+    margin-bottom: 50px;
+}
+
 .footer  {
     position: absolute;
     bottom: 0;

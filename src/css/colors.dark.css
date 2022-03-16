@@ -74,6 +74,9 @@ nav a:hover,
 .curriculumvitae .right::before {
     border-color: transparent #555 transparent transparent;
 }
+.wishlist li::marker {
+    color: #F54B4B;
+}
 .toggle_dark {
     display: none;
 }

@@ -16,6 +16,9 @@ msgstr "Über mich"
 msgid "blog"
 msgstr "Blog"
 
+msgid "wishlist"
+msgstr "Wunschliste"
+
 msgid "imprint"
 msgstr "Impressum"
 
@@ -47,6 +50,57 @@ msgid "banana"
 msgid_plural "bananas"
 msgstr[0] "Banane"
 msgstr[1] "Bananen"
+
+msgid "wishlist:h1:introduction"
+msgstr "Wunschliste"
+
+msgid "wishlist:h1:always_nice"
+msgstr "Evergreens"
+
+msgid "wishlist:h1:daughter"
+msgstr "Meine Tochter"
+
+msgid "wishlist:introduction"
+msgstr ""
+"Ich habe wirklich alles, was ich brauche. "
+"Es kommt allerdings einigermaßen regelmäßig vor, dass Menschen mir Geschenke machen wollen und nicht wissen, was ich gebrauchen könnte oder worüber ich mich freuen würde. "
+"Deswegen hier eine Liste, die es solchen Menschen erleichtern soll, ein Geschenk zu finden."
+
+msgid "wishlist:always_nice"
+msgstr "Von manchen Dingen kann man nicht genug haben. Ich freue mich immer über folgendes:"
+
+msgid "wishlist:same_for_daughter"
+msgstr "Die oben beschriebene Problematik trifft auch auf meine Tochter zu."
+
+msgid "wishlist:item:board_games"
+msgstr "Gesellschafts- oder Kartenspiele"
+
+msgid "wishlist:item:whiskey"
+msgstr "Whiskey"
+
+msgid "wishlist:item:boule"
+msgstr "Boule-Kugeln"
+
+msgid "wishlist:item:chess"
+msgstr "Hochwertiges Schachspiel"
+
+msgid "wishlist:item:ultrasonic_cleaner"
+msgstr "Ultraschallreiniger für Brillen"
+
+msgid "wishlist:item:speedcube_4x4x4"
+msgstr "4x4x4 Speedcube"
+
+msgid "wishlist:item:baby_clothes"
+msgstr "Babykleidung ab Größe 86"
+
+msgid "wishlist:item:baby_mattress"
+msgstr "Kinderbettmatratze 140cm x 70cm"
+
+msgid "wishlist:item:baby_bedclothes"
+msgstr "Kinderbettwäsche und -bezüge"
+
+msgid "wishlist:item:children_bike_trailer"
+msgstr "Fahrradanhänger für Kinder"
 
 msgid "aboutme:cv"
 msgstr "Lebenslauf"

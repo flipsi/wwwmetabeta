@@ -16,6 +16,9 @@ msgstr "About Me"
 msgid "blog"
 msgstr "Blog"
 
+msgid "wishlist"
+msgstr "Wishlist"
+
 msgid "imprint"
 msgstr "Imprint"
 
@@ -47,6 +50,57 @@ msgid "banana"
 msgid_plural "bananas"
 msgstr[0] "banana"
 msgstr[1] "bananas"
+
+msgid "wishlist:h1:introduction"
+msgstr "Wishlist"
+
+msgid "wishlist:h1:always_nice"
+msgstr "Evergreens"
+
+msgid "wishlist:h1:daughter"
+msgstr "My daughter"
+
+msgid "wishlist:introduction"
+msgstr ""
+"I really do have everything I need. "
+"Still, every now and then people want to buy me a gift and don't know what I would enjoy. "
+"So here is a list of ideas as an inspiration for those people."
+
+msgid "wishlist:always_nice"
+msgstr "There are certain things you can't have enough of. I'm always happy if someone brings me the following:"
+
+msgid "wishlist:same_for_daughter"
+msgstr "The abovementioned problem also applies for my daughter."
+
+msgid "wishlist:item:board_games"
+msgstr "board or card games"
+
+msgid "wishlist:item:whiskey"
+msgstr "whiskey"
+
+msgid "wishlist:item:boule"
+msgstr "boules"
+
+msgid "wishlist:item:chess"
+msgstr "high quality chess game"
+
+msgid "wishlist:item:ultrasonic_cleaner"
+msgstr "ultrasonic cleaner for glasses"
+
+msgid "wishlist:item:speedcube_4x4x4"
+msgstr "4x4x4 Speedcube"
+
+msgid "wishlist:item:baby_clothes"
+msgstr "baby clothing, size 86 or greater"
+
+msgid "wishlist:item:baby_mattress"
+msgstr "children's bed mattress 140cm x 70cm"
+
+msgid "wishlist:item:baby_bedclothes"
+msgstr "bedclothes for childrens bed"
+
+msgid "wishlist:item:children_bike_trailer"
+msgstr "bike trailer for children"
 
 msgid "aboutme:cv"
 msgstr "Curriculum Vitae"

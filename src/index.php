@@ -90,15 +90,17 @@ setup_localization();
                     <a href="?page=home">
                         <?php echo gettext('home'); ?>
                     </a>
-                </li>
-                <li>
+                </li><li>
                     <a href="?page=aboutme">
                         <?php echo gettext('aboutme'); ?>
                     </a>
-                </li>
-                <li>
+                </li><li>
                     <a href="?page=blog">
                         <?php echo gettext('blog'); ?>
+                    </a>
+                </li><li>
+                    <a href="?page=wishlist">
+                        <?php echo gettext('wishlist'); ?>
                     </a>
                 </li>
             </ul>
@@ -124,6 +126,10 @@ setup_localization();
 
                     case 'blog':
                         include 'pages/blog/blog.php';
+                        break;
+
+                    case 'wishlist':
+                        include 'pages/wishlist/wishlist.php';
                         break;
 
                     case 'imprint':
