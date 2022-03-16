@@ -98,10 +98,12 @@ setup_localization();
                     <a href="?page=blog">
                         <?php echo gettext('blog'); ?>
                     </a>
+<?php /*
                 </li><li>
                     <a href="?page=wishlist">
                         <?php echo gettext('wishlist'); ?>
                     </a>
+ */ ?>
                 </li>
             </ul>
         </nav>
@@ -156,7 +158,7 @@ setup_localization();
         <nav>
             <ul>
                 <li>
-                    <form id="toggleLanguage" action="." method="post">
+                    <form id="toggleLanguage" action="?<?php echo $_SERVER['QUERY_STRING']; ?>" method="post">
                         <?php if ($LANG === ENGLISH) : ?>
                             <input type="hidden" name="LANG" value="<?php echo GERMAN; ?>" />
                             <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
