@@ -25,6 +25,8 @@ html, body {
     box-shadow: 5px 5px 5px 0 rgba(50, 50, 50, 0.75);
 }
 nav a:hover,
+.header .setting_icons a:hover,
+.header .setting_icons li:hover .material-icons,
 .pagewrapper a:hover,
 .footer a:hover,
 .header .branding h2,
