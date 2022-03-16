@@ -14,6 +14,13 @@ html, body {
     -webkit-box-shadow: 0 2px 1px 0 rgba(50, 50, 50, 0.88);
     box-shadow:         0 2px 1px 0 rgba(50, 50, 50, 0.88);
 }
+.header .menu_icon,
+.header .setting_icons .material-icons {
+    color: #666;
+}
+.header .setting_icons a {
+    color: #777;
+}
 .home .portrait img {
     box-shadow: 5px 5px 5px 0 rgba(50, 50, 50, 0.75);
 }

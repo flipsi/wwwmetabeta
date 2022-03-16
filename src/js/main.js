@@ -2,6 +2,31 @@ function randomInt(min, max) {
     return Math.floor(Math.random()*(max - min + 1) + min);
 }
 
+//////////
+// Menu //
+//////////
+
+$(function () {
+
+    const $menu_icon = $('.header .menu_icon');
+    const $menu = $('.header .menu');
+    const $branding = $('.header .branding');
+
+    const toggleMenu = () => {
+        if ($menu.css('display') === 'none') {
+            $branding.hide();
+            $menu.show();
+            $menu_icon.html('menu_open');
+        } else {
+            $branding.show();
+            $menu.hide();
+            $menu_icon.html('menu');
+        }
+    }
+
+    $menu_icon.on('click', toggleMenu);
+
+});
 
 //////////////////////
 // Background image //

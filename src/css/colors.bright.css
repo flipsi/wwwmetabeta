@@ -9,6 +9,13 @@ html, body {
 .header a {
     color: #DDD;
 }
+.header .menu_icon,
+.header .setting_icons .material-icons {
+    color: #555;
+}
+.header .setting_icons a {
+    color: #666;
+}
 .header {
     background-color:  #333;
     -webkit-box-shadow: 0 2px 1px 0 rgba(50, 50, 50, 0.88);

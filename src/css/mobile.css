@@ -1,3 +1,22 @@
+.header {
+    min-height: 140px; /* prevent cumulative layout shift when toggling menu */
+    padding-top: 0.5em;
+}
+.header .menu {
+    display: none;
+}
+.header .setting_icons {
+    margin-top: 6px;
+    margin-right: 15px;
+}
+.header .menu_icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.setting_icons .material-icons {
+    vertical-align: middle;
+}
 .home .portrait {
     width: 100%;
     height: 375px;

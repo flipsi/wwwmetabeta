@@ -32,10 +32,10 @@ msgid "toggle_bright"
 msgstr "Hell"
 
 msgid "toggle_german"
-msgstr "Deutsch"
+msgstr "DE"
 
 msgid "toggle_english"
-msgstr "Englisch"
+msgstr "EN"
 
 msgid "home:introduction"
 msgstr ""

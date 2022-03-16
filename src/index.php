@@ -62,6 +62,7 @@ setup_localization();
     <script src="js/main.js" charset="utf-8"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/desktop.css" rel="stylesheet" type="text/css" media="screen and (min-width: 1025px)">
@@ -85,27 +86,63 @@ setup_localization();
             </a>
         </div>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="?page=home">
-                        <?php echo gettext('home'); ?>
-                    </a>
-                </li><li>
-                    <a href="?page=aboutme">
-                        <?php echo gettext('aboutme'); ?>
-                    </a>
-                </li><li>
-                    <a href="?page=blog">
-                        <?php echo gettext('blog'); ?>
-                    </a>
-                </li><li>
-                    <a href="?page=wishlist">
-                        <?php echo gettext('wishlist'); ?>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <div class="menu">
+            <div class="setting_icons">
+                <ul>
+                    <li>
+                        <form id="toggleLanguage" action="." method="post">
+                            <?php if ($LANG === ENGLISH) : ?>
+                                <input type="hidden" name="LANG" value="<?php echo GERMAN; ?>" />
+                                <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
+                                    <?php echo gettext('toggle_german'); ?>
+                                </a>
+                            <?php else : ?>
+                                <input type="hidden" name="LANG" value="<?php echo ENGLISH; ?>" />
+                                <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
+                                    <?php echo gettext('toggle_english'); ?>
+                                </a>
+                            <?php endif ?>
+                        </form>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false" class="toggle_dark">
+                            <div class="material-icons">dark_mode</div>
+                        </a>
+                        <a href="#" onclick="return false" class="toggle_bright">
+                            <div class="material-icons">light_mode</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false" class="toggle_background">
+                            <div class="material-icons">image</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="?page=home">
+                            <?php echo gettext('home'); ?>
+                        </a>
+                    </li><li>
+                        <a href="?page=aboutme">
+                            <?php echo gettext('aboutme'); ?>
+                        </a>
+                    </li><li>
+                        <a href="?page=blog">
+                            <?php echo gettext('blog'); ?>
+                        </a>
+                    </li><li>
+                        <a href="?page=wishlist">
+                            <?php echo gettext('wishlist'); ?>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="material-icons menu_icon">menu</div>
 
     </header>
 
@@ -156,34 +193,6 @@ setup_localization();
 
         <nav>
             <ul>
-                <li>
-                    <form id="toggleLanguage" action="." method="post">
-                        <?php if ($LANG === ENGLISH) : ?>
-                            <input type="hidden" name="LANG" value="<?php echo GERMAN; ?>" />
-                            <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
-                                <?php echo gettext('toggle_german'); ?>
-                            </a>
-                        <?php else : ?>
-                            <input type="hidden" name="LANG" value="<?php echo ENGLISH; ?>" />
-                            <a href="#" onclick="document.getElementById('toggleLanguage').submit();">
-                                <?php echo gettext('toggle_english'); ?>
-                            </a>
-                        <?php endif ?>
-                    </form>
-                </li>
-                <li>
-                    <a href="#" onclick="return false" class="toggle_dark">
-                        <?php echo gettext('toggle_dark'); ?>
-                    </a>
-                    <a href="#" onclick="return false" class="toggle_bright">
-                        <?php echo gettext('toggle_bright'); ?>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" onclick="return false" class="toggle_background">
-                        <?php echo gettext('toggle_background'); ?>
-                    </a>
-                </li>
                 <li>
                     <a href="?page=imprint">
                         <?php echo gettext('imprint'); ?>

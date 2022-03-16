@@ -35,10 +35,10 @@ msgid "toggle_bright"
 msgstr "Bright"
 
 msgid "toggle_german"
-msgstr "German"
+msgstr "DE"
 
 msgid "toggle_english"
-msgstr "English"
+msgstr "EN"
 
 msgid "home:introduction"
 msgstr ""

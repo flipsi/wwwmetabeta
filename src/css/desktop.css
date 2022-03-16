@@ -1,6 +1,16 @@
 .header {
     position: relative;
     z-index: 200;
+    padding-top: 1em;
+}
+.header .menu_icon {
+    display: none;
+}
+.header .menu {
+    grid-column: 3 / span 1;
+    justify-self: right;
+    align-self: end;
+    font-size: 1.2em;
 }
 .header .branding {
     grid-column: 2 / span 1;
@@ -10,18 +20,12 @@
     font-size: 3em;
 }
 .header .branding h2,
-.header nav {
+.header .menu {
     padding-bottom: 1em;
 }
 .header .branding h2 {
     display: block;
     font-size: 1.1em;
-}
-.header nav {
-    grid-column: 3 / span 1;
-    justify-self: right;
-    align-self: end;
-    font-size: 1.2em;
 }
 img.background {
     display: none; // disable until stretch over 100% height issue is fixed
