@@ -102,11 +102,8 @@ msgstr "electric toothbrush"
 msgid "wishlist:item:baby_clothes"
 msgstr "baby clothing, size 86 or greater"
 
-msgid "wishlist:item:baby_mattress"
-msgstr "children's bed mattress 140cm x 70cm"
-
 msgid "wishlist:item:baby_bedclothes"
-msgstr "bedclothes for childrens bed"
+msgstr "bedclothes for childrens bed, organic cotton, 100x135 cm + 40x60 cm"
 
 msgid "wishlist:item:children_bike_trailer"
 msgstr "bike trailer for children"

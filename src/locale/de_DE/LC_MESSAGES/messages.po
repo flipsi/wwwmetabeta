@@ -102,11 +102,8 @@ msgstr "elektrische Kinderzahnbürste"
 msgid "wishlist:item:baby_clothes"
 msgstr "Babykleidung ab Größe 86"
 
-msgid "wishlist:item:baby_mattress"
-msgstr "Kinderbettmatratze 140cm x 70cm"
-
 msgid "wishlist:item:baby_bedclothes"
-msgstr "Kinderbettwäsche und -bezüge"
+msgstr "Kinderbettwäsche Bio-Baumwolle 100x135 cm + 40x60 cm"
 
 msgid "wishlist:item:children_bike_trailer"
 msgstr "Fahrradanhänger für Kinder"
