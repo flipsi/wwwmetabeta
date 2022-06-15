@@ -11,6 +11,7 @@
 <p><?php echo gettext('wishlist:books'); ?></p>
 <ul class="wishlist">
     <li>The Complete Calvin and Hobbes <em class="isbn">(ISBN 1449433251)</em></li>
+    <li>EMPOWERED: Ordinary People, Extraordinary Products <em class="isbn">(ISBN 978-1119691297)</em></li>
     <li>Cryptography Engineering: Design Principles and Practical Applications <em class="isbn">(ISBN 978-0470474242)</em></li>
     <li>Einführung in die Physik des 20. Jahrhunderts: Relativitätstheorie, Quantenmechanik, Elementarteilchenphysik und Kosmologie <em class="isbn">(ISBN 978-3868942620)</em></li>
     <li>Flash Boys: Revolte an der Wall Street <em class="isbn">(ISBN 3593501236)</em></li>
