@@ -74,7 +74,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/sflip/">
+                    <a href="https://github.com/flipsi/">
                         <img title="GitHub" alt="GitHub" src="img/icon/iconfinder_icon-social-github_211904.png" />
                     </a>
                 </li>

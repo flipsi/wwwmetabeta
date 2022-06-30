@@ -154,7 +154,7 @@
                     <p class="title"><?php echo gettext('aboutme:interests:vim_and_scripting:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:vim_and_scripting:description'),
-                            '<a href="https://github.com/sflip/dotfiles/blob/master/vim/vimrc">' .
+                            '<a href="https://github.com/flipsi/dotfiles/blob/master/vim/vimrc">' .
                                 gettext('aboutme:interests:vim_and_scripting:my_vimrc') . '</a>',
                         ); ?>
                     </p>
