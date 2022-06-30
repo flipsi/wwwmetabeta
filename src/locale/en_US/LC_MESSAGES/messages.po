@@ -99,12 +99,6 @@ msgstr "4x4x4 Speedcube"
 msgid "wishlist:item:children_toothbrush"
 msgstr "electric toothbrush"
 
-msgid "wishlist:item:baby_clothes"
-msgstr "baby clothing, size 86 or greater"
-
-msgid "wishlist:item:baby_bedclothes"
-msgstr "bedclothes for childrens bed, organic cotton, 100x135 cm + 40x60 cm"
-
 msgid "wishlist:item:children_bike_trailer"
 msgstr "bike trailer for children"
 

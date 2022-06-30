@@ -99,12 +99,6 @@ msgstr "4x4x4 Speedcube"
 msgid "wishlist:item:children_toothbrush"
 msgstr "elektrische Kinderzahnbürste"
 
-msgid "wishlist:item:baby_clothes"
-msgstr "Babykleidung ab Größe 86"
-
-msgid "wishlist:item:baby_bedclothes"
-msgstr "Kinderbettwäsche Bio-Baumwolle 100x135 cm + 40x60 cm"
-
 msgid "wishlist:item:children_bike_trailer"
 msgstr "Fahrradanhänger für Kinder"
 
