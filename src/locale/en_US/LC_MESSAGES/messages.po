@@ -85,7 +85,7 @@ msgid "wishlist:item:whiskey"
 msgstr "whiskey"
 
 msgid "wishlist:item:boule"
-msgstr "boules"
+msgstr "boules (pack of 8)"
 
 msgid "wishlist:item:chess"
 msgstr "high quality chess game"
@@ -100,7 +100,7 @@ msgid "wishlist:item:children_toothbrush"
 msgstr "electric toothbrush"
 
 msgid "wishlist:item:children_bike_trailer"
-msgstr "bike trailer for children"
+msgstr "bike trailer for children (Queridoo Sportrex 2)"
 
 msgid "aboutme:cv"
 msgstr "Curriculum Vitae"
