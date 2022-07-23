@@ -44,7 +44,7 @@
         <div class="links">
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/sflip/">
+                    <a href="https://www.linkedin.com/in/flipsi/">
                         <img title="LinkedIn" alt="LinkedIn" src="img/icon/iconfinder_11-linkedin_104493.png" />
                     </a>
                 </li>
