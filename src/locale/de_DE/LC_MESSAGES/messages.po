@@ -108,8 +108,17 @@ msgstr "Lebenslauf"
 msgid "aboutme:interests"
 msgstr "Interessen und Fähigkeiten"
 
+msgid "aboutme:cv:code_intelligence:when"
+msgstr "November 2022 - jetzt"
+
+msgid "aboutme:cv:code_intelligence:where"
+msgstr "Code Intelligence GmbH"
+
+msgid "aboutme:cv:code_intelligence:what"
+msgstr "Senior Software-Entwickler"
+
 msgid "aboutme:cv:ryte:when"
-msgstr "März 2017 - jetzt"
+msgstr "März 2017 - Oktober 2022"
 
 msgid "aboutme:cv:ryte:where"
 msgstr "Ryte GmbH"

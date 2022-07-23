@@ -108,8 +108,17 @@ msgstr "Curriculum Vitae"
 msgid "aboutme:interests"
 msgstr "Interests and Skills"
 
+msgid "aboutme:cv:code_intelligence:when"
+msgstr "November 2022 - present"
+
+msgid "aboutme:cv:code_intelligence:where"
+msgstr "Code Intelligence GmbH"
+
+msgid "aboutme:cv:code_intelligence:what"
+msgstr "Senior Software Engineer"
+
 msgid "aboutme:cv:ryte:when"
-msgstr "May 2017 - present"
+msgstr "May 2017 - October 2022"
 
 msgid "aboutme:cv:ryte:where"
 msgstr "Ryte GmbH"

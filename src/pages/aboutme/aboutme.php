@@ -16,6 +16,15 @@
             <ul class="curriculumvitae">
                 <li class="container right">
                     <div class="content">
+                        <div class="when"><?php echo gettext('aboutme:cv:code_intelligence:when'); ?></div>
+                        <div class="where">
+                            <a href="https://www.code-intelligence.com"><?php echo gettext('aboutme:cv:code_intelligence:where'); ?></a>
+                        </div>
+                        <div class="what"><?php echo gettext('aboutme:cv:code_intelligence:what'); ?></div>
+                    </div>
+                </li>
+                <li class="container left">
+                    <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:ryte:when'); ?></div>
                         <div class="where">
                             <a href="https://ryte.com"><?php echo gettext('aboutme:cv:ryte:where'); ?></a>
@@ -23,7 +32,7 @@
                         <div class="what"><?php echo gettext('aboutme:cv:ryte:what'); ?></div>
                     </div>
                 </li>
-                <li class="container left">
+                <li class="container right">
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:brainworks:when'); ?></div>
                         <div class="where">
@@ -32,7 +41,7 @@
                         <div class="what"><?php echo gettext('aboutme:cv:brainworks:what'); ?></div>
                     </div>
                 </li>
-                <li class="container right">
+                <li class="container Engineer">
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:lmu:when'); ?></div>
                         <div class="where">
@@ -47,7 +56,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="container left">
+                <li class="container right">
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:tubingen:when'); ?></div>
                         <div class="where">
@@ -62,7 +71,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="container right">
+                <li class="container left">
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:go:when'); ?></div>
                         <div class="where">
@@ -71,7 +80,7 @@
                         <div class="what"><?php echo gettext('aboutme:cv:go:what'); ?></div>
                     </div>
                 </li>
-                <li class="container left">
+                <li class="container right">
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:swimming:when'); ?></div>
                         <div class="where">
