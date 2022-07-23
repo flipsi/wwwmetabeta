@@ -18,7 +18,9 @@
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:code_intelligence:when'); ?></div>
                         <div class="where">
-                            <a href="https://www.code-intelligence.com"><?php echo gettext('aboutme:cv:code_intelligence:where'); ?></a>
+                            <a href="https://www.code-intelligence.com">
+                                <?php echo gettext('aboutme:cv:code_intelligence:where'); ?>
+                            </a>
                         </div>
                         <div class="what"><?php echo gettext('aboutme:cv:code_intelligence:what'); ?></div>
                     </div>
@@ -27,7 +29,9 @@
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:ryte:when'); ?></div>
                         <div class="where">
-                            <a href="https://ryte.com"><?php echo gettext('aboutme:cv:ryte:where'); ?></a>
+                            <a href="https://ryte.com">
+                                <?php echo gettext('aboutme:cv:ryte:where'); ?>
+                            </a>
                         </div>
                         <div class="what"><?php echo gettext('aboutme:cv:ryte:what'); ?></div>
                     </div>
@@ -36,7 +40,9 @@
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:brainworks:when'); ?></div>
                         <div class="where">
-                            <a href="https://www.brainworks.de/"><?php echo gettext('aboutme:cv:brainworks:where'); ?></a>
+                            <a href="https://www.brainworks.de/">
+                                <?php echo gettext('aboutme:cv:brainworks:where'); ?>
+                            </a>
                         </div>
                         <div class="what"><?php echo gettext('aboutme:cv:brainworks:what'); ?></div>
                     </div>
@@ -45,7 +51,9 @@
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:lmu:when'); ?></div>
                         <div class="where">
-                            <a href="https://www.uni-muenchen.de/index.html"><?php echo gettext('aboutme:cv:lmu:where'); ?></a>
+                            <a href="https://www.uni-muenchen.de/index.html">
+                                <?php echo gettext('aboutme:cv:lmu:where'); ?>
+                            </a>
                         </div>
                         <div class="what"><?php echo gettext('aboutme:cv:lmu:what'); ?></div>
                         <div class="thesis">
@@ -60,7 +68,9 @@
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:tubingen:when'); ?></div>
                         <div class="where">
-                            <a href="https://uni-tuebingen.de/"><?php echo gettext('aboutme:cv:tubingen:where'); ?></a>
+                            <a href="https://uni-tuebingen.de/">
+                                <?php echo gettext('aboutme:cv:tubingen:where'); ?>
+                            </a>
                         </div>
                         <div class="what"><?php echo gettext('aboutme:cv:tubingen:what'); ?></div>
                         <div class="thesis">
@@ -75,7 +85,9 @@
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:go:when'); ?></div>
                         <div class="where">
-                            <a href="https://www.gymnasium-odenthal.de/"><?php echo gettext('aboutme:cv:go:where'); ?></a>
+                            <a href="https://www.gymnasium-odenthal.de/">
+                                <?php echo gettext('aboutme:cv:go:where'); ?>
+                            </a>
                         </div>
                         <div class="what"><?php echo gettext('aboutme:cv:go:what'); ?></div>
                     </div>
