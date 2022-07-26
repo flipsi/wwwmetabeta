@@ -47,7 +47,7 @@
                         <div class="what"><?php echo gettext('aboutme:cv:brainworks:what'); ?></div>
                     </div>
                 </li>
-                <li class="container Engineer">
+                <li class="container left">
                     <div class="content">
                         <div class="when"><?php echo gettext('aboutme:cv:lmu:when'); ?></div>
                         <div class="where">
