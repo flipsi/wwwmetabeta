@@ -3,6 +3,8 @@
 <ul class="wishlist">
     <li><?php echo gettext('wishlist:item:boule'); ?></li>
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
+    <li><?php echo gettext('wishlist:item:kellerbierkruege'); ?></li>
+    <li><?php echo gettext('wishlist:item:record_player'); ?></li>
     <li><?php echo gettext('wishlist:item:ultrasonic_cleaner'); ?></li>
     <li><?php echo gettext('wishlist:item:speedcube_4x4x4'); ?></li>
 </ul>

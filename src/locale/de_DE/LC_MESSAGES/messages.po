@@ -90,6 +90,12 @@ msgstr "Boule-Kugeln (8er)"
 msgid "wishlist:item:chess"
 msgstr "Hochwertiges Schachspiel"
 
+msgid "wishlist:item:kellerbierkruege"
+msgstr "Kellerbierkrüge"
+
+msgid "wishlist:item:record_player"
+msgstr "Plattenspieler"
+
 msgid "wishlist:item:ultrasonic_cleaner"
 msgstr "Ultraschallreiniger für Brillen"
 
