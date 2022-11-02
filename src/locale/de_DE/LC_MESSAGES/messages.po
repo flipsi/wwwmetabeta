@@ -105,8 +105,8 @@ msgstr "4x4x4 Speedcube"
 msgid "wishlist:item:children_toothbrush"
 msgstr "elektrische Kinderzahnbürste"
 
-msgid "wishlist:item:children_bike_trailer"
-msgstr "Fahrradanhänger für Kinder (Queridoo Sportrex 2)"
+msgid "wishlist:item:money_for_cupboard"
+msgstr "Geld für Kleiderschrank"
 
 msgid "aboutme:cv"
 msgstr "Lebenslauf"
