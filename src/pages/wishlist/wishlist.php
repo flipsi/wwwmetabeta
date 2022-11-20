@@ -1,7 +1,6 @@
 <h1><?php echo gettext('wishlist:h1:introduction'); ?></h1>
 <p><?php echo gettext('wishlist:introduction'); ?></p>
 <ul class="wishlist">
-    <li><?php echo gettext('wishlist:item:boule'); ?></li>
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
     <li><?php echo gettext('wishlist:item:kellerbierkruege'); ?></li>
     <li><?php echo gettext('wishlist:item:record_player'); ?></li>
@@ -13,6 +12,7 @@
 <p><?php echo gettext('wishlist:books'); ?></p>
 <ul class="wishlist">
     <li>The Complete Calvin and Hobbes <em class="isbn">(ISBN 1449433251)</em></li>
+    <li>What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (English Edition) <em class="isbn">(ISBN 978-0593542903)</em></li>
     <li>EMPOWERED: Ordinary People, Extraordinary Products <em class="isbn">(ISBN 978-1119691297)</em></li>
     <li>Cryptography Engineering: Design Principles and Practical Applications <em class="isbn">(ISBN 978-0470474242)</em></li>
     <li>Einführung in die Physik des 20. Jahrhunderts: Relativitätstheorie, Quantenmechanik, Elementarteilchenphysik und Kosmologie <em class="isbn">(ISBN 978-3868942620)</em></li>
@@ -33,5 +33,7 @@
 <ul class="wishlist">
     <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
     <li><?php echo gettext('wishlist:item:money_for_cupboard'); ?></li>
+    <li><?php echo gettext('wishlist:item:wool_hat'); ?></li>
+    <li><?php echo gettext('wishlist:item:wool_scarf'); ?></li>
     <li>Wenn kleine Tiere müde sind: Erste Reime für die gute Nacht <em class="isbn">(ISBN 978-3473315529)</em></li>
 </ul>

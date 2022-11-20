@@ -84,9 +84,6 @@ msgstr "board or card games"
 msgid "wishlist:item:whiskey"
 msgstr "whiskey"
 
-msgid "wishlist:item:boule"
-msgstr "boules (pack of 8)"
-
 msgid "wishlist:item:chess"
 msgstr "high quality chess game"
 
@@ -107,6 +104,12 @@ msgstr "electric toothbrush"
 
 msgid "wishlist:item:money_for_cupboard"
 msgstr "money for cupboard"
+
+msgid "wishlist:item:wool_hat"
+msgstr "wool hat"
+
+msgid "wishlist:item:wool_scarf"
+msgstr "wool scarf"
 
 msgid "aboutme:cv"
 msgstr "Curriculum Vitae"
