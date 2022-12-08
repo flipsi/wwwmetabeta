@@ -1,6 +1,7 @@
 <h1><?php echo gettext('wishlist:h1:introduction'); ?></h1>
 <p><?php echo gettext('wishlist:introduction'); ?></p>
 <ul class="wishlist">
+    <li><a href="https://www.amazon.de/-/en/Microphone-Protection-Technica-AT2020USB-Condenser/dp/B097XVJTNK/ref=sr_1_22?keywords=mikrofonhalter%2Btisch&qid=1670534750&sr=8-22&th=1" target="_blank"><?php echo gettext('wishlist:item:mic_stand'); ?></a></li>
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
     <li><?php echo gettext('wishlist:item:kellerbierkruege'); ?></li>
     <li><?php echo gettext('wishlist:item:record_player'); ?></li>
@@ -31,9 +32,8 @@
 <h1><?php echo gettext('wishlist:h1:daughter'); ?></h1>
 <p><?php echo gettext('wishlist:same_for_daughter'); ?></p>
 <ul class="wishlist">
+    <li><?php echo gettext('wishlist:item:little_stool'); ?></li>
     <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
     <li><?php echo gettext('wishlist:item:money_for_cupboard'); ?></li>
-    <li><?php echo gettext('wishlist:item:wool_hat'); ?></li>
-    <li><?php echo gettext('wishlist:item:wool_scarf'); ?></li>
     <li>Wenn kleine Tiere müde sind: Erste Reime für die gute Nacht <em class="isbn">(ISBN 978-3473315529)</em></li>
 </ul>

@@ -84,6 +84,9 @@ msgstr "Gesellschafts- oder Kartenspiele"
 msgid "wishlist:item:whiskey"
 msgstr "Whiskey"
 
+msgid "wishlist:item:mic_stand"
+msgstr "Tischmikrofonständer"
+
 msgid "wishlist:item:chess"
 msgstr "Hochwertiges Schachspiel"
 
@@ -99,17 +102,14 @@ msgstr "Ultraschallreiniger für Brillen"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
+msgid "wishlist:item:little_stool"
+msgstr "Hocker für Badezimmer"
+
 msgid "wishlist:item:children_toothbrush"
 msgstr "elektrische Kinderzahnbürste"
 
 msgid "wishlist:item:money_for_cupboard"
 msgstr "Geld für Kleiderschrank"
-
-msgid "wishlist:item:wool_hat"
-msgstr "Wollmütze"
-
-msgid "wishlist:item:wool_scarf"
-msgstr "Wollschal"
 
 msgid "aboutme:cv"
 msgstr "Lebenslauf"
