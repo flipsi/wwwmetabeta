@@ -102,8 +102,14 @@ msgstr "ultrasonic cleaner for glasses"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
+msgid "wishlist:item:wool_pullovers"
+msgstr "wool pullovers (size 92)"
+
+msgid "wishlist:item:winter_coat"
+msgstr "winter coat (size 92)"
+
 msgid "wishlist:item:little_stool"
-msgstr "Little stool for bathroom"
+msgstr "little stool for bathroom"
 
 msgid "wishlist:item:children_toothbrush"
 msgstr "electric toothbrush"

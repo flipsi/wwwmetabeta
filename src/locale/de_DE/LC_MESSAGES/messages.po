@@ -102,6 +102,12 @@ msgstr "Ultraschallreiniger für Brillen"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
+msgid "wishlist:item:wool_pullovers"
+msgstr "Wollpullover (Größe 92)"
+
+msgid "wishlist:item:winter_coat"
+msgstr "Winterjacke (Größe 92)"
+
 msgid "wishlist:item:little_stool"
 msgstr "Hocker für Badezimmer"
 
