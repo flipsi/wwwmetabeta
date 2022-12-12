@@ -27,7 +27,8 @@ function upload_via_ssh() {
     [[ "${SRC}" == */ ]] && SRC="${SRC: : -1}" # remove trailing slash if there is one
     # Avoid password prompt: https://unix.stackexchange.com/a/111534/119362
     # sshpass -p $(cat "$PASSWORD_FILE") scp -r "$SRC/." "$USER@$HOST:/$DST"
-    sshpass -p $(cat "$PASSWORD_FILE") rsync -rL --progress "$SRC/." "$USER@$HOST:$DST"
+    # sshpass -p $(cat "$PASSWORD_FILE") rsync -rL --progress "$SRC/." "$USER@$HOST:$DST"
+    rsync -rL --progress "$SRC/." "$USER@$HOST:$DST"
     rm "$PASSWORD_FILE"
 }
 
