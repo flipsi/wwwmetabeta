@@ -111,6 +111,15 @@ msgstr "Winterjacke (Größe 92)"
 msgid "wishlist:item:little_stool"
 msgstr "Hocker für Badezimmer"
 
+msgid "wishlist:item:toilet_seat"
+msgstr "Toilettenaufsatz"
+
+msgid "wishlist:item:sleigh"
+msgstr "Hörndlschlitten mit Kindersitz"
+
+msgid "wishlist:item:watercolors"
+msgstr "Aquarellfarben und Schwämmchen"
+
 msgid "wishlist:item:children_toothbrush"
 msgstr "elektrische Kinderzahnbürste"
 

@@ -111,6 +111,15 @@ msgstr "winter coat (size 92)"
 msgid "wishlist:item:little_stool"
 msgstr "little stool for bathroom"
 
+msgid "wishlist:item:toilet_seat"
+msgstr "toilet seat adapter"
+
+msgid "wishlist:item:sleigh"
+msgstr "sleigh with children seat"
+
+msgid "wishlist:item:watercolors"
+msgstr "watercolors"
+
 msgid "wishlist:item:children_toothbrush"
 msgstr "electric toothbrush"
 
