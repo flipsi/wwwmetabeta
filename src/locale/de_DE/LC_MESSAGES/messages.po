@@ -84,8 +84,8 @@ msgstr "... oder vielleicht ein Buch?"
 msgid "wishlist:always_nice"
 msgstr "Von manchen Dingen kann man nicht genug haben. Ich freue mich immer über folgendes:"
 
-msgid "wishlist:same_for_daughter"
-msgstr "Die oben beschriebene Problematik trifft auch auf meine Tochter zu."
+msgid "wishlist:same_for_kids"
+msgstr "Die oben beschriebene Problematik trifft auch auf meine Kinder zu."
 
 msgid "wishlist:item:board_games"
 msgstr "Gesellschafts- oder Kartenspiele"
@@ -111,15 +111,6 @@ msgstr "Ultraschallreiniger für Brillen"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
-msgid "wishlist:item:wool_pullovers"
-msgstr "Wollpullover (Größe 92)"
-
-msgid "wishlist:item:winter_coat"
-msgstr "Winterjacke (Größe 92)"
-
-msgid "wishlist:item:little_stool"
-msgstr "Hocker für Badezimmer"
-
 msgid "wishlist:item:toilet_seat"
 msgstr "Toilettenaufsatz"
 
@@ -132,8 +123,8 @@ msgstr "Aquarellfarben und Schwämmchen"
 msgid "wishlist:item:children_toothbrush"
 msgstr "elektrische Kinderzahnbürste"
 
-msgid "wishlist:item:money_for_cupboard"
-msgstr "Geld für Kleiderschrank"
+msgid "wishlist:item:money_for_babysitter"
+msgstr "Geld für Babysitter"
 
 msgid "aboutme:cv"
 msgstr "Lebenslauf"

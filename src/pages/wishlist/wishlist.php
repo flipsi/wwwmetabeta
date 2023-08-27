@@ -30,15 +30,11 @@
 </ul>
 
 <h1><?php echo gettext('wishlist:h1:daughter'); ?></h1>
-<p><?php echo gettext('wishlist:same_for_daughter'); ?></p>
+<p><?php echo gettext('wishlist:same_for_kids'); ?></p>
 <ul class="wishlist">
-    <li><?php echo gettext('wishlist:item:wool_pullovers'); ?></li>
-    <li><?php echo gettext('wishlist:item:winter_coat'); ?></li>
-    <li><?php echo gettext('wishlist:item:little_stool'); ?></li>
     <li><?php echo gettext('wishlist:item:toilet_seat'); ?></li>
     <li><?php echo gettext('wishlist:item:sleigh'); ?></li>
     <li><?php echo gettext('wishlist:item:watercolors'); ?></li>
     <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
-    <li><?php echo gettext('wishlist:item:money_for_cupboard'); ?></li>
-    <li>Wenn kleine Tiere müde sind: Erste Reime für die gute Nacht <em class="isbn">(ISBN 978-3473315529)</em></li>
+    <li><?php echo gettext('wishlist:item:money_for_babysitter'); ?></li>
 </ul>
