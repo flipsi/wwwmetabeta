@@ -4,7 +4,7 @@ set -e
 
 
 function require() {
-    if ! command -v $1 &>/dev/null; then
+    if ! command -v "$1" &>/dev/null; then
         echo "Requires $1"
         exit 1
     fi
@@ -28,7 +28,7 @@ function upload_via_ssh() {
     # Avoid password prompt: https://unix.stackexchange.com/a/111534/119362
     # sshpass -p $(cat "$PASSWORD_FILE") scp -r "$SRC/." "$USER@$HOST:/$DST"
     # sshpass -p $(cat "$PASSWORD_FILE") rsync -rL --progress "$SRC/." "$USER@$HOST:$DST"
-    rsync -rL --progress "$SRC/." "$USER@$HOST:$DST"
+    rsync -urL --progress "$SRC/." "$USER@$HOST:$DST"
     rm "$PASSWORD_FILE"
 }
 
