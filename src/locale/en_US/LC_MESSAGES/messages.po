@@ -72,8 +72,14 @@ msgstr "... or perhaps a book?"
 msgid "wishlist:h1:always_nice"
 msgstr "Evergreens"
 
-msgid "wishlist:h1:daughter"
+msgid "wishlist:h1:kids"
+msgstr "My kids"
+
+msgid "wishlist:h2:daughter"
 msgstr "My daughter"
+
+msgid "wishlist:h2:son"
+msgstr "My son"
 
 msgid "wishlist:introduction"
 msgstr ""
@@ -111,17 +117,17 @@ msgstr "ultrasonic cleaner for glasses"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
-msgid "wishlist:item:toilet_seat"
-msgstr "toilet seat adapter"
-
-msgid "wishlist:item:sleigh"
-msgstr "sleigh with children seat"
-
-msgid "wishlist:item:watercolors"
-msgstr "watercolors"
-
 msgid "wishlist:item:children_toothbrush"
 msgstr "electric toothbrush"
+
+msgid "wishlist:item:underwear"
+msgstr "underwear size 98/104"
+
+msgid "wishlist:item:brio_train"
+msgstr "BRIO wooden train set"
+
+msgid "wishlist:item:watch"
+msgstr "watch"
 
 msgid "wishlist:item:money_for_babysitter"
 msgstr "money for babysitter"

@@ -69,8 +69,14 @@ msgstr "Bücher"
 msgid "wishlist:h1:always_nice"
 msgstr "Evergreens"
 
-msgid "wishlist:h1:daughter"
+msgid "wishlist:h1:kids"
+msgstr "Meine Kinder"
+
+msgid "wishlist:h2:daughter"
 msgstr "Meine Tochter"
+
+msgid "wishlist:h2:son"
+msgstr "Mein Sohn"
 
 msgid "wishlist:introduction"
 msgstr ""
@@ -111,17 +117,17 @@ msgstr "Ultraschallreiniger für Brillen"
 msgid "wishlist:item:speedcube_4x4x4"
 msgstr "4x4x4 Speedcube"
 
-msgid "wishlist:item:toilet_seat"
-msgstr "Toilettenaufsatz"
-
-msgid "wishlist:item:sleigh"
-msgstr "Hörndlschlitten mit Kindersitz"
-
-msgid "wishlist:item:watercolors"
-msgstr "Aquarellfarben und Schwämmchen"
-
 msgid "wishlist:item:children_toothbrush"
 msgstr "elektrische Kinderzahnbürste"
+
+msgid "wishlist:item:underwear"
+msgstr "Unterwäsche Größe 98/104"
+
+msgid "wishlist:item:brio_train"
+msgstr "BRIO Holzeisenbahn"
+
+msgid "wishlist:item:watch"
+msgstr "Armbanduhr für Kinder"
 
 msgid "wishlist:item:money_for_babysitter"
 msgstr "Geld für Babysitter"

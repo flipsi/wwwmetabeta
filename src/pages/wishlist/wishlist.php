@@ -30,12 +30,17 @@
     <li><?php echo gettext('wishlist:item:whiskey'); ?></li>
 </ul>
 
-<h1><?php echo gettext('wishlist:h1:daughter'); ?></h1>
+<h1><?php echo gettext('wishlist:h1:kids'); ?></h1>
 <p><?php echo gettext('wishlist:same_for_kids'); ?></p>
+<h2><?php echo gettext('wishlist:h2:daughter'); ?></h2>
 <ul class="wishlist">
-    <li><?php echo gettext('wishlist:item:toilet_seat'); ?></li>
-    <li><?php echo gettext('wishlist:item:sleigh'); ?></li>
-    <li><?php echo gettext('wishlist:item:watercolors'); ?></li>
     <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
+    <li><?php echo gettext('wishlist:item:underwear'); ?></li>
+    <li><?php echo gettext('wishlist:item:brio_train'); ?></li>
+    <li><?php echo gettext('wishlist:item:watch'); ?></li>
+    <li><?php echo gettext('wishlist:item:money_for_babysitter'); ?></li>
+</ul>
+<h2><?php echo gettext('wishlist:h2:son'); ?></h2>
+<ul class="wishlist">
     <li><?php echo gettext('wishlist:item:money_for_babysitter'); ?></li>
 </ul>
