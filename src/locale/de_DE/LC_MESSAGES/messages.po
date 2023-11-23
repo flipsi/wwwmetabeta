@@ -99,9 +99,6 @@ msgstr "Gesellschafts- oder Kartenspiele"
 msgid "wishlist:item:whiskey"
 msgstr "Whiskey"
 
-msgid "wishlist:item:mic_stand"
-msgstr "Tischmikrofonständer"
-
 msgid "wishlist:item:chess"
 msgstr "Hochwertiges Schachspiel"
 

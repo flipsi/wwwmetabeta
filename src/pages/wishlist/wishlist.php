@@ -1,7 +1,6 @@
 <h1><?php echo gettext('wishlist:h1:introduction'); ?></h1>
 <p><?php echo gettext('wishlist:introduction'); ?></p>
 <ul class="wishlist">
-    <li><a href="https://www.amazon.de/-/en/Microphone-Protection-Technica-AT2020USB-Condenser/dp/B097XVJTNK/ref=sr_1_22?keywords=mikrofonhalter%2Btisch&qid=1670534750&sr=8-22&th=1" target="_blank"><?php echo gettext('wishlist:item:mic_stand'); ?></a></li>
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
     <li><?php echo gettext('wishlist:item:kellerbierkruege'); ?></li>
     <li><?php echo gettext('wishlist:item:record_player'); ?></li>
