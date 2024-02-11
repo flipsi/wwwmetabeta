@@ -102,8 +102,8 @@ msgstr "Whiskey"
 msgid "wishlist:item:chess"
 msgstr "Hochwertiges Schachspiel"
 
-msgid "wishlist:item:kellerbierkruege"
-msgstr "(schlanke) Kellerbierkrüge"
+msgid "wishlist:item:led_beer_mats"
+msgstr "LED Untersetzer"
 
 msgid "wishlist:item:record_player"
 msgstr "Plattenspieler"

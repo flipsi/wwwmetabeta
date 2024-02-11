@@ -2,7 +2,7 @@
 <p><?php echo gettext('wishlist:introduction'); ?></p>
 <ul class="wishlist">
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
-    <li><?php echo gettext('wishlist:item:kellerbierkruege'); ?></li>
+    <li><a href="https://www.amazon.de/-/en/Coasters-Waterproof-Decorations-Friends-Drinking/dp/B09TQF61C6/ref=sr_1_15?keywords=leuchtende%2Bbierdeckel&qid=1707683312&sr=8-15&th=1" target="blank"><?php echo gettext('wishlist:item:led_beer_mats'); ?></a></li>
     <li><?php echo gettext('wishlist:item:record_player'); ?></li>
     <li><?php echo gettext('wishlist:item:ultrasonic_cleaner'); ?></li>
     <li><?php echo gettext('wishlist:item:speedcube_4x4x4'); ?></li>
