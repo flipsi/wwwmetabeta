@@ -20,6 +20,7 @@
     <li>Flash Boys: Revolte an der Wall Street <em class="isbn">(ISBN 3593501236)</em></li>
     <li>Geld und Magie. Eine ökonomische Deutung von Goethes Faust <em class="isbn">(ISBN 3938017252)</em></li>
     <li>Die Selbstorganisation komplexer Systeme - Ergebnisse aus der Werkstatt der Chaostheorie <em class="isbn">(ISBN 3854525036)</em></li>
+    <li>Dave Grohl: The Storyteller: Tales of Life and Music <em class="isbn">(ISBN 0063076101)</em></li>
 </ul>
 
 <h1><?php echo gettext('wishlist:h1:always_nice'); ?></h1>
@@ -34,9 +35,9 @@
 <h2><?php echo gettext('wishlist:h2:daughter'); ?></h2>
 <ul class="wishlist">
     <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
-    <li><?php echo gettext('wishlist:item:underwear'); ?></li>
+    <!-- <li><?php echo gettext('wishlist:item:underwear'); ?></li> -->
     <li><?php echo gettext('wishlist:item:brio_train'); ?></li>
-    <li><?php echo gettext('wishlist:item:watch'); ?></li>
+    <!-- <li><?php echo gettext('wishlist:item:watch'); ?></li> -->
     <li><?php echo gettext('wishlist:item:money_for_babysitter'); ?></li>
 </ul>
 <h2><?php echo gettext('wishlist:h2:son'); ?></h2>

@@ -121,7 +121,7 @@ msgid "wishlist:item:underwear"
 msgstr "underwear size 98/104"
 
 msgid "wishlist:item:brio_train"
-msgstr "BRIO wooden train set"
+msgstr "more BRIO wooden train rails"
 
 msgid "wishlist:item:watch"
 msgstr "watch"

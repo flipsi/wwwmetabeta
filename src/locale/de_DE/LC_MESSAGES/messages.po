@@ -121,7 +121,7 @@ msgid "wishlist:item:underwear"
 msgstr "Unterwäsche Größe 98/104"
 
 msgid "wishlist:item:brio_train"
-msgstr "BRIO Holzeisenbahn"
+msgstr "Mehr BRIO Holzeisenbahn-Schienen"
 
 msgid "wishlist:item:watch"
 msgstr "Armbanduhr für Kinder"
