@@ -54,8 +54,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/soziflip/">
-                        <img title="Twitter" alt="Twitter" src="img/icon/iconfinder_03-twitter_104501.png" />
+                    <a href="https://x.com/soziflip/">
+                        <img title="X (Twitter)" alt="X (Twitter)" src="img/icon/11244080_x_twitter_elon musk_twitter new logo_icon.png" />
                     </a>
                 </li>
                 <li>
