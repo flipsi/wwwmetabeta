@@ -52,22 +52,19 @@ nav a:hover,
   from, to { border-color: transparent }
   50% { border-color: #F54B4B; }
 }
-.interesting_boxes > div {
+.interesting_box {
     transition : border 400ms ease-out;
-}
-.interesting_boxes > div.active {
-    border: solid 5px #F54B4B;
-}
-.interesting_boxes > div,
-.curriculumvitae .content {
     border: solid 5px #555;
+}
+.interesting_box.active {
+    border: solid 5px #F54B4B;
 }
 .curriculumvitae .content .when {
     color: #F54B4B;
 }
 .curriculumvitae::after,
 .curriculumvitae .content,
-.interesting_boxes > div {
+.interesting_box {
     background-color: #555;
 }
 .curriculumvitae .container::after {

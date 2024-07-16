@@ -86,7 +86,7 @@ img.background {
 .aboutme nav {
     font-size: 1em;
 }
-.interesting_boxes {
+.interest_and_skills_boxes {
     grid-template-columns: 33% 33% 33%;
 }
 .footer {

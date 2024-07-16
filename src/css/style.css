@@ -198,8 +198,8 @@ a.toggle_background {
 .aboutme article {
     scroll-snap-align: start;
 }
-.curriculumvitae .content,
-.interesting_boxes > div {
+#article_cv .interesting_box,
+#article_interests .interesting_box {
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 .curriculumvitae {
@@ -241,8 +241,11 @@ a.toggle_background {
 .curriculumvitae .content .where {
     font-weight: bold;
 }
+.curriculumvitae .content .description_preview,
+.curriculumvitae .content .description,
+.curriculumvitae .content .grade,
 .curriculumvitae .content .thesis {
-    margin-top: 20px;
+    margin-top: 1em;
 }
 /* The circles on the timeline */
 .curriculumvitae .container::after {
@@ -312,23 +315,25 @@ a.toggle_background {
     font-size: 0.8em;
   }
 }
-.interesting_boxes {
+.interest_and_skills_boxes {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 100%;
 }
-.interesting_boxes > div {
+.interest_and_skills_boxes .interesting_box {
     padding: 4px 18px;
     margin: 20px;
     height: -moz-fit-content;
     height: fit-content;
 }
-.interesting_boxes > div .title {
+.interest_and_skills_boxes .title {
     text-align: center;
     font-weight: bold;
+}
+.interesting_box .clickable {
     cursor: pointer;
 }
-.interesting_boxes > div .description {
+.interesting_box .description {
     display: none;
 }
 

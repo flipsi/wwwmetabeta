@@ -188,12 +188,13 @@ $(function () {
         scrollToArticle(hash);
     });
 
-    // Toggle content of boxes on click
-    const $interesting_boxes = $('.interesting_boxes > div');
-    $interesting_boxes.find('.title').on('click', function(event) {
+    // Toggle description of interesting boxes on click
+    const $interesting_boxes = $('.interesting_box');
+    $interesting_boxes.find('.clickable').on('click', function(event) {
         const $target = $(event.target);
-        $target.parent().toggleClass('active');
-        $target.siblings('.description').slideToggle(400);
+        const $box = $target.closest('.interesting_box');
+        $box.toggleClass('active');
+        $box.find('.description, .description_preview').slideToggle(400);
     });
 
 });

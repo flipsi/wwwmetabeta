@@ -144,6 +144,9 @@ msgstr "Code Intelligence GmbH"
 msgid "aboutme:cv:code_intelligence:what"
 msgstr "Senior Software Engineer"
 
+msgid "aboutme:cv:code_intelligence:description"
+msgstr "For the complex fuzz testing product of a IT security startup I worked in a team that developed and maintained the backend of a scalable web application written in Clojure used as SaaS as well as on-premise. I was not afraid to take additional responsibilities including designing and implementing full stack features, identifying and addressing performance bottlenecks, tweaking the domain model to enable multi-tenancy and decisively shaping a team split."
+
 msgid "aboutme:cv:ryte:when"
 msgstr "May 2017 - October 2022"
 
@@ -153,6 +156,9 @@ msgstr "Ryte GmbH"
 msgid "aboutme:cv:ryte:what"
 msgstr "Software Engineer"
 
+msgid "aboutme:cv:ryte:description"
+msgstr "Starting with a SEO tool, Ryte became a SaaS company for sophisticated website quality management with over a million users. I was part of the journey from ca. 30 employees and one development team to ca. 120 employees and four development teams. I became key member of a team, shaping the product as well as the processes. We mastered a broad set of challenges like the migration of monolithic legacy systems to a state-of-the-art cloud-native service architecture written in Scala, including business and security critical systems for authentication or payment data. All of that happened while maintaining and improving stability of the production system and facing the real-life challenges of a startup environment. Beyond that, I closed communication gaps across chapters and took initiative, e.g. by improving the hiring process."
+
 msgid "aboutme:cv:brainworks:when"
 msgstr "October 2015 - March 2017"
 
@@ -161,6 +167,9 @@ msgstr "brainworks computer technologie GmbH"
 
 msgid "aboutme:cv:brainworks:what"
 msgstr "Web Developer"
+
+msgid "aboutme:cv:brainworks:description"
+msgstr "For an Internet gateway solution partner, I started to develop portal websites, but soon designed and implemented complete gateway solutions from scratch. To that end I utilized low-level Linux technology like the netfilter framework and administrated databases."
 
 msgid "aboutme:cv:lmu:when"
 msgstr "2014 - 2017"
@@ -204,8 +213,14 @@ msgstr "Schwimmverein Paffrath"
 msgid "aboutme:cv:swimming:what"
 msgstr "Seepferdchen"
 
+msgid "aboutme:final_grade"
+msgstr "Final grade"
+
 msgid "aboutme:thesis"
 msgstr "Thesis"
+
+msgid "aboutme:more"
+msgstr "More..."
 
 msgid "aboutme:interests:explanation"
 msgstr ""

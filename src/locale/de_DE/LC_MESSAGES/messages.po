@@ -144,6 +144,9 @@ msgstr "Code Intelligence GmbH"
 msgid "aboutme:cv:code_intelligence:what"
 msgstr "Senior Software-Entwickler"
 
+msgid "aboutme:cv:code_intelligence:description"
+msgstr "Für das komplexe Fuzz-Testing-Produkt eines IT-Sicherheits-Startups habe ich ein einem Team gearbeitet, das das Backend einer in Clojure geschriebenen skalierbaren Web-Applikation entwickelt und betrieben hat. Die Applikation musste sowohl on-premise als auch als SaaS funktionieren. Ich habe zusätzliche Aufgaben übernommen, wie Design und Umsetzung von Full-Stack-Features, das Identifizieren und Beheben von Performance-Problemen und das Erweitern des Domänenmodells um Multi-Tenancy zu unterstützen. Außerdem habe ich einen Teamsplit entscheidend mitgeformt."
+
 msgid "aboutme:cv:ryte:when"
 msgstr "März 2017 - Oktober 2022"
 
@@ -153,6 +156,9 @@ msgstr "Ryte GmbH"
 msgid "aboutme:cv:ryte:what"
 msgstr "Software-Entwickler"
 
+msgid "aboutme:cv:ryte:description"
+msgstr "Als SEO-Tool gestartet, ist Ryte eine SaaS-Plattform für umfassendes Webseiten-Qualitäts-Management mit mehr als einer Millionen Nutzern geworden. Während meiner Zeit bei Ryte sind wir von ca. 30 Angestellten und einem Entwickler-Team auf ca. 120 Angestellten und vier Entwickler-Teams gewachsen. Ich habe als wichtiges Mitglied eines Teams sowohl Produkt als auch Prozesse mitgeformt. Wir haben ein breites Spektrum an Herausforderungen gemeistert, wie z.B. die Migration eines veralteten monolithischen Systems hin zu einer Cloud-native Service-Architektur in Scala, inklusive Business- und sicherheitskritischer Systeme wie denen für Authentifizierung und Zahlungsdaten. Währendessen waren wir auch für den Betrieb und die Verbesserung der grundsätzlichen Stabilität des Produktiv-Systems verantwortlich - unter allen Herausforderungen, die eine Startup-Umgebung mit sich bringt. Darüber hinaus habe ich Kommunikationslücken zwischen Abteilungen geschlossen und mich für die Verbesserung des Einstellungsprozesses eingesetzt."
+
 msgid "aboutme:cv:brainworks:when"
 msgstr "Oktober 2015 - März 2017"
 
@@ -161,6 +167,9 @@ msgstr "brainworks computer technologie GmbH"
 
 msgid "aboutme:cv:brainworks:what"
 msgstr "Web-Entwickler"
+
+msgid "aboutme:cv:brainworks:description"
+msgstr "Für einen Internet-Gateway-Solution-Partner habe ich ursprünglich Portalseiten programmiert. Bald wurde daraus das vollumfängliche Entwickeln von Gateway-Lösungen, wofür ich Netzwerk-Technologie der UNIX/Linux-Welt wie das netfilter-Framework eingesetzt und Datenbanken verwaltet habe."
 
 msgid "aboutme:cv:lmu:when"
 msgstr "2014 - 2017"
@@ -204,8 +213,14 @@ msgstr "Schwimmverein Paffrath"
 msgid "aboutme:cv:swimming:what"
 msgstr "Seepferdchen"
 
+msgid "aboutme:final_grade"
+msgstr "Abschlussnote"
+
 msgid "aboutme:thesis"
 msgstr "Abschlussarbeit"
+
+msgid "aboutme:more"
+msgstr "Mehr..."
 
 msgid "aboutme:interests:explanation"
 msgstr ""

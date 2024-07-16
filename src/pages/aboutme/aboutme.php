@@ -15,90 +15,151 @@
 
             <ul class="curriculumvitae">
                 <li class="container right">
-                    <div class="content">
-                        <div class="when"><?php echo gettext('aboutme:cv:code_intelligence:when'); ?></div>
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:code_intelligence:when'); ?>
+                        </div>
                         <div class="where">
                             <a href="https://www.code-intelligence.com">
                                 <?php echo gettext('aboutme:cv:code_intelligence:where'); ?>
                             </a>
                         </div>
-                        <div class="what"><?php echo gettext('aboutme:cv:code_intelligence:what'); ?></div>
+                        <div class="what">
+                            <?php echo gettext('aboutme:cv:code_intelligence:what'); ?>
+                        </div>
+                        <div class="description clickable">
+                            <i><?php echo gettext('aboutme:cv:code_intelligence:description'); ?></i>
+                        </div>
+                        <div class="description_preview clickable">
+                            <i><?php echo substr(gettext('aboutme:cv:code_intelligence:description'), 0, 30) . '...'; ?></i>
+                        </div>
                     </div>
                 </li>
                 <li class="container left">
-                    <div class="content">
-                        <div class="when"><?php echo gettext('aboutme:cv:ryte:when'); ?></div>
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:ryte:when'); ?>
+                        </div>
                         <div class="where">
                             <a href="https://ryte.com">
                                 <?php echo gettext('aboutme:cv:ryte:where'); ?>
                             </a>
                         </div>
-                        <div class="what"><?php echo gettext('aboutme:cv:ryte:what'); ?></div>
+                        <div class="what">
+                            <?php echo gettext('aboutme:cv:ryte:what'); ?>
+                        </div>
+                        <div class="description clickable">
+                            <i><?php echo gettext('aboutme:cv:ryte:description'); ?></i>
+                        </div>
+                        <div class="description_preview clickable">
+                            <i><?php echo substr(gettext('aboutme:cv:ryte:description'), 0, 35) . '...'; ?></i>
+                        </div>
                     </div>
                 </li>
                 <li class="container right">
-                    <div class="content">
-                        <div class="when"><?php echo gettext('aboutme:cv:brainworks:when'); ?></div>
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:brainworks:when'); ?>
+                        </div>
                         <div class="where">
                             <a href="https://www.brainworks.de/">
                                 <?php echo gettext('aboutme:cv:brainworks:where'); ?>
                             </a>
                         </div>
-                        <div class="what"><?php echo gettext('aboutme:cv:brainworks:what'); ?></div>
+                        <div class="what">
+                            <?php echo gettext('aboutme:cv:brainworks:what'); ?>
+                        </div>
+                        <div class="description clickable">
+                            <i><?php echo gettext('aboutme:cv:brainworks:description'); ?></i>
+                        </div>
+                        <div class="description_preview clickable">
+                            <i><?php echo substr(gettext('aboutme:cv:brainworks:description'), 0, 35) . '...'; ?></i>
+                        </div>
                     </div>
                 </li>
                 <li class="container left">
-                    <div class="content">
-                        <div class="when"><?php echo gettext('aboutme:cv:lmu:when'); ?></div>
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:lmu:when'); ?>
+                        </div>
                         <div class="where">
                             <a href="https://www.uni-muenchen.de/index.html">
-                                <?php echo gettext('aboutme:cv:lmu:where'); ?>
+                             <?php echo gettext('aboutme:cv:lmu:where'); ?>
                             </a>
                         </div>
-                        <div class="what"><?php echo gettext('aboutme:cv:lmu:what'); ?></div>
-                        <div class="thesis">
-                            <?php echo gettext('aboutme:thesis'); ?>:
-                            <a href="files/masterthesis.pdf" target="_blank">
-                                <i><?php echo gettext('aboutme:cv:lmu:thesis_title'); ?></i>
-                            </a>
+                        <div class="what">
+                            <?php echo gettext('aboutme:cv:lmu:what'); ?>
+                        </div>
+                        <div class="description_preview clickable">
+                            <i><?php echo gettext('aboutme:more'); ?></i>
+                        </div>
+                        <div class="description">
+                            <div class="grade">
+                                <?php echo gettext('aboutme:final_grade'); ?>:
+                                1.21
+                            </div>
+                            <div class="thesis">
+                                <?php echo gettext('aboutme:thesis'); ?>:
+                                <a href="files/masterthesis.pdf" target="_blank">
+                                    <i><?php echo gettext('aboutme:cv:lmu:thesis_title'); ?></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="container right">
-                    <div class="content">
-                        <div class="when"><?php echo gettext('aboutme:cv:tubingen:when'); ?></div>
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:tubingen:when'); ?>
+                        </div>
                         <div class="where">
                             <a href="https://uni-tuebingen.de/">
                                 <?php echo gettext('aboutme:cv:tubingen:where'); ?>
                             </a>
                         </div>
-                        <div class="what"><?php echo gettext('aboutme:cv:tubingen:what'); ?></div>
-                        <div class="thesis">
-                            <?php echo gettext('aboutme:thesis'); ?>:
-                            <a href="files/bachelorthesis.pdf" target="_blank">
-                                <i><?php echo gettext('aboutme:cv:tubingen:thesis_title'); ?></i>
-                            </a>
+                        <div class="what">
+                            <?php echo gettext('aboutme:cv:tubingen:what'); ?>
+                        </div>
+                        <div class="description_preview clickable">
+                            <i><?php echo gettext('aboutme:more'); ?></i>
+                        </div>
+                        <div class="description">
+                            <div class="grade">
+                                <?php echo gettext('aboutme:final_grade'); ?>:
+                                1.5
+                            </div>
+                            <div class="thesis">
+                                <?php echo gettext('aboutme:thesis'); ?>:
+                                <a href="files/bachelorthesis.pdf" target="_blank">
+                                    <i><?php echo gettext('aboutme:cv:tubingen:thesis_title'); ?></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </li>
                 <li class="container left">
-                    <div class="content">
-                        <div class="when"><?php echo gettext('aboutme:cv:go:when'); ?></div>
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:go:when'); ?>
+                        </div>
                         <div class="where">
                             <a href="https://www.gymnasium-odenthal.de/">
                                 <?php echo gettext('aboutme:cv:go:where'); ?>
                             </a>
                         </div>
-                        <div class="what"><?php echo gettext('aboutme:cv:go:what'); ?></div>
+                        <div class="what">
+                            <?php echo gettext('aboutme:cv:go:what'); ?>
+                        </div>
                     </div>
                 </li>
                 <li class="container right">
-                    <div class="content">
-                        <div class="when"><?php echo gettext('aboutme:cv:swimming:when'); ?></div>
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:swimming:when'); ?>
+                        </div>
                         <div class="where">
                             <?php echo gettext('aboutme:cv:swimming:where'); ?>
                         </div>
-                        <div class="what"></div>
                         <div class="what">
                             <a href="https://de.wikipedia.org/wiki/Fr%C3%BChschwimmer">
                                 <?php echo gettext('aboutme:cv:swimming:what'); ?>
@@ -115,10 +176,10 @@
             <h1><?php echo gettext('aboutme:interests'); ?></h1>
             <p><?php echo gettext('aboutme:interests:explanation'); ?></p>
 
-            <div class="interesting_boxes">
+            <div class="interest_and_skills_boxes">
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:scala_and_fp:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:scala_and_fp:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:scala_and_fp:description'),
                             '<a href="https://www.scala-lang.org/">Scala</a>',
@@ -128,8 +189,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:reactive_and_streams:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:reactive_and_streams:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:reactive_and_streams:description'),
                             '<a href="https://www.reactivemanifesto.org/">Reactive Manifesto</a>'
@@ -137,8 +198,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:bits_and_dbs:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:bits_and_dbs:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:bits_and_dbs:description'),
                             '<a href="https://blog.s4rb.com/data-is-the-oil-of-the-21st-century">' .
@@ -152,8 +213,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:agile_and_communication:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:agile_and_communication:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:agile_and_communication:description'),
                             '<a href="https://agilemanifesto.org/">' .
@@ -162,8 +223,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:linux_and_foss:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:linux_and_foss:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:linux_and_foss:description'),
                             '<i><a href="https://publiccode.eu/openletter/">Public Money - Public Code</a></i>'
@@ -171,8 +232,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:vim_and_scripting:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:vim_and_scripting:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:vim_and_scripting:description'),
                             '<a href="https://github.com/flipsi/dotfiles/blob/master/vim/vimrc">' .
@@ -181,8 +242,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:maths_and_philosophy:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:maths_and_philosophy:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:maths_and_philosophy:description'),
                             '<a href="https://en.wikipedia.org/wiki/Recursion">' .
@@ -195,8 +256,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:science_and_cr:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:science_and_cr:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:science_and_cr:description'),
                             '<a href="https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems">Gödel</a>',
@@ -206,8 +267,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:puzzles_and_problems:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:puzzles_and_problems:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:puzzles_and_problems:description'),
                             '<i>' . gettext('aboutme:interests:puzzles_and_problems:just_works') . '</i>',
@@ -215,8 +276,8 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:music:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:music:title'); ?></p>
                     <p class="description">
                         <?php echo sprintf(gettext('aboutme:interests:music:description'),
                             '<a href="https://www.youtube.com/user/jacobcolliermusic">Jacob Collier</a>',
@@ -228,23 +289,23 @@
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:sports:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:sports:title'); ?></p>
                     <p class="description">
                         <?php echo gettext('aboutme:interests:sports:description'); ?>
                     </p>
                 </div>
 
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:playing_games:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:playing_games:title'); ?></p>
                     <p class="description">
                         <?php echo gettext('aboutme:interests:playing_games:description'); ?>
                     </p>
                 </div>
 
                 <!--
-                <div>
-                    <p class="title"><?php echo gettext('aboutme:interests:bananas:title'); ?></p>
+                <div class="interesting_box">
+                    <p class="title clickable"><?php echo gettext('aboutme:interests:bananas:title'); ?></p>
                     <p class="description">
                         <?php echo gettext('aboutme:interests:bananas:description'); ?>
                     </p>
