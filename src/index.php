@@ -130,10 +130,6 @@ setup_localization();
                             <?php echo gettext('aboutme'); ?>
                         </a>
                     </li><li>
-                        <a href="?page=blog">
-                            <?php echo gettext('blog'); ?>
-                        </a>
-                    </li><li>
                         <a href="?page=wishlist">
                             <?php echo gettext('wishlist'); ?>
                         </a>
