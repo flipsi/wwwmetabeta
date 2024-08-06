@@ -3,7 +3,6 @@
 <ul class="wishlist">
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
     <li><a href="https://www.amazon.de/-/en/Coasters-Waterproof-Decorations-Friends-Drinking/dp/B09TQF61C6/ref=sr_1_15?keywords=leuchtende%2Bbierdeckel&qid=1707683312&sr=8-15&th=1" target="blank"><?php echo gettext('wishlist:item:led_beer_mats'); ?></a></li>
-    <li><?php echo gettext('wishlist:item:record_player'); ?></li>
     <li><?php echo gettext('wishlist:item:ultrasonic_cleaner'); ?></li>
     <li><?php echo gettext('wishlist:item:speedcube_4x4x4'); ?></li>
 </ul>
@@ -17,7 +16,6 @@
     <li>I Am a Strange Loop <em class="isbn">(ISBN 978-0-465-03078-1)</em></li>
     <li>Process and Reality <em class="isbn">(ISBN 978-0029345702)</em></li>
     <li>Tomorrow, and Tomorrow, and Tomorrow <em class="isbn">(ISBN 978-0593321201)</em></li>
-    <li>Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts <em class="isbn">(ISBN 978-0735216358)</em></li>
     <li>Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets <em class="isbn">(ISBN 978-0141031484)</em></li>
     <li>Twenty Years of A New Kind of Science <em class="isbn">(ISBN 978-1579550493)</em></li>
     <li>EMPOWERED: Ordinary People, Extraordinary Products <em class="isbn">(ISBN 978-1119691297)</em></li>

@@ -105,9 +105,6 @@ msgstr "Hochwertiges Schachspiel"
 msgid "wishlist:item:led_beer_mats"
 msgstr "LED Untersetzer"
 
-msgid "wishlist:item:record_player"
-msgstr "Plattenspieler"
-
 msgid "wishlist:item:ultrasonic_cleaner"
 msgstr "Ultraschallreiniger für Brillen"
 

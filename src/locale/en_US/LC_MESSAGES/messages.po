@@ -105,9 +105,6 @@ msgstr "high quality chess game"
 msgid "wishlist:item:led_beer_mats"
 msgstr "LED beer mats"
 
-msgid "wishlist:item:record_player"
-msgstr "record player"
-
 msgid "wishlist:item:ultrasonic_cleaner"
 msgstr "ultrasonic cleaner for glasses"
 
