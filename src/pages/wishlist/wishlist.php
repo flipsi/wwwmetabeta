@@ -22,7 +22,6 @@
     <li>The Power of Writing It Down <em class="isbn">(ISBN 978-0310359340)</em></li>
     <li>Quiet: The Power of Introverts in a World That Can't Stop Talking <em class="isbn">(ISBN 978-0141029191)</em></li>
     <li>The Socratic Method: A Practitioner's Handbook <em class="isbn">(ISBN 978-1567926859)</em></li>
-    <li>Awareness <em class="isbn">(ISBN 978-0006275190)</em></li>
     <li>Feeling &amp; Knowing: Making Minds Conscious <em class="isbn">(ISBN 978-0525563075)</em></li>
     <li>The Strange Order of Things: Life, Feeling, and the Making of Cultures <em class="isbn">(ISBN 978-0345807144)</em></li>
     <li>Cryptography Engineering: Design Principles and Practical Applications <em class="isbn">(ISBN 978-0470474242)</em></li>

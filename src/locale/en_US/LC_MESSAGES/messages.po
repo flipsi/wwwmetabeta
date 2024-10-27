@@ -96,6 +96,9 @@ msgstr "The abovementioned problem also applies for my kids."
 msgid "wishlist:item:board_games"
 msgstr "board or card games"
 
+msgid "wishlist:item:theo_katzman_vinyl"
+msgstr "Theo Katzman - \"Live From The Other Side\" vinyl"
+
 msgid "wishlist:item:whiskey"
 msgstr "whiskey"
 
