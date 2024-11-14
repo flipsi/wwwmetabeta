@@ -135,8 +135,20 @@ msgstr "Curriculum Vitae"
 msgid "aboutme:interests"
 msgstr "Interests and Skills"
 
+msgid "aboutme:cv:reply:when"
+msgstr "December 2024 - present"
+
+msgid "aboutme:cv:reply:where"
+msgstr "Logistics Reply GmbH"
+
+msgid "aboutme:cv:reply:what"
+msgstr "Senior Consultant"
+
+msgid "aboutme:cv:reply:description"
+msgstr "Currently, I am working on a powerful and complex warehouse management software with a growing team. My responsibilities are widely spread being both technical as well as social and organizational."
+
 msgid "aboutme:cv:code_intelligence:when"
-msgstr "November 2022 - present"
+msgstr "November 2022 - November 2024"
 
 msgid "aboutme:cv:code_intelligence:where"
 msgstr "Code Intelligence GmbH"

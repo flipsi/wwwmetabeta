@@ -205,6 +205,7 @@ a.toggle_background {
 .curriculumvitae {
     position: relative;
     margin: 0 auto;
+    margin-top: 2em;
     list-style-type: none;
 }
 /* The actual timeline (the vertical ruler) */

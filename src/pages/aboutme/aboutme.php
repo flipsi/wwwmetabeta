@@ -14,6 +14,27 @@
             <h1><?php echo gettext('aboutme:cv'); ?></h1>
 
             <ul class="curriculumvitae">
+                <li class="container left">
+                    <div class="content interesting_box">
+                        <div class="when clickable">
+                            <?php echo gettext('aboutme:cv:reply:when'); ?>
+                        </div>
+                        <div class="where">
+                            <a href="https://www.code-intelligence.com">
+                                <?php echo gettext('aboutme:cv:reply:where'); ?>
+                            </a>
+                        </div>
+                        <div class="what">
+                            <?php echo gettext('aboutme:cv:reply:what'); ?>
+                        </div>
+                        <div class="description clickable">
+                            <i><?php echo gettext('aboutme:cv:reply:description'); ?></i>
+                        </div>
+                        <div class="description_preview clickable">
+                            <i><?php echo substr(gettext('aboutme:cv:reply:description'), 0, 30) . '...'; ?></i>
+                        </div>
+                    </div>
+                </li>
                 <li class="container right">
                     <div class="content interesting_box">
                         <div class="when clickable">
