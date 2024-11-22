@@ -13,6 +13,7 @@
 <ul class="wishlist">
     <li>The Complete Calvin and Hobbes <em class="isbn">(ISBN 1449433251)</em></li>
     <li>What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (English Edition) <em class="isbn">(ISBN 978-0593542903)</em></li>
+    <li>Paul Graham: Hackers &amp; Painters: Big Ideas from the Computer Age <em class="isbn">(ISBN 1449389554)</em></li>
     <li>Math Games with Bad Drawings: 75 1/4 Simple, Challenging, Go-Anywhere Games―And Why They Matter <em class="isbn">(ISBN 0762499869)</em></li>
     <li>Tomorrow, and Tomorrow, and Tomorrow <em class="isbn">(ISBN 978-0593321201)</em></li>
     <li>I Am a Strange Loop <em class="isbn">(ISBN 978-0-465-03078-1)</em></li>
