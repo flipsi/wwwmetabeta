@@ -96,8 +96,14 @@ msgstr "Die oben beschriebene Problematik trifft auch auf meine Kinder zu."
 msgid "wishlist:item:board_games"
 msgstr "Gesellschafts- oder Kartenspiele"
 
+msgid "wishlist:item:lawrence_hoody"
+msgstr "Lawrence Icon Hoodie (Größe L)"
+
+msgid "wishlist:item:lawrence_vinyl"
+msgstr "Lawrence \"Family Business\" Schallplatte"
+
 msgid "wishlist:item:theo_katzman_vinyl"
-msgstr "Theo Katzman - \"Live From The Other Side\" Schallplatte"
+msgstr "Theo Katzman \"Live From The Other Side\" Schallplatte"
 
 msgid "wishlist:item:whiskey"
 msgstr "Whiskey"

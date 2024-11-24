@@ -2,6 +2,8 @@
 <p><?php echo gettext('wishlist:introduction'); ?></p>
 <ul class="wishlist">
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
+    <li><a href="https://lawrencetheband.com/store/lawrence-icon-hoodie" target="blank"><?php echo gettext('wishlist:item:lawrence_hoody'); ?></a></li>
+    <li><a href="https://lawrencetheband.com/store/family-business-album" target="blank"><?php echo gettext('wishlist:item:lawrence_vinyl'); ?></a></li>
     <li><a href="https://www.diggersfactory.com/vinyl/318915" target="blank"><?php echo gettext('wishlist:item:theo_katzman_vinyl'); ?></a></li>
     <li><a href="https://www.amazon.de/-/en/Coasters-Waterproof-Decorations-Friends-Drinking/dp/B09TQF61C6/ref=sr_1_15?keywords=leuchtende%2Bbierdeckel&qid=1707683312&sr=8-15&th=1" target="blank"><?php echo gettext('wishlist:item:led_beer_mats'); ?></a></li>
     <li><?php echo gettext('wishlist:item:speedcube_4x4x4'); ?></li>
