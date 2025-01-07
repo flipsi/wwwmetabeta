@@ -17,7 +17,6 @@
     <li>What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (English Edition) <em class="isbn">(ISBN 978-0593542903)</em></li>
     <li>Paul Graham: Hackers &amp; Painters: Big Ideas from the Computer Age <em class="isbn">(ISBN 1449389554)</em></li>
     <li>Math Games with Bad Drawings: 75 1/4 Simple, Challenging, Go-Anywhere Games―And Why They Matter <em class="isbn">(ISBN 0762499869)</em></li>
-    <li>Tomorrow, and Tomorrow, and Tomorrow <em class="isbn">(ISBN 978-0593321201)</em></li>
     <li>I Am a Strange Loop <em class="isbn">(ISBN 978-0-465-03078-1)</em></li>
     <li>Process and Reality <em class="isbn">(ISBN 978-0029345702)</em></li>
     <li>Twenty Years of A New Kind of Science <em class="isbn">(ISBN 978-1579550493)</em></li>
@@ -32,8 +31,9 @@
     <li>Einführung in die Physik des 20. Jahrhunderts: Relativitätstheorie, Quantenmechanik, Elementarteilchenphysik und Kosmologie <em class="isbn">(ISBN 978-3868942620)</em></li>
     <li>Dave Grohl: The Storyteller: Tales of Life and Music <em class="isbn">(ISBN 0063076101)</em></li>
     <li>Flash Boys: Revolte an der Wall Street <em class="isbn">(ISBN 3593501236)</em></li>
-    <li>Die Pilgerjahre des farblosen Herrn Tazaki <em class="isbn">(ISBN 978-3-8321-9748-3)</em></li>
     <li>Geld und Magie. Eine ökonomische Deutung von Goethes Faust <em class="isbn">(ISBN 3938017252)</em></li>
+    <li>Haruki Murakami: Die Stadt und ihre ungewisse Mauer <em class="isbn">(ISBN 3832168397)</em></li>
+    <li>Haruki Murakami: Die Pilgerjahre des farblosen Herrn Tazaki <em class="isbn">(ISBN 978-3-8321-9748-3)</em></li>
 </ul>
 
 <h1><?php echo gettext('wishlist:h1:always_nice'); ?></h1>
