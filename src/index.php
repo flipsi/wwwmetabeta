@@ -11,10 +11,19 @@ define('FALLBACK_LANG', ENGLISH);
 define('COOKIE_LANG', 'LANG');
 
 $LANG = FALLBACK_LANG;
-$LANG_MAP = [
-    ENGLISH => ENGLISH_FULL,
-    GERMAN => GERMAN_FULL
-];
+
+function get_full_locale($locale) {
+    switch ($locale) {
+        case GERMAN: 
+            return GERMAN_FULL;
+            break;
+        case ENGLISH: 
+            return ENGLISH_FULL;
+            break;
+        default:
+            return FALLBACK_LANG;
+    }
+}
 
 function manage_user_locale() {
     global $LANG;
@@ -34,12 +43,13 @@ function manage_user_locale() {
 }
 
 function setup_localization() {
-    global $LANG, $LANG_MAP;
-    $full_locale = $LANG_MAP[$LANG];
+    global $LANG;
+    $full_locale = get_full_locale($LANG);
+    // error_log("Changing locale to $full_locale");
     putenv("LANGUAGE=" . $full_locale);
     putenv("LANG=" . $full_locale);
     putenv("LC_ALL=" . $full_locale);
-    $locale_result = setlocale(LC_ALL, $full_locale); // would silently fail with invalid locales, but return false
+    $locale_result = setlocale(LC_ALL, $full_locale); // would silently fail with invalid locales, but return value reveals success/failure
     // error_log("Changed locale to $locale_result");
     $domain = "messages";
     bindtextdomain($domain, __DIR__ . "/locale");
