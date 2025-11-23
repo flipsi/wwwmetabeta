@@ -1,13 +1,20 @@
 <?php
 
-define('ENGLISH','en_US.UTF-8');
-define('GERMAN', 'de_DE.UTF-8');
-define('FALLBACK_LANG', ENGLISH);
+define('ENGLISH','en');
+define('GERMAN', 'de');
+define('ENGLISH_FULL','en_US.utf8');
+define('GERMAN_FULL', 'de_DE.utf8');
+//define('ENGLISH_FULL','en_US.UTF-8'); // should exactly match `locale -a` output
+//define('GERMAN_FULL', 'de_DE.UTF-8');
 
+define('FALLBACK_LANG', ENGLISH);
 define('COOKIE_LANG', 'LANG');
 
 $LANG = FALLBACK_LANG;
-
+$LANG_MAP = [
+    ENGLISH => ENGLISH_FULL,
+    GERMAN => GERMAN_FULL
+];
 
 function manage_user_locale() {
     global $LANG;
@@ -21,20 +28,24 @@ function manage_user_locale() {
     if (!empty($_COOKIE[COOKIE_LANG])) {
         $LANG = $_COOKIE[COOKIE_LANG];
     } else {
-        $LANG = $browser_language === 'de' ? GERMAN : FALLBACK_LANG;
+        $LANG = $browser_language === GERMAN ? GERMAN : FALLBACK_LANG;
         setcookie(COOKIE_LANG, $LANG);
     }
 }
 
 function setup_localization() {
-    global $LANG;
-    putenv("LANG=" . $LANG);
-    setlocale(LC_ALL, $LANG);
-    $domain = "messages"; // files have to be named like that
-    bindtextdomain($domain, "./locale"); // location of translations
+    global $LANG, $LANG_MAP;
+    $full_locale = $LANG_MAP[$LANG];
+    putenv("LANGUAGE=" . $full_locale);
+    putenv("LANG=" . $full_locale);
+    putenv("LC_ALL=" . $full_locale);
+    $locale_result = setlocale(LC_ALL, $full_locale); // would silently fail with invalid locales, but return false
+    // error_log("Changed locale to $locale_result");
+    $domain = "messages";
+    bindtextdomain($domain, __DIR__ . "/locale");
+    bind_textdomain_codeset($domain, 'UTF-8');
     textdomain($domain);
 }
-
 
 manage_user_locale();
 setup_localization();
