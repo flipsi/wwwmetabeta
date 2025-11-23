@@ -96,9 +96,6 @@ msgstr "Die oben beschriebene Problematik trifft auch auf meine Kinder zu."
 msgid "wishlist:item:board_games"
 msgstr "Gesellschafts- oder Kartenspiele"
 
-msgid "wishlist:item:lawrence_hoody"
-msgstr "Lawrence Icon Hoodie (Größe L)"
-
 msgid "wishlist:item:lawrence_vinyl"
 msgstr "Lawrence \"Family Business\" Schallplatte"
 
@@ -110,6 +107,9 @@ msgstr "Whiskey"
 
 msgid "wishlist:item:chess"
 msgstr "Hochwertiges Schachspiel"
+
+msgid "wishlist:item:zsa_nav"
+msgstr "ZSA Navigator Keyboard-Erweiterung"
 
 msgid "wishlist:item:led_beer_mats"
 msgstr "LED Untersetzer"
