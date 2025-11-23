@@ -10,9 +10,11 @@ This is the source code for my personal website you can find under
 
 Edit source in `src`.
 
-Build with `./build.sh`.
+Build with `./build.sh`. This will generate `target`.
 
-Copy generated `target` directory to your webserver (I use `./upload.sh` for that).
+Host target files in a local webserver with a docker container: `.run.sh`.
+
+To deploy to the live system, copy target directory webserver via `./upload.sh`.
 
 ### Localization
 
