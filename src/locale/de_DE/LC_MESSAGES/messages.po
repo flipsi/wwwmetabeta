@@ -126,11 +126,20 @@ msgstr "elektrische Kinderzahnbürste"
 msgid "wishlist:item:underwear"
 msgstr "Unterwäsche Größe 98/104"
 
+msgid "wishlist:item:slippers_for_tina"
+msgstr "Hausschuhe Größe 28"
+
+msgid "wishlist:item:slippers_for_leo"
+msgstr "Hausschuhe Größe 26"
+
 msgid "wishlist:item:brio_train"
 msgstr "Mehr BRIO Holzeisenbahn-Schienen"
 
 msgid "wishlist:item:watch"
 msgstr "Armbanduhr für Kinder"
+
+msgid "wishlist:item:malbuch"
+msgstr "Malbuch"
 
 msgid "wishlist:item:money_for_babysitter"
 msgstr "Geld für Babysitter"

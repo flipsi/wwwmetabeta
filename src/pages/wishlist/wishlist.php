@@ -45,12 +45,15 @@
 <h2><?php echo gettext('wishlist:h2:daughter'); ?></h2>
 <ul class="wishlist">
     <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
+    <li><?php echo gettext('wishlist:item:slippers_for_tina'); ?></li>
     <!-- <li><?php echo gettext('wishlist:item:underwear'); ?></li> -->
-    <li><?php echo gettext('wishlist:item:brio_train'); ?></li>
-    <!-- <li><?php echo gettext('wishlist:item:watch'); ?></li> -->
+    <li><?php echo gettext('wishlist:item:malbuch'); ?></li>
     <li><?php echo gettext('wishlist:item:money_for_babysitter'); ?></li>
 </ul>
 <h2><?php echo gettext('wishlist:h2:son'); ?></h2>
 <ul class="wishlist">
+    <li><?php echo gettext('wishlist:item:children_toothbrush'); ?></li>
+    <li><?php echo gettext('wishlist:item:slippers_for_leo'); ?></li>
+    <li><?php echo gettext('wishlist:item:brio_train'); ?></li>
     <li><?php echo gettext('wishlist:item:money_for_babysitter'); ?></li>
 </ul>

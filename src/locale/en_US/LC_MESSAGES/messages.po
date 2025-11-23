@@ -129,8 +129,17 @@ msgstr "underwear size 98/104"
 msgid "wishlist:item:brio_train"
 msgstr "more BRIO wooden train rails"
 
+msgid "wishlist:item:slippers_for_tina"
+msgstr "Slippers size 28"
+
+msgid "wishlist:item:slippers_for_leo"
+msgstr "Slippers size 26"
+
 msgid "wishlist:item:watch"
 msgstr "watch"
+
+msgid "wishlist:item:malbuch"
+msgstr "Coloring book"
 
 msgid "wishlist:item:money_for_babysitter"
 msgstr "money for babysitter"
