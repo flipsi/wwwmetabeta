@@ -108,6 +108,9 @@ msgstr "whiskey"
 msgid "wishlist:item:chess"
 msgstr "high quality chess game"
 
+msgid "wishlist:item:watch_repair_set"
+msgstr "Watch repair set"
+
 msgid "wishlist:item:zsa_nav"
 msgstr "ZSA Navigator keyboard extension"
 
