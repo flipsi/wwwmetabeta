@@ -14,10 +14,10 @@ $LANG = FALLBACK_LANG;
 
 function get_full_locale($locale) {
     switch ($locale) {
-        case GERMAN: 
+        case GERMAN:
             return GERMAN_FULL;
             break;
-        case ENGLISH: 
+        case ENGLISH:
             return ENGLISH_FULL;
             break;
         default:
