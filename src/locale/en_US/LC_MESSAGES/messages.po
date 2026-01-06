@@ -105,6 +105,9 @@ msgstr "Theo Katzman \"Live From The Other Side\" vinyl"
 msgid "wishlist:item:whiskey"
 msgstr "whiskey"
 
+msgid "wishlist:item:shoehorn"
+msgstr "big wooden shoehorn"
+
 msgid "wishlist:item:chess"
 msgstr "high quality chess game"
 
