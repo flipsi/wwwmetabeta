@@ -12,7 +12,7 @@ Edit source in `src`.
 
 Build with `./build.sh`. This will generate `target`.
 
-Host target files in a local webserver with a docker container: `.run.sh`.
+Host target files in a local webserver with a docker container: `./run.sh`.
 This will host the website at [](http://localhost:80).
 
 To deploy to the live system, copy target directory webserver via `./upload.sh`.
