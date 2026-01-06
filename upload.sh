@@ -20,15 +20,24 @@ function upload_via_ftp() {
 function upload_via_ssh() {
     require rsync
     require sshpass
+    # [[ "${SRC}" != */ ]] && SRC="${SRC}/" # append trailing slash if there is none
+    [[ "${SRC}" == */ ]] && SRC="${SRC: : -1}" # remove trailing slash if there is one
+    upload_without_interactive_password_prompt
+}
+
+function upload_with_interactive_password_prompt() {
+    # scp -r "$SRC/." "$USER@$HOST:/$DST"
+    rsync -urL --progress "$SRC/." "$USER@$HOST:$DST"
+}
+
+function upload_without_interactive_password_prompt() {
+    ## Source: https://unix.stackexchange.com/a/111534/119362
     PASSWORD_FILE=$(mktemp -p /tmp my_litte_secret.XXXXXX) || exit 2
     chmod 600 "$PASSWORD_FILE"
     echo -n "$PASS" > "$PASSWORD_FILE"
-    # [[ "${SRC}" != */ ]] && SRC="${SRC}/" # append trailing slash if there is none
-    [[ "${SRC}" == */ ]] && SRC="${SRC: : -1}" # remove trailing slash if there is one
-    # Avoid password prompt: https://unix.stackexchange.com/a/111534/119362
+    # rsync -urL --progress --password-file="$PASSWORD_FILE" "$SRC/." "$USER@$HOST:$DST" # `--password-file` requires rsync daemon
     # sshpass -p $(cat "$PASSWORD_FILE") scp -r "$SRC/." "$USER@$HOST:/$DST"
-    # sshpass -p $(cat "$PASSWORD_FILE") rsync -rL --progress "$SRC/." "$USER@$HOST:$DST"
-    rsync -urL --progress "$SRC/." "$USER@$HOST:$DST"
+    sshpass -p $(cat "$PASSWORD_FILE") rsync -urL --progress "$SRC/." "$USER@$HOST:$DST"
     rm "$PASSWORD_FILE"
 }
 
@@ -55,8 +64,8 @@ function main() {
             upload_via_ftp
             ;;
         * )
-            echo "No server given. Provide 'strato' or 'bplaced' as argument."
-            exit 1
+            echo "No server given. Using default 'strato'".
+            main 'strato'
     esac
 }
 
