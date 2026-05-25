@@ -1,10 +1,11 @@
 <h1><?php echo gettext('wishlist:h1:introduction'); ?></h1>
 <p><?php echo gettext('wishlist:introduction'); ?></p>
+
 <ul class="wishlist">
+    <li><a href="https://www.amazon.de/s?k=cornhole" target="blank"><?php echo gettext('wishlist:item:cornhole'); ?></a></li>
     <li><?php echo gettext('wishlist:item:shoehorn'); ?></li>
     <li><?php echo gettext('wishlist:item:chess'); ?></li>
     <li><a href="https://www.amazon.de/Uhrenwerkzeug-Uhrmacherwerkzeug-Reparatur-Batteriewechsel-Federstegwerkzeug/dp/B0CWLCFNDB?dib=eyJ2IjoiMSJ9.DQ13zu120PhkOrA-r8FUYCPeyptORge3ckU_REE4qEsyKixDgwcePb7f3aY0krBv75WCgnHGkZXfHL3QUrLLNKFfqCRDUmnqPygS7NnSZSpmWesTLNHToxLBng5hwdkrkUZvPvB34I13MHLlQZXBpZjBdgUNkxXqGIzUCcgDZgi4sH7wGEmzW7gFHk3lBTigk26vKJW3IOwyBvLkZrozlB4GofqrRyclkSnZbZChvIk2KaDkaioIx5I6esM7Nf44J92ZEaDeok5UhOqgco-zZzJ7ktrNfxrTgoxlxZusNd8.QPKs8VsLWjjL1_RsY61D_flMeh_uBi9X5U1hMZfqfhs" target="blank"><?php echo gettext('wishlist:item:watch_repair_set'); ?></a></li>
-    <li><a href="https://www.zsa.io/nav" target="blank"><?php echo gettext('wishlist:item:zsa_nav'); ?></a></li>
     <li><a href="https://lawrencetheband.com/store/family-business-album" target="blank"><?php echo gettext('wishlist:item:lawrence_vinyl'); ?></a></li>
     <li><a href="https://www.diggersfactory.com/vinyl/318915" target="blank"><?php echo gettext('wishlist:item:theo_katzman_vinyl'); ?></a></li>
     <li><a href="https://www.amazon.de/-/en/Coasters-Waterproof-Decorations-Friends-Drinking/dp/B09TQF61C6/ref=sr_1_15?keywords=leuchtende%2Bbierdeckel&qid=1707683312&sr=8-15&th=1" target="blank"><?php echo gettext('wishlist:item:led_beer_mats'); ?></a></li>

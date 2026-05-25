@@ -22,7 +22,8 @@ function upload_via_ssh() {
     require sshpass
     # [[ "${SRC}" != */ ]] && SRC="${SRC}/" # append trailing slash if there is none
     [[ "${SRC}" == */ ]] && SRC="${SRC: : -1}" # remove trailing slash if there is one
-    upload_without_interactive_password_prompt
+    # upload_without_interactive_password_prompt
+    upload_with_interactive_password_prompt
 }
 
 function upload_with_interactive_password_prompt() {

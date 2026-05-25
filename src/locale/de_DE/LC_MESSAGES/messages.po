@@ -114,8 +114,8 @@ msgstr "Hochwertiges Schachspiel"
 msgid "wishlist:item:watch_repair_set"
 msgstr "Uhrenwerkzeug"
 
-msgid "wishlist:item:zsa_nav"
-msgstr "ZSA Navigator Keyboard-Erweiterung"
+msgid "wishlist:item:cornhole"
+msgstr "Cornhole Spiel"
 
 msgid "wishlist:item:led_beer_mats"
 msgstr "LED Untersetzer"

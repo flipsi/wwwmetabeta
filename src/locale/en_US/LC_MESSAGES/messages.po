@@ -114,8 +114,8 @@ msgstr "high quality chess game"
 msgid "wishlist:item:watch_repair_set"
 msgstr "Watch repair set"
 
-msgid "wishlist:item:zsa_nav"
-msgstr "ZSA Navigator keyboard extension"
+msgid "wishlist:item:cornhole"
+msgstr "Cornhole set"
 
 msgid "wishlist:item:led_beer_mats"
 msgstr "LED beer mats"
