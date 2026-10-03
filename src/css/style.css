@@ -164,8 +164,8 @@ a.toggle_background {
     margin-left: 5px; /* weird mail icon */
 }
 .home .links img {
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     margin: 0 0 20px 0;
     transition-property: bottom;
     transition-duration: 0.3s;
