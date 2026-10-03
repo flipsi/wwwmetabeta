@@ -54,8 +54,8 @@ img.background {
     margin-top: 150px;
 }
 .home .portrait {
-    height: 384px;
-    width: 255px;
+    height: 500px;
+    width: 500px;
     transform: none;
     transition: transform 0.5s, background-image 0.5s;
 }
@@ -67,7 +67,7 @@ img.background {
 }
 .home .portraitcontainer:hover .portrait {
     transform: rotateZ(360deg);
-    background: url("../img/bewerbungsfoto-20170602-fun-small.jpg");
+    background: url("../img/bewerbungsfoto-2026-09-side.jpg");
     background-size: cover;
 }
 .home .links {
