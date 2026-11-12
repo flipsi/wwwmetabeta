@@ -66,11 +66,11 @@ img.background {
     margin-right: 100px;
 }
 .home .portrait {
-    background-image: url("../img/bewerbungsfoto-2026-09-front.jpg");
+    background-image: url("../img/bewerbungsfoto-2026-09-front-avatar-01.background333.1000px.jpg");
 }
 .home .portraitcontainer:hover .portrait {
     transform: rotateZ(360deg);
-    background: url("../img/bewerbungsfoto-2026-09-side.jpg");
+    background: url("../img/bewerbungsfoto-2026-09-side-avatar-01.background333.1000px.jpg");
     background-size: cover;
 }
 .home .links {
