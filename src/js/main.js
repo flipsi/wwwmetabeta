@@ -104,6 +104,56 @@ $(function () {
 
 
 
+//////////////
+// Portrait //
+//////////////
+
+$(function () {
+
+    const $portraitContainer = $('.home .portraitcontainer');
+    if (!$portraitContainer.length) return;
+
+    // Preload alternate portrait images for seamless transition
+    [
+        'img/bewerbungsfoto-2026-09-front-avatar-01.background333.1000px.jpg',
+        'img/bewerbungsfoto-2026-09-side-avatar-01.background333.1000px.jpg',
+        'img/bewerbungsfoto-2026-09-front-avatar-01.backgroundEEE.1000px.jpg',
+        'img/bewerbungsfoto-2026-09-side-avatar-01.backgroundEEE.1000px.jpg'
+    ].forEach(function (src) {
+        const img = new Image();
+        img.src = src;
+    });
+
+    const isMobileOrTouch = () => window.matchMedia('(max-width: 1024px), (hover: none)').matches;
+
+    $portraitContainer.on('click', function (e) {
+        if (isMobileOrTouch()) {
+            $(this).toggleClass('active');
+        }
+    });
+
+    $portraitContainer.on('mouseleave', function () {
+        if (!isMobileOrTouch()) {
+            $(this).removeClass('active');
+        }
+    });
+
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest('.portraitcontainer').length) {
+            $portraitContainer.removeClass('active');
+        }
+    });
+
+    $(window).on('resize', function () {
+        if (!isMobileOrTouch()) {
+            $portraitContainer.removeClass('active');
+        }
+    });
+
+});
+
+
+
 //////////////////
 // Funny banana //
 //////////////////
