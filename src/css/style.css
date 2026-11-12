@@ -137,10 +137,15 @@ a.toggle_background {
     border-radius: 10px;
 }
 .home .portrait {
-    background-image: url("../img/bewerbungsfoto-2026-09-side-avatar-01.background333.1000px.jpg");
+    background-image: url("../img/bewerbungsfoto-2026-09-front-avatar-01.background333.1000px.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    transform: none;
+    transition: transform 0.5s, background-image 0.5s;
+}
+.home .portraitcontainer.active .portrait {
+    transform: rotateZ(360deg);
 }
 .home .thatsme {
     overflow: auto;

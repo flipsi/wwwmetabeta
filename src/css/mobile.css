@@ -22,6 +22,9 @@
 .setting_icons .material-icons {
     vertical-align: middle;
 }
+.home .portraitcontainer {
+    cursor: pointer;
+}
 .home .portrait {
     width: 100%;
     height: 375px;

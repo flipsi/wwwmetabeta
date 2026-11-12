@@ -24,6 +24,17 @@ html, body {
 .home .portrait img {
     box-shadow: 5px 5px 5px 0 rgba(50, 50, 50, 0.75);
 }
+.home .portrait {
+    background-image: url("../img/bewerbungsfoto-2026-09-front-avatar-01.background333.1000px.jpg");
+}
+@media (min-width: 1025px) {
+    .home .portraitcontainer:hover .portrait {
+        background-image: url("../img/bewerbungsfoto-2026-09-side-avatar-01.background333.1000px.jpg");
+    }
+}
+.home .portraitcontainer.active .portrait {
+    background-image: url("../img/bewerbungsfoto-2026-09-side-avatar-01.background333.1000px.jpg");
+}
 nav a:hover,
 .header .setting_icons a:hover,
 .header .setting_icons li:hover .material-icons,
