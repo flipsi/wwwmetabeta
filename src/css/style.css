@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 body {
     min-height: 100vh;
@@ -135,6 +136,11 @@ a.toggle_background {
     margin-bottom: 50px;
     overflow: hidden;
     border-radius: 10px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    outline: none;
 }
 .home .portrait {
     background-image: url("../img/bewerbungsfoto-2026-09-front-avatar-01.background333.1000px.jpg");
@@ -143,6 +149,8 @@ a.toggle_background {
     background-position: center center;
     transform: none;
     transition: transform 0.5s, background-image 0.5s;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
 .home .portraitcontainer.active .portrait {
     transform: rotateZ(360deg);

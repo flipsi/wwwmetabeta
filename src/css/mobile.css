@@ -24,6 +24,7 @@
 }
 .home .portraitcontainer {
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .home .portrait {
     width: 100%;
